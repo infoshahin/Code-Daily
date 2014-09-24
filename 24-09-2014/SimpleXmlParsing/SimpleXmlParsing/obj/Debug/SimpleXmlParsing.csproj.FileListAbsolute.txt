@@ -1,0 +1,6 @@
+E:\KAZI\Works\24-09-2014\SimpleXmlParsing\SimpleXmlParsing\bin\Debug\SimpleXmlParsing.exe.config
+E:\KAZI\Works\24-09-2014\SimpleXmlParsing\SimpleXmlParsing\bin\Debug\SimpleXmlParsing.exe
+E:\KAZI\Works\24-09-2014\SimpleXmlParsing\SimpleXmlParsing\bin\Debug\SimpleXmlParsing.pdb
+E:\KAZI\Works\24-09-2014\SimpleXmlParsing\SimpleXmlParsing\obj\Debug\SimpleXmlParsing.csprojResolveAssemblyReference.cache
+E:\KAZI\Works\24-09-2014\SimpleXmlParsing\SimpleXmlParsing\obj\Debug\SimpleXmlParsing.exe
+E:\KAZI\Works\24-09-2014\SimpleXmlParsing\SimpleXmlParsing\obj\Debug\SimpleXmlParsing.pdb
