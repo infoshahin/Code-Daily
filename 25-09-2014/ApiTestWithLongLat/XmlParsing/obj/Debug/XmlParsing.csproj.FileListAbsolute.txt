@@ -1,0 +1,6 @@
+E:\KAZI\Works\25-09-2014\XmlParsing\XmlParsing\bin\Debug\XmlParsing.exe.config
+E:\KAZI\Works\25-09-2014\XmlParsing\XmlParsing\bin\Debug\XmlParsing.exe
+E:\KAZI\Works\25-09-2014\XmlParsing\XmlParsing\bin\Debug\XmlParsing.pdb
+E:\KAZI\Works\25-09-2014\XmlParsing\XmlParsing\obj\Debug\XmlParsing.csprojResolveAssemblyReference.cache
+E:\KAZI\Works\25-09-2014\XmlParsing\XmlParsing\obj\Debug\XmlParsing.exe
+E:\KAZI\Works\25-09-2014\XmlParsing\XmlParsing\obj\Debug\XmlParsing.pdb
