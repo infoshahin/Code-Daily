@@ -1,0 +1,6 @@
+ String b_name[]={"Mouchak Foot Over Bridge", "Bijoy Nagor Rd", "Outer Circular Rd", "খামারবাড়ি সড়ক", "Rangs Nasim Square, 46 Road No. 16", "Biam Rd", "Bashundhara City Parking Entrance", "Mogh Bazar Foot Over Bridge", "Nayatola Rd", "IDEB Bhaban, VIP Rd"};
+ String b_title[]={"AB BANK"};
+ String b_address[]={"Dhaka 1217", "Dhaka", "Dhaka", "Dhaka", "Dhaka 1209", "Dhaka", "Dhaka", "Dhaka", "Dhaka", "Dhaka 1000"};
+ double lat[]={23.746526, 23.734112, 23.746054, 23.758781, 23.752968, 23.747311, 23.750768, 23.748608, 23.752143, 23.737373};
+ double lon[]={90.412115, 90.411600, 90.411256, 90.388082, 90.369371, 90.397831, 90.390493, 90.404011, 90.404526, 90.406843};
+
