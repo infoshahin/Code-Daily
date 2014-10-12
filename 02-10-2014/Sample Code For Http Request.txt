@@ -1,0 +1,45 @@
+private string sendSMS(string msisdn, string sms_string)
+        {
+            string args = "";
+            saveSer("Sending.......: " + DateTime.Now.ToString());
+            // Console.WriteLine(cnt.ToString());
+            // cnt++;
+            int count = 0;
+            while (count <= 2)
+            {
+                try
+                {
+
+                    System.Net.ServicePointManager.Expect100Continue = false;
+                    args = @"msisdn=" + msisdn + "&sms=" + System.Web.HttpUtility.UrlEncode(sms_string);
+                    byte[] datatosend = Encoding.ASCII.GetBytes(args);
+
+
+                    HttpWebRequest httpreq = (HttpWebRequest)WebRequest.Create(myurl);
+                    httpreq.Method = "post";
+                    httpreq.ContentType = "application/x-www-form-urlencoded";
+                    httpreq.ContentLength = datatosend.Length;
+
+                    Stream st = httpreq.GetRequestStream();
+                    st.Write(datatosend, 0, datatosend.Length);
+                    st.Close();
+
+                    HttpWebResponse myresponse = (HttpWebResponse)httpreq.GetResponse();
+                    StreamReader myreader = new StreamReader(myresponse.GetResponseStream());
+                    responsetime = DateTime.Now.ToString("yyyy-MM-dd hh:mm:ss");
+                    string readtoend=myreader.ReadToEnd().ToString();
+                    saveSer("Sending Success: " + DateTime.Now.ToString());
+                    return readtoend;
+
+                }
+                catch (Exception err)
+                {
+                    saveErr("IN HTTP REQUEST in 52  =>> " + err.ToString());
+                    return "<SMS_STATUS>ERROR</SMS_STATUS>";
+                    //  MessageBox.Show(err.ToString());
+                }
+                count++;
+            }
+            return "<SMS_STATUS>ERROR</SMS_STATUS>";
+            //return "Fail";           
+        } 
