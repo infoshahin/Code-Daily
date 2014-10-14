@@ -1,0 +1,12 @@
+E:\KAZI\Works\13-10-2014(HttpRequest)\HttpRequestApp\HttpRequestApp\bin\HttpRequestApp.dll
+E:\KAZI\Works\13-10-2014(HttpRequest)\HttpRequestApp\HttpRequestApp\bin\HttpRequestApp.pdb
+E:\KAZI\Works\13-10-2014(HttpRequest)\HttpRequestApp\HttpRequestApp\obj\Debug\HttpRequestApp.dll
+E:\KAZI\Works\13-10-2014(HttpRequest)\HttpRequestApp\HttpRequestApp\obj\Debug\HttpRequestApp.pdb
+C:\Users\Support Desk 7\Documents\Visual Studio 2010\Projects\HttpRequestApp\HttpRequestApp\bin\HttpRequestApp.dll
+C:\Users\Support Desk 7\Documents\Visual Studio 2010\Projects\HttpRequestApp\HttpRequestApp\bin\HttpRequestApp.pdb
+C:\Users\Support Desk 7\Documents\Visual Studio 2010\Projects\HttpRequestApp\HttpRequestApp\obj\Debug\HttpRequestApp.dll
+C:\Users\Support Desk 7\Documents\Visual Studio 2010\Projects\HttpRequestApp\HttpRequestApp\obj\Debug\HttpRequestApp.pdb
+E:\KAZI\Works\14-10-2014(HttpRequest-Full)\HttpRequestApp\HttpRequestApp\bin\HttpRequestApp.dll
+E:\KAZI\Works\14-10-2014(HttpRequest-Full)\HttpRequestApp\HttpRequestApp\bin\HttpRequestApp.pdb
+E:\KAZI\Works\14-10-2014(HttpRequest-Full)\HttpRequestApp\HttpRequestApp\obj\Debug\HttpRequestApp.dll
+E:\KAZI\Works\14-10-2014(HttpRequest-Full)\HttpRequestApp\HttpRequestApp\obj\Debug\HttpRequestApp.pdb
