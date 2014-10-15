@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpRequestApp", "HttpRequestApp\HttpRequestApp.csproj", "{53DC40C7-8677-43C2-9663-120FE70ECAAF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{53DC40C7-8677-43C2-9663-120FE70ECAAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53DC40C7-8677-43C2-9663-120FE70ECAAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53DC40C7-8677-43C2-9663-120FE70ECAAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53DC40C7-8677-43C2-9663-120FE70ECAAF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,8 @@
+c:\users\support desk 3\documents\visual studio 2010\Projects\TestWebService\TestWebService\bin\TestWebService.dll
+c:\users\support desk 3\documents\visual studio 2010\Projects\TestWebService\TestWebService\bin\TestWebService.pdb
+c:\users\support desk 3\documents\visual studio 2010\Projects\TestWebService\TestWebService\obj\Debug\TestWebService.dll
+c:\users\support desk 3\documents\visual studio 2010\Projects\TestWebService\TestWebService\obj\Debug\TestWebService.pdb
+E:\KAZI\Works\Web Service Work\TestWebService\TestWebService\bin\TestWebService.dll
+E:\KAZI\Works\Web Service Work\TestWebService\TestWebService\bin\TestWebService.pdb
+E:\KAZI\Works\Web Service Work\TestWebService\TestWebService\obj\Debug\TestWebService.dll
+E:\KAZI\Works\Web Service Work\TestWebService\TestWebService\obj\Debug\TestWebService.pdb
