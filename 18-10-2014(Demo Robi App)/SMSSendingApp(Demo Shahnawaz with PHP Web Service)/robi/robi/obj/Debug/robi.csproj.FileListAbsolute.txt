@@ -1,0 +1,8 @@
+c:\users\support desk 7\documents\visual studio 2010\Projects\robi\robi\bin\robi.dll
+c:\users\support desk 7\documents\visual studio 2010\Projects\robi\robi\bin\robi.pdb
+c:\users\support desk 7\documents\visual studio 2010\Projects\robi\robi\obj\Debug\robi.dll
+c:\users\support desk 7\documents\visual studio 2010\Projects\robi\robi\obj\Debug\robi.pdb
+E:\KAZI\Works\Shahnawaz\SMSSendingApp\robi\robi\bin\robi.dll
+E:\KAZI\Works\Shahnawaz\SMSSendingApp\robi\robi\bin\robi.pdb
+E:\KAZI\Works\Shahnawaz\SMSSendingApp\robi\robi\obj\Debug\robi.dll
+E:\KAZI\Works\Shahnawaz\SMSSendingApp\robi\robi\obj\Debug\robi.pdb
