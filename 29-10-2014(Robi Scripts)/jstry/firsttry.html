@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+	<title>My First JavaScript</title>
+</head>
+<body>
+
+<h2>My First JavaScript</h2>
+<!--Button click to see date and time-->
+<button type="button" onclick="document.getElementById('date').innerHTML = Date()">
+Want to see the Date and Time? Click me.</button>
+
+<p id="date">Show Date and Time</p>
+
+<!-- End of work-->
+
+<!-- Change the content of HTML element-->
+
+<p>JavaScript can change the content of an HTML element:</p>
+
+<button type="button" onclick="textChange()">Click to see the Change
+</button>
+<p id="textchange">Demo Text Change</p>
+<script type="text/javascript">
+	function textChange()
+	{
+		document.getElementById("textchange").innerHTML = "Hello JavaScript!";
+	}	
+</script>
+
+<!-- End of work-->
+
+<!-- Change the style of HTML element-->
+
+<p id="stylechange">JavaScript can change the style of an HTML element
+</p>
+
+<script>
+	function styleChange()
+	{
+		var styleToChange = document.getElementById("stylechange");
+		styleToChange.style.fontSize = "25px";
+		styleToChange.style.color= "green";
+	}
+</script>
+<button type="button" onclick="styleChange()">Click to change!</button>
+<!-- End of work-->
+</body>
+</html>
