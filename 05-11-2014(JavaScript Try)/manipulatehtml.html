@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Manipulate HTML Tags</title>
+	</head>
+	<body>
+	<!-- Change paragraph through manipulation -->
+		<h2>Manipulate HTML Tags</h2>
+		<p id="manipulate">A Paragraph</p>
+		<script>
+		document.getElementById("manipulate").innerHTML = "Paragraph Changed";
+		</script>
+		<!-- End of work-->
+	<!-- Show date-->	
+		<h2>Show date</h2>
+		<script>
+		document.write(Date());
+		</script>
+		<!-- End of work-->
+	<!-- Show date through button click-->	
+				<h2>Show date through button click</h2>
+				<button type="button" onclick="showDate()">Show Date
+				</button>
+				<script>
+				function showDate()
+				{
+					document.write(Date());
+				}
+				</script>
+	<!-- End of work-->
+	</body>
+</html>
