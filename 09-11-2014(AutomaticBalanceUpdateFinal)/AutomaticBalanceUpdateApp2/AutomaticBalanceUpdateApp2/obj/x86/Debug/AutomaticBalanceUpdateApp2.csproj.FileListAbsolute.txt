@@ -6,3 +6,5 @@ E:\KAZI\Works\09-11-2014(Automatic Balance Update-V2)\AutomaticBalanceUpdateApp2
 E:\KAZI\Works\09-11-2014(Automatic Balance Update-V2)\AutomaticBalanceUpdateApp2\AutomaticBalanceUpdateApp2\obj\x86\Debug\AutomaticBalanceUpdateApp2.pdb
 E:\KAZI\Works\09-11-2014(Automatic Balance Update-V2)\AutomaticBalanceUpdateApp2\AutomaticBalanceUpdateApp2\obj\x86\Debug\AutomaticBalanceUpdateApp2.csprojResolveAssemblyReference.cache
 E:\KAZI\Works\09-11-2014(Automatic Balance Update-V2)\AutomaticBalanceUpdateApp2\AutomaticBalanceUpdateApp2\obj\x86\Debug\AutomaticBalanceUpdateApp2.AutomaticBalanceUpdateApp.resources
+E:\KAZI\Git Clone Daily Code\Code-Daily\09-11-2014(AutomaticBalanceUpdateFinal)\AutomaticBalanceUpdateApp2\AutomaticBalanceUpdateApp2\obj\x86\Debug\AutomaticBalanceUpdateApp2.exe
+E:\KAZI\Git Clone Daily Code\Code-Daily\09-11-2014(AutomaticBalanceUpdateFinal)\AutomaticBalanceUpdateApp2\AutomaticBalanceUpdateApp2\obj\x86\Debug\AutomaticBalanceUpdateApp2.pdb
