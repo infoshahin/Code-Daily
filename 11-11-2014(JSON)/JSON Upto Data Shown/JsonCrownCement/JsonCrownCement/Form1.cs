@@ -9,7 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using Newtonsoft.Json;
-using Formatting = System.Xml.Formatting;
+using Formatting = Newtonsoft.Json.Formatting;
 
 namespace JsonCrownCement
 {
@@ -20,22 +20,29 @@ namespace JsonCrownCement
         public Form1()
         {
             InitializeComponent();
-            refreshFormTimer.Interval = 1000 * 60; //60 seconds.
+            refreshFormTimer.Interval = 1000 * 10; //60 seconds.
             refreshFormTimer.Tick += new EventHandler(refreshFormTimer_Tick);
             refreshFormTimer.Enabled = true;
         }
 
         private void refreshFormTimer_Tick(object sender, EventArgs e)
         {
-            ConvertDataTabletoStringFromDealerTable();
+            WriteDataToJsonFile();
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            ConvertDataTabletoStringFromDealerTable();
+            WriteDataToJsonFile();
         }
 
-        public string ConvertDataTabletoStringFromDealerTable()
+        private void WriteDataToJsonFile()
+        {
+            Object result = ConvertDataTabletoStringFromDealerTable();
+            string json = JsonConvert.SerializeObject(result, Formatting.Indented);
+            File.WriteAllText(@"json.json", json);
+        }
+
+        public Object ConvertDataTabletoStringFromDealerTable()
         {
             try
             {
@@ -73,7 +80,7 @@ namespace JsonCrownCement
                             tempString = tempString.Replace(dt.Columns[j] + j.ToString() + "%", dt.Rows[i][j].ToString());
                         }
 
-                        sb.Append(tempString + "},");
+                        sb.Append(tempString + "}," + Environment.NewLine);
                     }
                 }
                 else
@@ -85,24 +92,14 @@ namespace JsonCrownCement
                         tempString = tempString.Replace(dt.Columns[j] + j.ToString() + "%", "-");
                     }
 
-                    sb.Append(tempString + "}," + "\n");
+                    sb.Append(tempString + "},");
                 }
 
                 sb = new StringBuilder(sb.ToString().Substring(0, sb.ToString().Length - 1));
                 sb.Append("]");
-                //UserData result = sb.ToString();
                 showJsonData.Text = sb.ToString();
-                //string json = JsonConvert.ToString(sb);
-                //File.WriteAllText(@"dealer.json", json);
-                //string json = JsonConvert.SerializeObject(result, Formatting.Indented);
-                //File.WriteAllText(@"c:\user.json", json);
-                //string json = JsonConvert.SerializeObject(_data.ToArray());
-
-                ////write string to file
-                //System.IO.File.WriteAllText(@"D:\path.txt", json);
-                //StreamWriter outfile = new StreamWriter(@"JsonForDealer.txt");
-                //outfile.Write(sb);
-                return showJsonData.Text;
+                Object result = Convert.ChangeType(sb.ToString(), TypeCode.Object);
+                return result;
             }
             catch (Exception exception)
             {
