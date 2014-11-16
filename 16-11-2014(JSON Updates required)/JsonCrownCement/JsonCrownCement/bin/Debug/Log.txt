@@ -1,0 +1,132 @@
+11/13/2014 5:00:08 PM ==> Change Table dealer
+11/13/2014 5:00:08 PM ==> Change Table Corporate
+11/13/2014 5:00:08 PM ==> Change Table Distributor
+11/13/2014 5:00:08 PM ==> Change Table influencer
+11/13/2014 5:00:08 PM ==> Change Table retailer
+11/13/2014 5:00:08 PM ==> Change Table transaction_table
+11/13/2014 5:12:53 PM ==> Change Table dealer
+ Affected Rows:0
+11/13/2014 5:13:49 PM ==> Change Table dealer
+ Affected Rows:1
+11/13/2014 5:14:39 PM ==> Change Table dealer
+ Affected Rows:-1
+11/13/2014 5:17:53 PM ==> Change Table dealer
+ Affected Rows:0
+11/13/2014 5:17:53 PM ==> Change Table Corporate
+ Affected Rows:0
+11/13/2014 5:17:53 PM ==> Change Table Distributor
+ Affected Rows:0
+11/13/2014 5:17:53 PM ==> Change Table influencer
+ Affected Rows:0
+11/13/2014 5:17:53 PM ==> Change Table retailer
+ Affected Rows:0
+11/13/2014 5:17:53 PM ==> Change Table transaction_table
+ Affected Rows:0
+11/13/2014 5:18:31 PM ==> Change Table dealer  Affected Rows:0
+11/13/2014 5:18:31 PM ==> Change Table Corporate  Affected Rows:0
+11/13/2014 5:18:31 PM ==> Change Table Distributor  Affected Rows:0
+11/13/2014 5:18:31 PM ==> Change Table influencer  Affected Rows:0
+11/13/2014 5:18:31 PM ==> Change Table retailer  Affected Rows:0
+11/13/2014 5:18:31 PM ==> Change Table transaction_table  Affected Rows:0
+11/13/2014 5:18:34 PM ==> Change Table dealer  Affected Rows:0
+11/13/2014 5:18:34 PM ==> Change Table Corporate  Affected Rows:0
+11/13/2014 5:18:34 PM ==> Change Table Distributor  Affected Rows:0
+11/13/2014 5:18:34 PM ==> Change Table influencer  Affected Rows:0
+11/13/2014 5:18:34 PM ==> Change Table retailer  Affected Rows:0
+11/13/2014 5:18:34 PM ==> Change Table transaction_table  Affected Rows:0
+11/13/2014 5:18:37 PM ==> Change Table dealer  Affected Rows:0
+11/13/2014 5:18:37 PM ==> Change Table Corporate  Affected Rows:0
+11/13/2014 5:18:37 PM ==> Change Table Distributor  Affected Rows:0
+11/13/2014 5:18:37 PM ==> Change Table influencer  Affected Rows:0
+11/13/2014 5:18:37 PM ==> Change Table retailer  Affected Rows:0
+11/13/2014 5:18:37 PM ==> Change Table transaction_table  Affected Rows:0
+11/13/2014 5:18:40 PM ==> Change Table dealer  Affected Rows:0
+11/13/2014 5:18:40 PM ==> Change Table Corporate  Affected Rows:0
+11/13/2014 5:18:40 PM ==> Change Table Distributor  Affected Rows:0
+11/13/2014 5:18:40 PM ==> Change Table influencer  Affected Rows:0
+11/13/2014 5:18:40 PM ==> Change Table retailer  Affected Rows:0
+11/13/2014 5:18:40 PM ==> Change Table transaction_table  Affected Rows:0
+11/13/2014 5:19:11 PM ==> Change Table dealer  Affected Rows:0
+11/13/2014 5:19:11 PM ==> Change Table Corporate  Affected Rows:0
+11/13/2014 5:19:11 PM ==> Change Table Distributor  Affected Rows:1
+11/13/2014 5:19:11 PM ==> Change Table influencer  Affected Rows:0
+11/13/2014 5:19:11 PM ==> Change Table retailer  Affected Rows:0
+11/13/2014 5:19:11 PM ==> Change Table transaction_table  Affected Rows:0
+11/13/2014 5:19:14 PM ==> Change Table dealer  Affected Rows:0
+11/13/2014 5:19:14 PM ==> Change Table Corporate  Affected Rows:0
+11/13/2014 5:19:14 PM ==> Change Table Distributor  Affected Rows:1
+11/13/2014 5:19:14 PM ==> Change Table influencer  Affected Rows:0
+11/13/2014 5:19:14 PM ==> Change Table retailer  Affected Rows:0
+11/13/2014 5:19:14 PM ==> Change Table transaction_table  Affected Rows:0
+11/13/2014 5:19:17 PM ==> Change Table dealer  Affected Rows:0
+11/13/2014 5:19:17 PM ==> Change Table Corporate  Affected Rows:0
+11/13/2014 5:19:17 PM ==> Change Table Distributor  Affected Rows:1
+11/13/2014 5:19:17 PM ==> Change Table influencer  Affected Rows:0
+11/13/2014 5:19:17 PM ==> Change Table retailer  Affected Rows:0
+11/13/2014 5:19:17 PM ==> Change Table transaction_table  Affected Rows:0
+11/13/2014 5:19:20 PM ==> Change Table dealer  Affected Rows:0
+11/13/2014 5:19:20 PM ==> Change Table Corporate  Affected Rows:0
+11/13/2014 5:19:20 PM ==> Change Table Distributor  Affected Rows:1
+11/13/2014 5:19:20 PM ==> Change Table influencer  Affected Rows:0
+11/13/2014 5:19:20 PM ==> Change Table retailer  Affected Rows:0
+11/13/2014 5:19:20 PM ==> Change Table transaction_table  Affected Rows:0
+11/13/2014 5:19:23 PM ==> Change Table dealer  Affected Rows:0
+11/13/2014 5:19:23 PM ==> Change Table Corporate  Affected Rows:0
+11/13/2014 5:19:23 PM ==> Change Table Distributor  Affected Rows:1
+11/13/2014 5:19:23 PM ==> Change Table influencer  Affected Rows:0
+11/13/2014 5:19:23 PM ==> Change Table retailer  Affected Rows:0
+11/13/2014 5:19:23 PM ==> Change Table transaction_table  Affected Rows:0
+11/13/2014 5:19:26 PM ==> Change Table dealer  Affected Rows:0
+11/13/2014 5:19:26 PM ==> Change Table Corporate  Affected Rows:0
+11/13/2014 5:19:26 PM ==> Change Table Distributor  Affected Rows:1
+11/13/2014 5:19:26 PM ==> Change Table influencer  Affected Rows:0
+11/13/2014 5:19:26 PM ==> Change Table retailer  Affected Rows:0
+11/13/2014 5:19:26 PM ==> Change Table transaction_table  Affected Rows:0
+11/13/2014 5:19:29 PM ==> Change Table dealer  Affected Rows:0
+11/13/2014 5:19:29 PM ==> Change Table Corporate  Affected Rows:0
+11/13/2014 5:19:29 PM ==> Change Table Distributor  Affected Rows:1
+11/13/2014 5:19:29 PM ==> Change Table influencer  Affected Rows:0
+11/13/2014 5:19:29 PM ==> Change Table retailer  Affected Rows:0
+11/13/2014 5:19:29 PM ==> Change Table transaction_table  Affected Rows:0
+11/13/2014 5:19:32 PM ==> Change Table dealer  Affected Rows:0
+11/13/2014 5:19:32 PM ==> Change Table Corporate  Affected Rows:0
+11/13/2014 5:19:32 PM ==> Change Table Distributor  Affected Rows:1
+11/13/2014 5:19:32 PM ==> Change Table influencer  Affected Rows:0
+11/13/2014 5:19:32 PM ==> Change Table retailer  Affected Rows:0
+11/13/2014 5:19:32 PM ==> Change Table transaction_table  Affected Rows:0
+11/13/2014 5:26:11 PM ==> Change Table dealer  Affected Rows:0  Json Wrote: 6
+11/13/2014 5:26:11 PM ==> Change Table Corporate  Affected Rows:0  Json Wrote: 6
+11/13/2014 5:26:11 PM ==> Change Table Distributor  Affected Rows:1  Json Wrote: 6
+11/13/2014 5:26:11 PM ==> Change Table influencer  Affected Rows:0  Json Wrote: 6
+11/13/2014 5:26:11 PM ==> Change Table retailer  Affected Rows:0  Json Wrote: 7
+11/13/2014 5:26:11 PM ==> Change Table transaction_table  Affected Rows:0  Json Wrote: 4
+11/13/2014 5:27:23 PM ==> Change Table dealer  Affected Rows:0  Json Wrote: 2
+11/13/2014 5:27:23 PM ==> Change Table Corporate  Affected Rows:0  Json Wrote: 2
+11/13/2014 5:27:23 PM ==> Change Table Distributor  Affected Rows:1  Json Wrote: 3
+11/13/2014 5:27:23 PM ==> Change Table influencer  Affected Rows:0  Json Wrote: 2
+11/13/2014 5:27:23 PM ==> Change Table retailer  Affected Rows:0  Json Wrote: 2
+11/13/2014 5:27:23 PM ==> Change Table transaction_table  Affected Rows:0  Json Wrote: 2
+11/13/2014 5:27:59 PM ==> Change Table dealer  Affected Rows:0  Json Wrote: 2
+11/13/2014 5:27:59 PM ==> Change Table Corporate  Affected Rows:0  Json Wrote: 2
+11/13/2014 5:27:59 PM ==> Change Table Distributor  Affected Rows:1  Json Wrote: 3
+11/13/2014 5:27:59 PM ==> Change Table influencer  Affected Rows:0  Json Wrote: 2
+11/13/2014 5:27:59 PM ==> Change Table retailer  Affected Rows:0  Json Wrote: 2
+11/13/2014 5:27:59 PM ==> Change Table transaction_table  Affected Rows:1  Json Wrote: 3
+11/13/2014 5:34:24 PM ==> Change Table dealer  Affected Rows:0  Json Wrote: 2
+11/13/2014 5:34:24 PM ==> Change Table Corporate  Affected Rows:0  Json Wrote: 2
+11/13/2014 5:34:24 PM ==> Change Table Distributor  Affected Rows:1  Json Wrote: 3
+11/13/2014 5:34:24 PM ==> Change Table influencer  Affected Rows:0  Json Wrote: 2
+11/13/2014 5:34:24 PM ==> Change Table retailer  Affected Rows:0  Json Wrote: 2
+11/13/2014 5:34:24 PM ==> Change Table transaction_table  Affected Rows:1  Json Wrote: 3
+11/13/2014 5:34:59 PM ==> Change Table dealer  Affected Rows:0  Json Wrote: 2
+11/13/2014 5:34:59 PM ==> Change Table Corporate  Affected Rows:0  Json Wrote: 2
+11/13/2014 5:34:59 PM ==> Change Table Distributor  Affected Rows:1  Json Wrote: 3
+11/13/2014 5:34:59 PM ==> Change Table influencer  Affected Rows:0  Json Wrote: 2
+11/13/2014 5:34:59 PM ==> Change Table retailer  Affected Rows:0  Json Wrote: 2
+11/13/2014 5:34:59 PM ==> Change Table transaction_table  Affected Rows:1  Json Wrote: 3
+11/13/2014 5:38:51 PM ==> Change Table dealer  Affected Rows:0  Json Wrote: 2
+11/13/2014 5:38:51 PM ==> Change Table Corporate  Affected Rows:0  Json Wrote: 2
+11/13/2014 5:38:51 PM ==> Change Table Distributor  Affected Rows:1  Json Wrote: 3
+11/13/2014 5:38:51 PM ==> Change Table influencer  Affected Rows:0  Json Wrote: 2
+11/13/2014 5:38:51 PM ==> Change Table retailer  Affected Rows:0  Json Wrote: 2
+11/13/2014 5:38:51 PM ==> Change Table transaction_table  Affected Rows:1  Json Wrote: 3
