@@ -44,20 +44,33 @@ namespace JsonCrownCement
         private void WriteDataToJsonFileForTable(string fileName, string tableName)
         {
             Object getObjectFromTable = ConvertDataTabletoStringFromTable(tableName);
-            string result = getObjectFromTable.ToString();
-            string jsonDir = CreateDirectory("JSON");
-            File.WriteAllText(jsonDir+fileName+".json", result);
-
-            string log =  DateTime.Now + " ==> " + "Change Table " + tableName ;
-            log += "  Data Updated:"+affectedCount;
-            if (affectedCount != 0)
+            if (getObjectFromTable != null)
             {
-                log += "  Data Inserted: " + jsonDataCount;
+                string result = getObjectFromTable.ToString();
+                string jsonDir = CreateDirectory("JSON");
+                File.WriteAllText(jsonDir + fileName + ".json", result);
+
+                string log = DateTime.Now + " ==> " + "Change Table " + tableName;
+                log += "  Data Updated:" + affectedCount;
+                if (affectedCount != 0)
+                {
+                    log += "  Data Inserted: " + jsonDataCount;
+                }
+                string sucLogDir = CreateDirectory("LOG\\SUCESS\\");
+                TextWriter logTextWriter = new StreamWriter(sucLogDir + "success_log.txt", true);
+                logTextWriter.WriteLine(log);
+                logTextWriter.Close();
             }
-            string sucLogDir = CreateDirectory("LOG\\SUCESS\\");
-            TextWriter logTextWriter = new StreamWriter(sucLogDir+"success_log.txt", true);
-            logTextWriter.WriteLine(log);
-            logTextWriter.Close();
+            else
+            {
+                string errLogDir = CreateDirectory("LOG\\ERROR\\");
+                string err_timestamp;
+                TextWriter errLogTextWriter = new StreamWriter(errLogDir + "error_log.txt", true);
+                err_timestamp = DateTime.Now + " ==> " + "Error Table " + tableName + "  Message: " + failedMessage;
+                errLogTextWriter.WriteLine(err_timestamp);
+                errLogTextWriter.Close();
+            }
+
         }
 
 
@@ -186,15 +199,7 @@ namespace JsonCrownCement
 
 
 
-                    string errLogDir = CreateDirectory("LOG\\ERROR\\");
-                    string err_timestamp;
-                    TextWriter errLogTextWriter = new StreamWriter(errLogDir + "error_log.txt", true);
-                    err_timestamp = DateTime.Now + " ==> " + "Error Table " + tableName + "  Message: " + failedMessage;
-                    errLogTextWriter.WriteLine(err_timestamp);
-                    errLogTextWriter.Close();
-
-
-                    return showJsonData.Text = message;
+                    return null;
                 }
                 catch (Exception exception)
                 {
@@ -210,7 +215,7 @@ namespace JsonCrownCement
                     errLogTextWriter.WriteLine(err_timestamp);
                     errLogTextWriter.Close();
 
-                    return showJsonData.Text;
+                    return null;
                 }
         }
 

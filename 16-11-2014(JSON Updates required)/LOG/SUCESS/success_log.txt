@@ -1,0 +1,5 @@
+11/16/2014 6:05:53 PM ==> Change Table dealer  Data Updated:0
+11/16/2014 6:05:53 PM ==> Change Table Distributor  Data Updated:1  Data Inserted: 3
+11/16/2014 6:05:53 PM ==> Change Table influencer  Data Updated:0
+11/16/2014 6:05:53 PM ==> Change Table retailer  Data Updated:0
+11/16/2014 6:07:08 PM ==> Change Table dealer  Data Updated:0
