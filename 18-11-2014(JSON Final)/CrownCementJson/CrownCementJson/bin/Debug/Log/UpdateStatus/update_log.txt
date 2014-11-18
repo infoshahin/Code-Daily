@@ -1,0 +1,17 @@
+11/18/2014 10:43:07 AM ==> ExecuteScalar requires an open and available Connection. The connection's current state is closed.
+11/18/2014 10:43:07 AM ==> ExecuteNonQuery requires an open and available Connection. The connection's current state is closed.
+11/18/2014 10:57:01 AM ==> Object reference not set to an instance of an object.
+11/18/2014 10:57:01 AM ==> ExecuteScalar requires an open and available Connection. The connection's current state is closed.
+11/18/2014 10:57:01 AM ==> ExecuteNonQuery requires an open and available Connection. The connection's current state is closed.
+11/18/2014 10:57:01 AM ==> ExecuteScalar requires an open and available Connection. The connection's current state is closed.
+11/18/2014 10:57:01 AM ==> ExecuteNonQuery requires an open and available Connection. The connection's current state is closed.
+11/18/2014 11:11:18 AM ==> ExecuteScalar requires an open and available Connection. The connection's current state is closed.
+11/18/2014 11:11:18 AM ==> ExecuteNonQuery requires an open and available Connection. The connection's current state is closed.
+11/18/2014 11:11:18 AM ==> ExecuteScalar requires an open and available Connection. The connection's current state is closed.
+11/18/2014 11:11:18 AM ==> ExecuteNonQuery requires an open and available Connection. The connection's current state is closed.
+11/18/2014 11:11:51 AM ==> ExecuteScalar requires an open and available Connection. The connection's current state is closed.
+11/18/2014 11:11:51 AM ==> ExecuteNonQuery requires an open and available Connection. The connection's current state is closed.
+11/18/2014 11:11:51 AM ==> ExecuteScalar requires an open and available Connection. The connection's current state is closed.
+11/18/2014 11:11:51 AM ==> ExecuteNonQuery requires an open and available Connection. The connection's current state is closed.
+11/18/2014 11:25:58 AM ==> ExecuteScalar requires an open and available Connection. The connection's current state is closed.
+11/18/2014 11:25:58 AM ==> ExecuteNonQuery requires an open and available Connection. The connection's current state is closed.

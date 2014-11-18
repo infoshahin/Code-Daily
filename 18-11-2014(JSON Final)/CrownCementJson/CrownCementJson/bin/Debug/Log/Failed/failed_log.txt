@@ -1,0 +1,2 @@
+11/18/2014 10:43:05 AM ==> Invalid column name 'xcus'.
+11/18/2014 11:25:58 AM ==> Invalid object name 'inflencer'.

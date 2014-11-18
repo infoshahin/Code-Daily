@@ -1,0 +1,3 @@
+dealer	xgcus	xorg
+Corporate	xcus	xorg
+inflencer	xoffadd	xsp
