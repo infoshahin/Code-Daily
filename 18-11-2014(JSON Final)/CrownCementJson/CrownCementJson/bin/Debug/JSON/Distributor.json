@@ -1,6 +1,7 @@
 {
-  "dealer": [
+  "Distributor": [
     {
+      "xcus": "a",
       "xorg": "a",
       "xoffadd": "a",
       "xfphone": "a",
@@ -8,6 +9,7 @@
       "xsp": "a"
     },
     {
+      "xcus": "s",
       "xorg": "s",
       "xoffadd": "s",
       "xfphone": "s",
@@ -15,6 +17,7 @@
       "xsp": "s"
     },
     {
+      "xcus": "d",
       "xorg": "d",
       "xoffadd": "d",
       "xfphone": "d",

@@ -56,6 +56,7 @@
             this.dealerTableButton.TabIndex = 5;
             this.dealerTableButton.Text = "Dealer Table";
             this.dealerTableButton.UseVisualStyleBackColor = true;
+            this.dealerTableButton.Click += new System.EventHandler(this.dealerTableButton_Click);
             // 
             // corporateTableButton
             // 
@@ -65,6 +66,7 @@
             this.corporateTableButton.TabIndex = 6;
             this.corporateTableButton.Text = "Corporate Table";
             this.corporateTableButton.UseVisualStyleBackColor = true;
+            this.corporateTableButton.Click += new System.EventHandler(this.corporateTableButton_Click);
             // 
             // showStatusListView
             // 
@@ -113,6 +115,7 @@
             this.transactionTableButton.TabIndex = 10;
             this.transactionTableButton.Text = "Transaction Table";
             this.transactionTableButton.UseVisualStyleBackColor = true;
+            this.transactionTableButton.Click += new System.EventHandler(this.transactionTableButton_Click);
             // 
             // distributorTableButton
             // 
@@ -122,6 +125,7 @@
             this.distributorTableButton.TabIndex = 7;
             this.distributorTableButton.Text = "Distributor Table";
             this.distributorTableButton.UseVisualStyleBackColor = true;
+            this.distributorTableButton.Click += new System.EventHandler(this.distributorTableButton_Click);
             // 
             // retailerTableButton
             // 
@@ -131,6 +135,7 @@
             this.retailerTableButton.TabIndex = 9;
             this.retailerTableButton.Text = "Retailer Table";
             this.retailerTableButton.UseVisualStyleBackColor = true;
+            this.retailerTableButton.Click += new System.EventHandler(this.retailerTableButton_Click);
             // 
             // influencerTableButton
             // 
@@ -140,6 +145,7 @@
             this.influencerTableButton.TabIndex = 8;
             this.influencerTableButton.Text = "Influencer Table";
             this.influencerTableButton.UseVisualStyleBackColor = true;
+            this.influencerTableButton.Click += new System.EventHandler(this.influencerTableButton_Click);
             // 
             // groupBox1
             // 
@@ -171,6 +177,7 @@
             this.stopAllButton.TabIndex = 4;
             this.stopAllButton.Text = "Stop All";
             this.stopAllButton.UseVisualStyleBackColor = true;
+            this.stopAllButton.Click += new System.EventHandler(this.stopAllButton_Click);
             // 
             // showJsonData
             // 
