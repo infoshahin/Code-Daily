@@ -1,47 +1,49 @@
 ﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="SmsMonitoringApp._Default" %>
 
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
+<%@ Register TagPrefix="ajaxToolkit" Namespace="AjaxControlToolkit" Assembly="AjaxControlToolkit, Version=4.5.7.1213, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e" %>
+
 <asp:Content runat="server" ID="FeaturedContent" ContentPlaceHolderID="FeaturedContent">
-    <section class="featured">
-        <div class="content-wrapper">
-            <hgroup class="title">
-                <h1><%: Title %>.</h1>
-                <h2>Modify this template to jump-start your ASP.NET application.</h2>
-            </hgroup>
-            <p>
-                To learn more about ASP.NET, visit <a href="http://asp.net" title="ASP.NET Website">http://asp.net</a>.
-                The page features <mark>videos, tutorials, and samples</mark> to help you get the most from ASP.NET.
-                If you have any questions about ASP.NET visit
-                <a href="http://forums.asp.net/18.aspx" title="ASP.NET Forum">our forums</a>.
-            </p>
-        </div>
-    </section>
-</asp:Content>
-<asp:Content runat="server" ID="BodyContent" ContentPlaceHolderID="MainContent">
-    <h3>We suggest the following:</h3>
-    <ol class="round">
-        <li class="one">
-            <h5>Getting Started</h5>
-            ASP.NET Web Forms lets you build dynamic websites using a familiar drag-and-drop, event-driven model.
-            A design surface and hundreds of controls and components let you rapidly build sophisticated, powerful UI-driven sites with data access.
-            <a href="http://go.microsoft.com/fwlink/?LinkId=245146">Learn more…</a>
-        </li>
-        <li class="two">
-            <h5>Add NuGet packages and jump-start your coding</h5>
-            NuGet makes it easy to install and update free libraries and tools.
-            <a href="http://go.microsoft.com/fwlink/?LinkId=245147">Learn more…</a>
-        </li>
-        <li class="three">
-            <h5>Find Web Hosting</h5>
-            You can easily find a web hosting company that offers the right mix of features and price for your applications.
-            <a href="http://go.microsoft.com/fwlink/?LinkId=245143">Learn more…</a>
-        </li>
-    </ol>
-    
+    <asp:ToolkitScriptManager ID="ToolkitScriptManager1" runat="server"></asp:ToolkitScriptManager>
+    <asp:Button ID="Button1" runat="server" Text="Open PopUp" />
+    <asp:Panel ID="Panel1" runat="server">
+        Welcome
+        <asp:Button ID="Ok" runat="server" Text="Ok" />
+    </asp:Panel>
+    <asp:ModalPopupExtender ID="ModalPopupExtender1" runat="server" DropShadow="True" OkControlID="OK" PopupControlID="Panel1" TargetControlID="Button1"></asp:ModalPopupExtender>
+<!--  
     <asp:Button ID="ClientButton" runat="server" Text="Launch Modal Popup (Client)" />
     <asp:Panel ID="ModalPanel" runat="server" Width="500px">
  ASP.NET AJAX is a free framework for quickly creating a new generation of more 
  efficient, more interactive and highly-personalized Web experiences that work 
  across all the most popular browsers.<br />
  <asp:Button ID="OKButton" runat="server" Text="Close" />
+        <br />
+        <ajaxToolkit:ModalPopupExtender ID="mpe" runat="server" TargetControlId="ClientButton" 
+ PopupControlID="ModalPanel" OkControlID="OKButton" />
+        <asp:ScriptManager ID="asm" runat="server" />
+        
+        <asp:Button ID="ServerButton" runat="server" Text="Launch Modal Popup (Server)" 
+ OnClick="ServerButton_Click" />
+        <script runat="server">
+            
+    protected void ServerButton_Click(object sender, EventArgs e)
+    {
+        ClientScript.RegisterStartupScript(this.GetType(), "key", "launchModal();", true);
+    }
+        </script>
+        <script type="text/javascript">
+            var launch = false;
+            function launchModal() {
+                launch = true;
+            }
+
+            function pageLoad() {
+                if (launch) {
+                    $find("mpe").show();
+                }
+            }
+</script>
 </asp:Panel>
-</asp:Content>
+    -->
+    </asp:Content>
