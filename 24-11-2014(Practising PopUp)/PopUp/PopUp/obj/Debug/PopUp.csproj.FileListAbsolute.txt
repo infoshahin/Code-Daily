@@ -1,0 +1,6 @@
+E:\KAZI\Works\24-11-2014(SMS Monitoring App)\PopUp\PopUp\bin\PopUp.dll.config
+E:\KAZI\Works\24-11-2014(SMS Monitoring App)\PopUp\PopUp\bin\PopUp.dll
+E:\KAZI\Works\24-11-2014(SMS Monitoring App)\PopUp\PopUp\bin\PopUp.pdb
+E:\KAZI\Works\24-11-2014(SMS Monitoring App)\PopUp\PopUp\obj\Debug\PopUp.csprojResolveAssemblyReference.cache
+E:\KAZI\Works\24-11-2014(SMS Monitoring App)\PopUp\PopUp\obj\Debug\PopUp.dll
+E:\KAZI\Works\24-11-2014(SMS Monitoring App)\PopUp\PopUp\obj\Debug\PopUp.pdb
