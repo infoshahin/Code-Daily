@@ -243,6 +243,7 @@
     <Content Include="Scripts\WebForms\WebForms.js" />
     <Content Include="Scripts\WebForms\WebParts.js" />
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
+    <Content Include="ValidatorCalloutInsideModalpopup.aspx" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Bundle.config" />
     <Content Include="Web.config" />
@@ -369,6 +370,13 @@
     </Compile>
     <Compile Include="Site.Mobile.Master.designer.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
+    </Compile>
+    <Compile Include="ValidatorCalloutInsideModalpopup.aspx.cs">
+      <DependentUpon>ValidatorCalloutInsideModalpopup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ValidatorCalloutInsideModalpopup.aspx.designer.cs">
+      <DependentUpon>ValidatorCalloutInsideModalpopup.aspx</DependentUpon>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
