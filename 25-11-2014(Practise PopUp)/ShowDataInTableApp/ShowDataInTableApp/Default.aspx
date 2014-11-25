@@ -16,6 +16,8 @@
             <asp:Table ID="Table1" runat="server">
             </asp:Table>
             <asp:Button ID="Button1" runat="server" Text="Button" OnClick="Button1_Click"/>
+            <asp:Table ID="Table2" runat="server">
+            </asp:Table>
         </div>
     </section>
 
