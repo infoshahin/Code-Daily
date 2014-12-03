@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+	<title>My First JavaScript</title>
+	<script>
+	function changeParagraph()
+	{
+		document.getElementById("changepara").innerHTML = "See? It's changed :)";
+	}
+	</script>
+</head>
+<body>
+<h2>JS in head tag to text change</h2>
+<!--JS in head tag works for text change-->
+
+<p id="changepara">A Paragraph</p>
+<button type="button" onclick="changeParagraph()">Click to change!</button>
+<!--End of work-->
+<h2>My First JavaScript to show date and time</h2>
+<!--Button click to see date and time-->
+<button type="button" onclick="document.getElementById('date').innerHTML = Date()">
+Want to see the Date and Time? Click me.</button>
+
+<p id="date">Show Date and Time</p>
+
+<!-- End of work-->
+
+<!-- Change the content of HTML element-->
+<h2>Change the content of an HTML element (written is changed)</h2>
+
+<button type="button" onclick="textChange()">Click to see the Change
+</button>
+<p id="textchange">JavaScript can change the content of an HTML element</p>
+<script type="text/javascript">
+	function textChange()
+	{
+		document.getElementById("textchange").innerHTML = "Hello JavaScript!";
+	}	
+</script>
+
+<!-- End of work-->
+
+<!-- Change the style of HTML element-->
+<h2>Change the style of an HTML element (color is changed)</h2>
+<p id="stylechange">JavaScript can change the style of an HTML element
+</p>
+
+<script>
+	function styleChange()
+	{
+		var styleToChange = document.getElementById("stylechange");
+		styleToChange.style.fontSize = "25px";
+		styleToChange.style.color= "green";
+	}
+</script>
+<button type="button" onclick="styleChange()">Click to change!</button>
+<!-- End of work-->
+</body>
+</html>
