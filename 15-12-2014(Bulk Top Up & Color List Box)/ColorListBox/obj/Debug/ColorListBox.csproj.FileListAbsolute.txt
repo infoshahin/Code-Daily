@@ -1,0 +1,7 @@
+E:\KAZI\Works\15-12-2014(Bulk Top Up)\ColorListBox\bin\Debug\ColorListBox.exe
+E:\KAZI\Works\15-12-2014(Bulk Top Up)\ColorListBox\bin\Debug\ColorListBox.pdb
+E:\KAZI\Works\15-12-2014(Bulk Top Up)\ColorListBox\obj\Debug\ColorListBox.csprojResolveAssemblyReference.cache
+E:\KAZI\Works\15-12-2014(Bulk Top Up)\ColorListBox\obj\Debug\ColorListBox.Form1.resources
+E:\KAZI\Works\15-12-2014(Bulk Top Up)\ColorListBox\obj\Debug\ColorListBox.csproj.GenerateResource.Cache
+E:\KAZI\Works\15-12-2014(Bulk Top Up)\ColorListBox\obj\Debug\ColorListBox.exe
+E:\KAZI\Works\15-12-2014(Bulk Top Up)\ColorListBox\obj\Debug\ColorListBox.pdb
