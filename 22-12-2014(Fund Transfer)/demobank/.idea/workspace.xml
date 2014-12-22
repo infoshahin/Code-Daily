@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e3c4125c-7d40-4d9f-8a09-975582e7d9a2" name="Default" comment="" />
+    <ignored path="demobank.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="demobank" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="connection.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/connection.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="16" selection-start="22" selection-end="22" vertical-scroll-proportion="-0.0" vertical-offset="17" max-vertical-offset="204">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/login.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="41" selection-start="810" selection-end="831" vertical-scroll-proportion="-17.0" vertical-offset="0" max-vertical-offset="680">
+              <folding>
+                <marker date="1419238458881" expanded="true" signature="535:623" placeholder="select * fro..tbl_user_info_login..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="profile.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/profile.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="50" column="8" selection-start="1940" selection-end="1940" vertical-scroll-proportion="0.7671233" vertical-offset="402" max-vertical-offset="1020">
+              <folding>
+                <marker date="1419252555849" expanded="true" signature="116:160" placeholder="SELECT accou..tbl_account_info..." />
+                <marker date="1419252555849" expanded="true" signature="116:160" placeholder="SELECT accou..tbl_account_info..." />
+                <marker date="1419252555849" expanded="true" signature="116:160" placeholder="SELECT accou..tbl_account_info..." />
+                <marker date="1419252555849" expanded="true" signature="116:232" placeholder="SELECT accou..tbl_account_info..." />
+                <marker date="1419252555849" expanded="true" signature="116:232" placeholder="SELECT accou..tbl_account_info..." />
+                <marker date="1419252555849" expanded="true" signature="116:231" placeholder="SELECT accou..tbl_account_info..." />
+                <marker date="1419252555849" expanded="true" signature="116:231" placeholder="SELECT accou..tbl_account_info..." />
+                <marker date="1419252555849" expanded="true" signature="116:249" placeholder="SELECT accou..tbl_account_info..." />
+                <marker date="1419252555849" expanded="true" signature="397:530" placeholder="SELECT accou..tbl_account_info..." />
+                <marker date="1419252555849" expanded="true" signature="462:529" placeholder="SELECT id FR..tbl_user_info_login..." />
+                <marker date="1419252555849" expanded="true" signature="1003:1212" placeholder="..." />
+                <marker date="1419252555849" expanded="true" signature="1543:1676" placeholder="SELECT accou..tbl_account_info..." />
+                <marker date="1419252555849" expanded="true" signature="1608:1675" placeholder="SELECT id FR..tbl_user_info_login..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="details.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/details.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="204">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="57" column="16" selection-start="886" selection-end="886" vertical-scroll-proportion="0.0" vertical-offset="597" max-vertical-offset="1921">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="session.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/session.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="17" selection-start="220" selection-end="235" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="357">
+              <folding>
+                <marker date="1419249441681" expanded="true" signature="96:165" placeholder="select user_..tbl_user_info_login..." />
+                <marker date="1419249441681" expanded="true" signature="328:378" placeholder="SELECT id FR..tbl_user_info_login..." />
+                <marker date="1419249441681" expanded="true" signature="328:390" placeholder="SELECT id FR..tbl_user_info_login..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="logout.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/logout.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="18" selection-start="24" selection-end="24" vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="204">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="0" selection-start="562" selection-end="625" vertical-scroll-proportion="-12.423077" vertical-offset="0" max-vertical-offset="527">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/../login_form/dbConfig.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/connection.php" />
+        <option value="$PROJECT_DIR$/login.php" />
+        <option value="$PROJECT_DIR$/logout.php" />
+        <option value="$PROJECT_DIR$/session.php" />
+        <option value="$PROJECT_DIR$/style.css" />
+        <option value="$PROJECT_DIR$/profile.php" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demobank" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demobank" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demobank" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../subscription_test/admin/confirm_sms.php" />
+    <property name="FullScreen" value="false" />
+    <property name="SearchEverywhereHistory" value="ss" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp\www\demobank" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="XSLT" factoryName="XSLT">
+      <option name="myOutputFile" />
+      <option name="myOpenOutputFile" value="false" />
+      <option name="myOpenInBrowser" value="false" />
+      <option name="mySmartErrorHandling" value="true" />
+      <option name="myRunnerPort" value="34873" />
+      <option name="myVmArguments" />
+      <option name="myWorkingDirectory" />
+      <option name="myModule" />
+      <option name="myJdk" />
+      <parameters />
+      <OutputType value="CONSOLE" save-to-file="false" />
+      <FileType name="XML" />
+      <JdkChoice value="FROM_MODULE" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e3c4125c-7d40-4d9f-8a09-975582e7d9a2" name="Default" comment="" />
+      <created>1418900865670</created>
+      <updated>1418900865670</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.098828696" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/connection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="16" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="21" selection-start="811" selection-end="811" vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="680">
+          <folding>
+            <marker date="1419238458881" expanded="true" signature="535:623" placeholder="select * fro..tbl_user_info_login..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="48" selection-start="239" selection-end="239" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="357">
+          <folding>
+            <marker date="1419252555849" expanded="true" signature="116:160" placeholder="SELECT accou..tbl_account_info..." />
+            <marker date="1419252555849" expanded="true" signature="116:160" placeholder="SELECT accou..tbl_account_info..." />
+            <marker date="1419252555849" expanded="true" signature="116:160" placeholder="SELECT accou..tbl_account_info..." />
+            <marker date="1419252555849" expanded="true" signature="116:232" placeholder="SELECT accou..tbl_account_info..." />
+            <marker date="1419252555849" expanded="true" signature="116:232" placeholder="SELECT accou..tbl_account_info..." />
+            <marker date="1419252555849" expanded="true" signature="116:231" placeholder="SELECT accou..tbl_account_info..." />
+            <marker date="1419252555849" expanded="true" signature="116:231" placeholder="SELECT accou..tbl_account_info..." />
+            <marker date="1419252555849" expanded="true" signature="116:249" placeholder="SELECT accou..tbl_account_info..." />
+            <marker date="1419252555849" expanded="true" signature="397:530" placeholder="SELECT accou..tbl_account_info..." />
+            <marker date="1419252555849" expanded="true" signature="462:529" placeholder="SELECT id FR..tbl_user_info_login..." />
+            <marker date="1419252555849" expanded="true" signature="1003:1212" placeholder="..." />
+            <marker date="1419252555849" expanded="true" signature="1543:1676" placeholder="SELECT accou..tbl_account_info..." />
+            <marker date="1419252555849" expanded="true" signature="1608:1675" placeholder="SELECT id FR..tbl_user_info_login..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/session.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="77" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="306">
+          <folding>
+            <marker date="1419249441681" expanded="true" signature="96:165" placeholder="select user_..tbl_user_info_login..." />
+            <marker date="1419249441681" expanded="true" signature="328:378" placeholder="SELECT id FR..tbl_user_info_login..." />
+            <marker date="1419249441681" expanded="true" signature="328:390" placeholder="SELECT id FR..tbl_user_info_login..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="2" selection-start="69" selection-end="69" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="187">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="22" selection-start="298" selection-end="298" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="527">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/connection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="32" selection-start="135" selection-end="135" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
+          <folding>
+            <marker date="1419238458881" expanded="true" signature="535:623" placeholder="select * fro..tbl_user_info_login..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/connection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="16" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="204">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="18" selection-start="24" selection-end="24" vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="204">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="16" selection-start="886" selection-end="886" vertical-scroll-proportion="0.0" vertical-offset="597" max-vertical-offset="1921">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/session.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="17" selection-start="220" selection-end="235" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="357">
+          <folding>
+            <marker date="1419249441681" expanded="true" signature="96:165" placeholder="select user_..tbl_user_info_login..." />
+            <marker date="1419249441681" expanded="true" signature="328:378" placeholder="SELECT id FR..tbl_user_info_login..." />
+            <marker date="1419249441681" expanded="true" signature="328:390" placeholder="SELECT id FR..tbl_user_info_login..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="562" selection-end="625" vertical-scroll-proportion="-12.423077" vertical-offset="0" max-vertical-offset="527">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/details.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="610">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/web-forms2.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="214" column="16" selection-start="4864" selection-end="4864" vertical-scroll-proportion="0.3327869" vertical-offset="3435" max-vertical-offset="13838">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="41" selection-start="810" selection-end="831" vertical-scroll-proportion="-17.0" vertical-offset="0" max-vertical-offset="680">
+          <folding>
+            <marker date="1419238458881" expanded="true" signature="535:623" placeholder="select * fro..tbl_user_info_login..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="8" selection-start="1940" selection-end="1940" vertical-scroll-proportion="0.7671233" vertical-offset="402" max-vertical-offset="1020">
+          <folding>
+            <marker date="1419252555849" expanded="true" signature="116:160" placeholder="SELECT accou..tbl_account_info..." />
+            <marker date="1419252555849" expanded="true" signature="116:160" placeholder="SELECT accou..tbl_account_info..." />
+            <marker date="1419252555849" expanded="true" signature="116:160" placeholder="SELECT accou..tbl_account_info..." />
+            <marker date="1419252555849" expanded="true" signature="116:232" placeholder="SELECT accou..tbl_account_info..." />
+            <marker date="1419252555849" expanded="true" signature="116:232" placeholder="SELECT accou..tbl_account_info..." />
+            <marker date="1419252555849" expanded="true" signature="116:231" placeholder="SELECT accou..tbl_account_info..." />
+            <marker date="1419252555849" expanded="true" signature="116:231" placeholder="SELECT accou..tbl_account_info..." />
+            <marker date="1419252555849" expanded="true" signature="116:249" placeholder="SELECT accou..tbl_account_info..." />
+            <marker date="1419252555849" expanded="true" signature="397:530" placeholder="SELECT accou..tbl_account_info..." />
+            <marker date="1419252555849" expanded="true" signature="462:529" placeholder="SELECT id FR..tbl_user_info_login..." />
+            <marker date="1419252555849" expanded="true" signature="1003:1212" placeholder="..." />
+            <marker date="1419252555849" expanded="true" signature="1543:1676" placeholder="SELECT accou..tbl_account_info..." />
+            <marker date="1419252555849" expanded="true" signature="1608:1675" placeholder="SELECT id FR..tbl_user_info_login..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+
