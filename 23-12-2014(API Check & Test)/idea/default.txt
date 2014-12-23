@@ -1,0 +1,5 @@
+$username = $_GET["username"];
+$password = $_GET["password"];
+$class_of_service= $_GET["cos"];
+$balance = $_GET["balance"];
+$remark = $_GET["remark"];
