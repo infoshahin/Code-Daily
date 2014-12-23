@@ -1,0 +1,3479 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:ns="http://ws.apache.org/axis2" xmlns:ns1="http://org.apache.axis2/xsd" targetNamespace="http://ws.apache.org/axis2" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xs:schema attributeFormDefault="qualified" elementFormDefault="unqualified" targetNamespace="http://ws.apache.org/axis2">
+      <xs:element name="userValidation">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="userName" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="password" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="remark" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="userValidationResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="updateSubscriberAutoRechargeStatus">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="calling" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="tag_no" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="status" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="remark" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="updateSubscriberAutoRechargeStatusResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="updateSubscriberAccount">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="calling" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="tag_no" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="cos" type="xs:int" />
+            <xs:element minOccurs="0" name="remark" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="updateSubscriberAccountResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="updateDid">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="did" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="expiryTime" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="directNum2" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="remark" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="updateDidResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="updateAutoRechargeStatus">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="userName" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="status" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="remark" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="updateAutoRechargeStatusResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="updateAccountByPin">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="pin" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="has_master" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="master_pin" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="distributor_pin" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="lock_when_use" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="password" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="is_lock" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="status" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="expiry_date" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="abs_expiry_date" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="open_date" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="active_date" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="valid_period" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="is_transfer" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="roundup" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="balance" type="xs:double" />
+            <xs:element minOccurs="0" name="org_balance" type="xs:double" />
+            <xs:element minOccurs="0" name="min_balance" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="warn_balance" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="lock_id" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="acc_type" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="lot" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="ref_no" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="calc_charge" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="no_alert_route2" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="ch_plan_sch_name" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="promo_balance" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="ivr_language" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="prompt_min_first" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="prompt_bal" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="prompt_dept" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="sms_notif" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="prompt_min" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="roam_plan" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="surcharge" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="free_second" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="ci_remark" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="charge_mode" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="ref_code" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="cust_name" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="co_name" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="ref_id_no" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="attn1" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="phone1" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="email1" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="attn2" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="phone2" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="email2" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="faxno" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="address1" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="address2" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="address3" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="address4" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="remark" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="use_monthly_package" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="package_name" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="monthly_credit" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="reserved1" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="reserved2" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="reserved3" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="reserved4" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="reserved5" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="reserved6" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="reserved7" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="updateAccountByPinResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="updateAccount">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="userName" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="cos" type="xs:int" />
+            <xs:element minOccurs="0" name="remark" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="updateAccountResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="suspendSubscriberAccount">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="calling" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="tag_no" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="remark" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="suspendSubscriberAccountResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="suspendAccount">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="userName" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="remark" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="suspendAccountResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="subscriberRecharge">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="calling" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="tag_no" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="rechargePin" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="rechargePassword" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="remark" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="subscriberRechargeResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="subscriberPayment">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="calling" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="tag_no" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="amount" type="xs:double" />
+            <xs:element minOccurs="0" name="method" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="remark" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="subscriberPaymentResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="resumeSubscriberAccount">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="calling" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="tag_no" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="remark" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="resumeSubscriberAccountResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="resumeAccount">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="userName" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="remark" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="resumeAccountResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="removeIcf">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="inCalled" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="remark" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="removeIcfResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="removeDid">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="did" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="remark" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="removeDidResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="rechargeSubscriberAccount">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="calling" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="tag_no" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="cos" type="xs:int" />
+            <xs:element minOccurs="0" name="remark" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="rechargeSubscriberAccountResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="rechargeAccount">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="userName" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="cos" type="xs:int" />
+            <xs:element minOccurs="0" name="remark" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="rechargeAccountResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="recharge">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="userName" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="rechargePin" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="rechargePassword" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="remark" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="rechargeResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="payment">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="userName" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="amount" type="xs:double" />
+            <xs:element minOccurs="0" name="method" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="remark" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="paymentResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="passwordRetrival">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="userName" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="remark" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="passwordRetrivalResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="main">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" maxOccurs="unbounded" name="s" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="Exception">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Exception" nillable="true" type="xs:anyType" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="Exception">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Exception" nillable="true" type="ns:Exception" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="isExistingSubscriberUser">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="calling" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="tag_no" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="isExistingSubscriberUserResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" type="xs:boolean" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getSubscriberAutoRechargeStatus">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="calling" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="tag_no" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="remark" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getSubscriberAutoRechargeStatusResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getPinFromSubscriber">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="calling" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getPinFromSubscriberResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getAutoRechargeStatus">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="userName" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="remark" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getAutoRechargeStatusResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="deleteSubscriberDept">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="calling" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="tag_no" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="dept_code" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="remark" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="deleteSubscriberDeptResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="deleteSubscriberAccount">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="calling" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="tag_no" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="remark" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="deleteSubscriberAccountResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="deleteDept">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="userName" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="dept_code" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="remark" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="deleteDeptResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="deleteCalling">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="calling" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="tagNo" type="xs:int" />
+            <xs:element minOccurs="0" name="remark" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="deleteCallingResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="deleteAccountByPin">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="pin" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="deleteAccountByPinResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="deleteAccount">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="userName" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="remark" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="deleteAccountResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="createSubscriberIcf">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="calling" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="tag_no" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="inCalled" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="outCalled1" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="outCalled2" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="outCalled3" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="outCalled4" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="outCalled5" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="expiryTime" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="remark" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="createSubscriberIcfResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="createSubscriberDid">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="calling" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="tag_no" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="expiryTime" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="did" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="remark" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="createSubscriberDidResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="createSubscriberDept">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="calling" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="tag_no" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="dept_code" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="dept_name" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="remark" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="createSubscriberDeptResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="createSubscriberAccountByLot">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="calling" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="tag_no" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="password" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="lot" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="balance" type="xs:double" />
+            <xs:element minOccurs="0" name="remark" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="createSubscriberAccountByLotResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="createSubscriberAccount">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="calling" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="tag_no" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="password" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="cos" type="xs:int" />
+            <xs:element minOccurs="0" name="balance" type="xs:double" />
+            <xs:element minOccurs="0" name="remark" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="createSubscriberAccountResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="createSip2Subscriber">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="pin" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="password" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="createSip2SubscriberResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="createIcf">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="userName" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="inCalled" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="outCalled1" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="outCalled2" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="outCalled3" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="outCalled4" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="outCalled5" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="expiryTime" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="remark" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="createIcfResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="createDid">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="userName" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="expiryTime" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="did" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="remark" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="createDidResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="createDept">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="userName" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="dept_code" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="dept_name" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="remark" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="createDeptResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="createCallingMap2Ivr">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="pin" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="tag_no" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="reserved1" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="createCallingMap2IvrResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="createCallingByPin">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="pin" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="calling" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="tagNo" type="xs:int" />
+            <xs:element minOccurs="0" name="remark" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="createCallingByPinResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="createCalling">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="userName" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="calling" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="tagNo" type="xs:int" />
+            <xs:element minOccurs="0" name="remark" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="createCallingResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="createAccountByPin">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="pin" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="has_master" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="master_pin" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="distributor_pin" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="lock_when_use" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="password" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="is_lock" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="status" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="expiry_date" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="abs_expiry_date" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="open_date" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="active_date" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="valid_period" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="is_transfer" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="roundup" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="balance" type="xs:double" />
+            <xs:element minOccurs="0" name="org_balance" type="xs:double" />
+            <xs:element minOccurs="0" name="min_balance" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="warn_balance" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="lock_id" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="acc_type" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="lot" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="ref_no" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="calc_charge" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="no_alert_route2" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="ch_plan_sch_name" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="promo_balance" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="ivr_language" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="prompt_min_first" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="prompt_bal" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="prompt_dept" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="sms_notif" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="prompt_min" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="roam_plan" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="surcharge" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="free_second" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="ci_remark" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="charge_mode" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="ref_code" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="cust_name" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="co_name" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="ref_id_no" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="attn1" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="phone1" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="email1" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="attn2" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="phone2" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="email2" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="faxno" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="address1" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="address2" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="address3" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="address4" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="remark" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="use_monthly_package" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="package_name" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="monthly_credit" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="reserved1" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="reserved2" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="reserved3" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="reserved4" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="reserved5" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="reserved6" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="reserved7" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="createAccountByPinResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="createAccountByLot2">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="user_name" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="password" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="tag_no" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="lot" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="balance" type="xs:double" />
+            <xs:element minOccurs="0" name="remark" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="createAccountByLot2Response">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="createAccountByLot">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="userName" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="password" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="lot" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="balance" type="xs:double" />
+            <xs:element minOccurs="0" name="remark" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="createAccountByLotResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="createAccount">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="userName" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="password" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="cos" type="xs:int" />
+            <xs:element minOccurs="0" name="balance" type="xs:double" />
+            <xs:element minOccurs="0" name="remark" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="createAccountResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="checkSubscriberRemainMinute">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="calling" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="tag_no" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="remark" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="checkSubscriberRemainMinuteResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="checkSubscriberRemainBalance">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="calling" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="tag_no" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="remark" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="checkSubscriberRemainBalanceResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="checkSubscriberCdr">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="calling" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="tag_no" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="setupTimeFrom" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="setupTimeTo" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="remark" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="checkSubscriberCdrResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" maxOccurs="unbounded" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="checkSubscriberBasicAccInfo">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="calling" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="tag_no" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="remark" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="checkSubscriberBasicAccInfoResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="checkRemainMinute">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="userName" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="remark" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="checkRemainMinuteResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="checkRemainBalance">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="userName" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="remark" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="checkRemainBalanceResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="checkCdr">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="userName" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="setupTimeFrom" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="setupTimeTo" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="remark" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="checkCdrResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" maxOccurs="unbounded" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="checkCallingExists">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="calling" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="tagNo" type="xs:int" />
+            <xs:element minOccurs="0" name="remark" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="checkCallingExistsResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="checkBasicAccInfo">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="userName" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="remark" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="checkBasicAccInfoResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="changeSubscriberPassword">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="calling" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="tag_no" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="password" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="remark" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="changeSubscriberPasswordResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="changePassword">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="userName" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="password" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="remark" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="changePasswordResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="callback2">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="userName" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="calling" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="called" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="setupTime" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="asId" type="xs:int" />
+            <xs:element minOccurs="0" name="cbAsId" type="xs:int" />
+            <xs:element minOccurs="0" name="flowAsId" type="xs:int" />
+            <xs:element minOccurs="0" name="remark" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="codecList" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="callback2Response">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="callback">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="userName" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="calling" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="called" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="setupTime" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="asId" type="xs:int" />
+            <xs:element minOccurs="0" name="flowAsId" type="xs:int" />
+            <xs:element minOccurs="0" name="remark" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="callbackResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="activateSubscriberAccount">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="calling" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="tag_no" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="remark" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="activateSubscriberAccountResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="activateAccount">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="userName" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="remark" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="activateAccountResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="isExistingSubscriberUserRequest">
+    <wsdl:part name="parameters" element="ns:isExistingSubscriberUser" />
+  </wsdl:message>
+  <wsdl:message name="isExistingSubscriberUserResponse">
+    <wsdl:part name="parameters" element="ns:isExistingSubscriberUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="Exception">
+    <wsdl:part name="parameters" element="ns:Exception" />
+  </wsdl:message>
+  <wsdl:message name="suspendAccountRequest">
+    <wsdl:part name="parameters" element="ns:suspendAccount" />
+  </wsdl:message>
+  <wsdl:message name="suspendAccountResponse">
+    <wsdl:part name="parameters" element="ns:suspendAccountResponse" />
+  </wsdl:message>
+  <wsdl:message name="getSubscriberAutoRechargeStatusRequest">
+    <wsdl:part name="parameters" element="ns:getSubscriberAutoRechargeStatus" />
+  </wsdl:message>
+  <wsdl:message name="getSubscriberAutoRechargeStatusResponse">
+    <wsdl:part name="parameters" element="ns:getSubscriberAutoRechargeStatusResponse" />
+  </wsdl:message>
+  <wsdl:message name="subscriberPaymentRequest">
+    <wsdl:part name="parameters" element="ns:subscriberPayment" />
+  </wsdl:message>
+  <wsdl:message name="subscriberPaymentResponse">
+    <wsdl:part name="parameters" element="ns:subscriberPaymentResponse" />
+  </wsdl:message>
+  <wsdl:message name="createDeptRequest">
+    <wsdl:part name="parameters" element="ns:createDept" />
+  </wsdl:message>
+  <wsdl:message name="createDeptResponse">
+    <wsdl:part name="parameters" element="ns:createDeptResponse" />
+  </wsdl:message>
+  <wsdl:message name="createSubscriberAccountRequest">
+    <wsdl:part name="parameters" element="ns:createSubscriberAccount" />
+  </wsdl:message>
+  <wsdl:message name="createSubscriberAccountResponse">
+    <wsdl:part name="parameters" element="ns:createSubscriberAccountResponse" />
+  </wsdl:message>
+  <wsdl:message name="getAutoRechargeStatusRequest">
+    <wsdl:part name="parameters" element="ns:getAutoRechargeStatus" />
+  </wsdl:message>
+  <wsdl:message name="getAutoRechargeStatusResponse">
+    <wsdl:part name="parameters" element="ns:getAutoRechargeStatusResponse" />
+  </wsdl:message>
+  <wsdl:message name="createCallingByPinRequest">
+    <wsdl:part name="parameters" element="ns:createCallingByPin" />
+  </wsdl:message>
+  <wsdl:message name="createCallingByPinResponse">
+    <wsdl:part name="parameters" element="ns:createCallingByPinResponse" />
+  </wsdl:message>
+  <wsdl:message name="suspendSubscriberAccountRequest">
+    <wsdl:part name="parameters" element="ns:suspendSubscriberAccount" />
+  </wsdl:message>
+  <wsdl:message name="suspendSubscriberAccountResponse">
+    <wsdl:part name="parameters" element="ns:suspendSubscriberAccountResponse" />
+  </wsdl:message>
+  <wsdl:message name="userValidationRequest">
+    <wsdl:part name="parameters" element="ns:userValidation" />
+  </wsdl:message>
+  <wsdl:message name="userValidationResponse">
+    <wsdl:part name="parameters" element="ns:userValidationResponse" />
+  </wsdl:message>
+  <wsdl:message name="rechargeAccountRequest">
+    <wsdl:part name="parameters" element="ns:rechargeAccount" />
+  </wsdl:message>
+  <wsdl:message name="rechargeAccountResponse">
+    <wsdl:part name="parameters" element="ns:rechargeAccountResponse" />
+  </wsdl:message>
+  <wsdl:message name="createDidRequest">
+    <wsdl:part name="parameters" element="ns:createDid" />
+  </wsdl:message>
+  <wsdl:message name="createDidResponse">
+    <wsdl:part name="parameters" element="ns:createDidResponse" />
+  </wsdl:message>
+  <wsdl:message name="mainRequest">
+    <wsdl:part name="parameters" element="ns:main" />
+  </wsdl:message>
+  <wsdl:message name="changePasswordRequest">
+    <wsdl:part name="parameters" element="ns:changePassword" />
+  </wsdl:message>
+  <wsdl:message name="changePasswordResponse">
+    <wsdl:part name="parameters" element="ns:changePasswordResponse" />
+  </wsdl:message>
+  <wsdl:message name="getPinFromSubscriberRequest">
+    <wsdl:part name="parameters" element="ns:getPinFromSubscriber" />
+  </wsdl:message>
+  <wsdl:message name="getPinFromSubscriberResponse">
+    <wsdl:part name="parameters" element="ns:getPinFromSubscriberResponse" />
+  </wsdl:message>
+  <wsdl:message name="deleteAccountByPinRequest">
+    <wsdl:part name="parameters" element="ns:deleteAccountByPin" />
+  </wsdl:message>
+  <wsdl:message name="deleteAccountByPinResponse">
+    <wsdl:part name="parameters" element="ns:deleteAccountByPinResponse" />
+  </wsdl:message>
+  <wsdl:message name="deleteSubscriberDeptRequest">
+    <wsdl:part name="parameters" element="ns:deleteSubscriberDept" />
+  </wsdl:message>
+  <wsdl:message name="deleteSubscriberDeptResponse">
+    <wsdl:part name="parameters" element="ns:deleteSubscriberDeptResponse" />
+  </wsdl:message>
+  <wsdl:message name="checkRemainBalanceRequest">
+    <wsdl:part name="parameters" element="ns:checkRemainBalance" />
+  </wsdl:message>
+  <wsdl:message name="checkRemainBalanceResponse">
+    <wsdl:part name="parameters" element="ns:checkRemainBalanceResponse" />
+  </wsdl:message>
+  <wsdl:message name="createIcfRequest">
+    <wsdl:part name="parameters" element="ns:createIcf" />
+  </wsdl:message>
+  <wsdl:message name="createIcfResponse">
+    <wsdl:part name="parameters" element="ns:createIcfResponse" />
+  </wsdl:message>
+  <wsdl:message name="paymentRequest">
+    <wsdl:part name="parameters" element="ns:payment" />
+  </wsdl:message>
+  <wsdl:message name="paymentResponse">
+    <wsdl:part name="parameters" element="ns:paymentResponse" />
+  </wsdl:message>
+  <wsdl:message name="passwordRetrivalRequest">
+    <wsdl:part name="parameters" element="ns:passwordRetrival" />
+  </wsdl:message>
+  <wsdl:message name="passwordRetrivalResponse">
+    <wsdl:part name="parameters" element="ns:passwordRetrivalResponse" />
+  </wsdl:message>
+  <wsdl:message name="updateSubscriberAccountRequest">
+    <wsdl:part name="parameters" element="ns:updateSubscriberAccount" />
+  </wsdl:message>
+  <wsdl:message name="updateSubscriberAccountResponse">
+    <wsdl:part name="parameters" element="ns:updateSubscriberAccountResponse" />
+  </wsdl:message>
+  <wsdl:message name="createAccountByLotRequest">
+    <wsdl:part name="parameters" element="ns:createAccountByLot" />
+  </wsdl:message>
+  <wsdl:message name="createAccountByLotResponse">
+    <wsdl:part name="parameters" element="ns:createAccountByLotResponse" />
+  </wsdl:message>
+  <wsdl:message name="checkBasicAccInfoRequest">
+    <wsdl:part name="parameters" element="ns:checkBasicAccInfo" />
+  </wsdl:message>
+  <wsdl:message name="checkBasicAccInfoResponse">
+    <wsdl:part name="parameters" element="ns:checkBasicAccInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="createAccountRequest">
+    <wsdl:part name="parameters" element="ns:createAccount" />
+  </wsdl:message>
+  <wsdl:message name="createAccountResponse">
+    <wsdl:part name="parameters" element="ns:createAccountResponse" />
+  </wsdl:message>
+  <wsdl:message name="resumeAccountRequest">
+    <wsdl:part name="parameters" element="ns:resumeAccount" />
+  </wsdl:message>
+  <wsdl:message name="resumeAccountResponse">
+    <wsdl:part name="parameters" element="ns:resumeAccountResponse" />
+  </wsdl:message>
+  <wsdl:message name="subscriberRechargeRequest">
+    <wsdl:part name="parameters" element="ns:subscriberRecharge" />
+  </wsdl:message>
+  <wsdl:message name="subscriberRechargeResponse">
+    <wsdl:part name="parameters" element="ns:subscriberRechargeResponse" />
+  </wsdl:message>
+  <wsdl:message name="createSubscriberIcfRequest">
+    <wsdl:part name="parameters" element="ns:createSubscriberIcf" />
+  </wsdl:message>
+  <wsdl:message name="createSubscriberIcfResponse">
+    <wsdl:part name="parameters" element="ns:createSubscriberIcfResponse" />
+  </wsdl:message>
+  <wsdl:message name="resumeSubscriberAccountRequest">
+    <wsdl:part name="parameters" element="ns:resumeSubscriberAccount" />
+  </wsdl:message>
+  <wsdl:message name="resumeSubscriberAccountResponse">
+    <wsdl:part name="parameters" element="ns:resumeSubscriberAccountResponse" />
+  </wsdl:message>
+  <wsdl:message name="checkRemainMinuteRequest">
+    <wsdl:part name="parameters" element="ns:checkRemainMinute" />
+  </wsdl:message>
+  <wsdl:message name="checkRemainMinuteResponse">
+    <wsdl:part name="parameters" element="ns:checkRemainMinuteResponse" />
+  </wsdl:message>
+  <wsdl:message name="createSubscriberDidRequest">
+    <wsdl:part name="parameters" element="ns:createSubscriberDid" />
+  </wsdl:message>
+  <wsdl:message name="createSubscriberDidResponse">
+    <wsdl:part name="parameters" element="ns:createSubscriberDidResponse" />
+  </wsdl:message>
+  <wsdl:message name="checkSubscriberCdrRequest">
+    <wsdl:part name="parameters" element="ns:checkSubscriberCdr" />
+  </wsdl:message>
+  <wsdl:message name="checkSubscriberCdrResponse">
+    <wsdl:part name="parameters" element="ns:checkSubscriberCdrResponse" />
+  </wsdl:message>
+  <wsdl:message name="rechargeRequest">
+    <wsdl:part name="parameters" element="ns:recharge" />
+  </wsdl:message>
+  <wsdl:message name="rechargeResponse">
+    <wsdl:part name="parameters" element="ns:rechargeResponse" />
+  </wsdl:message>
+  <wsdl:message name="checkCdrRequest">
+    <wsdl:part name="parameters" element="ns:checkCdr" />
+  </wsdl:message>
+  <wsdl:message name="checkCdrResponse">
+    <wsdl:part name="parameters" element="ns:checkCdrResponse" />
+  </wsdl:message>
+  <wsdl:message name="rechargeSubscriberAccountRequest">
+    <wsdl:part name="parameters" element="ns:rechargeSubscriberAccount" />
+  </wsdl:message>
+  <wsdl:message name="rechargeSubscriberAccountResponse">
+    <wsdl:part name="parameters" element="ns:rechargeSubscriberAccountResponse" />
+  </wsdl:message>
+  <wsdl:message name="updateAccountByPinRequest">
+    <wsdl:part name="parameters" element="ns:updateAccountByPin" />
+  </wsdl:message>
+  <wsdl:message name="updateAccountByPinResponse">
+    <wsdl:part name="parameters" element="ns:updateAccountByPinResponse" />
+  </wsdl:message>
+  <wsdl:message name="checkSubscriberBasicAccInfoRequest">
+    <wsdl:part name="parameters" element="ns:checkSubscriberBasicAccInfo" />
+  </wsdl:message>
+  <wsdl:message name="checkSubscriberBasicAccInfoResponse">
+    <wsdl:part name="parameters" element="ns:checkSubscriberBasicAccInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="deleteCallingRequest">
+    <wsdl:part name="parameters" element="ns:deleteCalling" />
+  </wsdl:message>
+  <wsdl:message name="deleteCallingResponse">
+    <wsdl:part name="parameters" element="ns:deleteCallingResponse" />
+  </wsdl:message>
+  <wsdl:message name="updateAccountRequest">
+    <wsdl:part name="parameters" element="ns:updateAccount" />
+  </wsdl:message>
+  <wsdl:message name="updateAccountResponse">
+    <wsdl:part name="parameters" element="ns:updateAccountResponse" />
+  </wsdl:message>
+  <wsdl:message name="updateSubscriberAutoRechargeStatusRequest">
+    <wsdl:part name="parameters" element="ns:updateSubscriberAutoRechargeStatus" />
+  </wsdl:message>
+  <wsdl:message name="updateSubscriberAutoRechargeStatusResponse">
+    <wsdl:part name="parameters" element="ns:updateSubscriberAutoRechargeStatusResponse" />
+  </wsdl:message>
+  <wsdl:message name="activateSubscriberAccountRequest">
+    <wsdl:part name="parameters" element="ns:activateSubscriberAccount" />
+  </wsdl:message>
+  <wsdl:message name="activateSubscriberAccountResponse">
+    <wsdl:part name="parameters" element="ns:activateSubscriberAccountResponse" />
+  </wsdl:message>
+  <wsdl:message name="createAccountByLot2Request">
+    <wsdl:part name="parameters" element="ns:createAccountByLot2" />
+  </wsdl:message>
+  <wsdl:message name="createAccountByLot2Response">
+    <wsdl:part name="parameters" element="ns:createAccountByLot2Response" />
+  </wsdl:message>
+  <wsdl:message name="createSubscriberAccountByLotRequest">
+    <wsdl:part name="parameters" element="ns:createSubscriberAccountByLot" />
+  </wsdl:message>
+  <wsdl:message name="createSubscriberAccountByLotResponse">
+    <wsdl:part name="parameters" element="ns:createSubscriberAccountByLotResponse" />
+  </wsdl:message>
+  <wsdl:message name="removeIcfRequest">
+    <wsdl:part name="parameters" element="ns:removeIcf" />
+  </wsdl:message>
+  <wsdl:message name="removeIcfResponse">
+    <wsdl:part name="parameters" element="ns:removeIcfResponse" />
+  </wsdl:message>
+  <wsdl:message name="createAccountByPinRequest">
+    <wsdl:part name="parameters" element="ns:createAccountByPin" />
+  </wsdl:message>
+  <wsdl:message name="createAccountByPinResponse">
+    <wsdl:part name="parameters" element="ns:createAccountByPinResponse" />
+  </wsdl:message>
+  <wsdl:message name="callback2Request">
+    <wsdl:part name="parameters" element="ns:callback2" />
+  </wsdl:message>
+  <wsdl:message name="callback2Response">
+    <wsdl:part name="parameters" element="ns:callback2Response" />
+  </wsdl:message>
+  <wsdl:message name="checkSubscriberRemainMinuteRequest">
+    <wsdl:part name="parameters" element="ns:checkSubscriberRemainMinute" />
+  </wsdl:message>
+  <wsdl:message name="checkSubscriberRemainMinuteResponse">
+    <wsdl:part name="parameters" element="ns:checkSubscriberRemainMinuteResponse" />
+  </wsdl:message>
+  <wsdl:message name="deleteSubscriberAccountRequest">
+    <wsdl:part name="parameters" element="ns:deleteSubscriberAccount" />
+  </wsdl:message>
+  <wsdl:message name="deleteSubscriberAccountResponse">
+    <wsdl:part name="parameters" element="ns:deleteSubscriberAccountResponse" />
+  </wsdl:message>
+  <wsdl:message name="updateAutoRechargeStatusRequest">
+    <wsdl:part name="parameters" element="ns:updateAutoRechargeStatus" />
+  </wsdl:message>
+  <wsdl:message name="updateAutoRechargeStatusResponse">
+    <wsdl:part name="parameters" element="ns:updateAutoRechargeStatusResponse" />
+  </wsdl:message>
+  <wsdl:message name="activateAccountRequest">
+    <wsdl:part name="parameters" element="ns:activateAccount" />
+  </wsdl:message>
+  <wsdl:message name="activateAccountResponse">
+    <wsdl:part name="parameters" element="ns:activateAccountResponse" />
+  </wsdl:message>
+  <wsdl:message name="createSip2SubscriberRequest">
+    <wsdl:part name="parameters" element="ns:createSip2Subscriber" />
+  </wsdl:message>
+  <wsdl:message name="createSip2SubscriberResponse">
+    <wsdl:part name="parameters" element="ns:createSip2SubscriberResponse" />
+  </wsdl:message>
+  <wsdl:message name="changeSubscriberPasswordRequest">
+    <wsdl:part name="parameters" element="ns:changeSubscriberPassword" />
+  </wsdl:message>
+  <wsdl:message name="changeSubscriberPasswordResponse">
+    <wsdl:part name="parameters" element="ns:changeSubscriberPasswordResponse" />
+  </wsdl:message>
+  <wsdl:message name="deleteDeptRequest">
+    <wsdl:part name="parameters" element="ns:deleteDept" />
+  </wsdl:message>
+  <wsdl:message name="deleteDeptResponse">
+    <wsdl:part name="parameters" element="ns:deleteDeptResponse" />
+  </wsdl:message>
+  <wsdl:message name="removeDidRequest">
+    <wsdl:part name="parameters" element="ns:removeDid" />
+  </wsdl:message>
+  <wsdl:message name="removeDidResponse">
+    <wsdl:part name="parameters" element="ns:removeDidResponse" />
+  </wsdl:message>
+  <wsdl:message name="createCallingMap2IvrRequest">
+    <wsdl:part name="parameters" element="ns:createCallingMap2Ivr" />
+  </wsdl:message>
+  <wsdl:message name="createCallingMap2IvrResponse">
+    <wsdl:part name="parameters" element="ns:createCallingMap2IvrResponse" />
+  </wsdl:message>
+  <wsdl:message name="callbackRequest">
+    <wsdl:part name="parameters" element="ns:callback" />
+  </wsdl:message>
+  <wsdl:message name="callbackResponse">
+    <wsdl:part name="parameters" element="ns:callbackResponse" />
+  </wsdl:message>
+  <wsdl:message name="updateDidRequest">
+    <wsdl:part name="parameters" element="ns:updateDid" />
+  </wsdl:message>
+  <wsdl:message name="updateDidResponse">
+    <wsdl:part name="parameters" element="ns:updateDidResponse" />
+  </wsdl:message>
+  <wsdl:message name="checkSubscriberRemainBalanceRequest">
+    <wsdl:part name="parameters" element="ns:checkSubscriberRemainBalance" />
+  </wsdl:message>
+  <wsdl:message name="checkSubscriberRemainBalanceResponse">
+    <wsdl:part name="parameters" element="ns:checkSubscriberRemainBalanceResponse" />
+  </wsdl:message>
+  <wsdl:message name="checkCallingExistsRequest">
+    <wsdl:part name="parameters" element="ns:checkCallingExists" />
+  </wsdl:message>
+  <wsdl:message name="checkCallingExistsResponse">
+    <wsdl:part name="parameters" element="ns:checkCallingExistsResponse" />
+  </wsdl:message>
+  <wsdl:message name="deleteAccountRequest">
+    <wsdl:part name="parameters" element="ns:deleteAccount" />
+  </wsdl:message>
+  <wsdl:message name="deleteAccountResponse">
+    <wsdl:part name="parameters" element="ns:deleteAccountResponse" />
+  </wsdl:message>
+  <wsdl:message name="createCallingRequest">
+    <wsdl:part name="parameters" element="ns:createCalling" />
+  </wsdl:message>
+  <wsdl:message name="createCallingResponse">
+    <wsdl:part name="parameters" element="ns:createCallingResponse" />
+  </wsdl:message>
+  <wsdl:message name="createSubscriberDeptRequest">
+    <wsdl:part name="parameters" element="ns:createSubscriberDept" />
+  </wsdl:message>
+  <wsdl:message name="createSubscriberDeptResponse">
+    <wsdl:part name="parameters" element="ns:createSubscriberDeptResponse" />
+  </wsdl:message>
+  <wsdl:portType name="SoapProvisioningPortType">
+    <wsdl:operation name="isExistingSubscriberUser">
+      <wsdl:input wsaw:Action="urn:isExistingSubscriberUser" message="ns:isExistingSubscriberUserRequest" />
+      <wsdl:output wsaw:Action="urn:isExistingSubscriberUserResponse" message="ns:isExistingSubscriberUserResponse" />
+      <wsdl:fault wsaw:Action="urn:isExistingSubscriberUserException" name="Exception" message="ns:Exception" />
+    </wsdl:operation>
+    <wsdl:operation name="suspendAccount">
+      <wsdl:input wsaw:Action="urn:suspendAccount" message="ns:suspendAccountRequest" />
+      <wsdl:output wsaw:Action="urn:suspendAccountResponse" message="ns:suspendAccountResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getSubscriberAutoRechargeStatus">
+      <wsdl:input wsaw:Action="urn:getSubscriberAutoRechargeStatus" message="ns:getSubscriberAutoRechargeStatusRequest" />
+      <wsdl:output wsaw:Action="urn:getSubscriberAutoRechargeStatusResponse" message="ns:getSubscriberAutoRechargeStatusResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="subscriberPayment">
+      <wsdl:input wsaw:Action="urn:subscriberPayment" message="ns:subscriberPaymentRequest" />
+      <wsdl:output wsaw:Action="urn:subscriberPaymentResponse" message="ns:subscriberPaymentResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="createDept">
+      <wsdl:input wsaw:Action="urn:createDept" message="ns:createDeptRequest" />
+      <wsdl:output wsaw:Action="urn:createDeptResponse" message="ns:createDeptResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="createSubscriberAccount">
+      <wsdl:input wsaw:Action="urn:createSubscriberAccount" message="ns:createSubscriberAccountRequest" />
+      <wsdl:output wsaw:Action="urn:createSubscriberAccountResponse" message="ns:createSubscriberAccountResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getAutoRechargeStatus">
+      <wsdl:input wsaw:Action="urn:getAutoRechargeStatus" message="ns:getAutoRechargeStatusRequest" />
+      <wsdl:output wsaw:Action="urn:getAutoRechargeStatusResponse" message="ns:getAutoRechargeStatusResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="createCallingByPin">
+      <wsdl:input wsaw:Action="urn:createCallingByPin" message="ns:createCallingByPinRequest" />
+      <wsdl:output wsaw:Action="urn:createCallingByPinResponse" message="ns:createCallingByPinResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="suspendSubscriberAccount">
+      <wsdl:input wsaw:Action="urn:suspendSubscriberAccount" message="ns:suspendSubscriberAccountRequest" />
+      <wsdl:output wsaw:Action="urn:suspendSubscriberAccountResponse" message="ns:suspendSubscriberAccountResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="userValidation">
+      <wsdl:input wsaw:Action="urn:userValidation" message="ns:userValidationRequest" />
+      <wsdl:output wsaw:Action="urn:userValidationResponse" message="ns:userValidationResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="rechargeAccount">
+      <wsdl:input wsaw:Action="urn:rechargeAccount" message="ns:rechargeAccountRequest" />
+      <wsdl:output wsaw:Action="urn:rechargeAccountResponse" message="ns:rechargeAccountResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="createDid">
+      <wsdl:input wsaw:Action="urn:createDid" message="ns:createDidRequest" />
+      <wsdl:output wsaw:Action="urn:createDidResponse" message="ns:createDidResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="main">
+      <wsdl:input wsaw:Action="urn:main" message="ns:mainRequest" />
+    </wsdl:operation>
+    <wsdl:operation name="changePassword">
+      <wsdl:input wsaw:Action="urn:changePassword" message="ns:changePasswordRequest" />
+      <wsdl:output wsaw:Action="urn:changePasswordResponse" message="ns:changePasswordResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getPinFromSubscriber">
+      <wsdl:input wsaw:Action="urn:getPinFromSubscriber" message="ns:getPinFromSubscriberRequest" />
+      <wsdl:output wsaw:Action="urn:getPinFromSubscriberResponse" message="ns:getPinFromSubscriberResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteAccountByPin">
+      <wsdl:input wsaw:Action="urn:deleteAccountByPin" message="ns:deleteAccountByPinRequest" />
+      <wsdl:output wsaw:Action="urn:deleteAccountByPinResponse" message="ns:deleteAccountByPinResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteSubscriberDept">
+      <wsdl:input wsaw:Action="urn:deleteSubscriberDept" message="ns:deleteSubscriberDeptRequest" />
+      <wsdl:output wsaw:Action="urn:deleteSubscriberDeptResponse" message="ns:deleteSubscriberDeptResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="checkRemainBalance">
+      <wsdl:input wsaw:Action="urn:checkRemainBalance" message="ns:checkRemainBalanceRequest" />
+      <wsdl:output wsaw:Action="urn:checkRemainBalanceResponse" message="ns:checkRemainBalanceResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="createIcf">
+      <wsdl:input wsaw:Action="urn:createIcf" message="ns:createIcfRequest" />
+      <wsdl:output wsaw:Action="urn:createIcfResponse" message="ns:createIcfResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="payment">
+      <wsdl:input wsaw:Action="urn:payment" message="ns:paymentRequest" />
+      <wsdl:output wsaw:Action="urn:paymentResponse" message="ns:paymentResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="passwordRetrival">
+      <wsdl:input wsaw:Action="urn:passwordRetrival" message="ns:passwordRetrivalRequest" />
+      <wsdl:output wsaw:Action="urn:passwordRetrivalResponse" message="ns:passwordRetrivalResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="updateSubscriberAccount">
+      <wsdl:input wsaw:Action="urn:updateSubscriberAccount" message="ns:updateSubscriberAccountRequest" />
+      <wsdl:output wsaw:Action="urn:updateSubscriberAccountResponse" message="ns:updateSubscriberAccountResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="createAccountByLot">
+      <wsdl:input wsaw:Action="urn:createAccountByLot" message="ns:createAccountByLotRequest" />
+      <wsdl:output wsaw:Action="urn:createAccountByLotResponse" message="ns:createAccountByLotResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="checkBasicAccInfo">
+      <wsdl:input wsaw:Action="urn:checkBasicAccInfo" message="ns:checkBasicAccInfoRequest" />
+      <wsdl:output wsaw:Action="urn:checkBasicAccInfoResponse" message="ns:checkBasicAccInfoResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="createAccount">
+      <wsdl:input wsaw:Action="urn:createAccount" message="ns:createAccountRequest" />
+      <wsdl:output wsaw:Action="urn:createAccountResponse" message="ns:createAccountResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="resumeAccount">
+      <wsdl:input wsaw:Action="urn:resumeAccount" message="ns:resumeAccountRequest" />
+      <wsdl:output wsaw:Action="urn:resumeAccountResponse" message="ns:resumeAccountResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="subscriberRecharge">
+      <wsdl:input wsaw:Action="urn:subscriberRecharge" message="ns:subscriberRechargeRequest" />
+      <wsdl:output wsaw:Action="urn:subscriberRechargeResponse" message="ns:subscriberRechargeResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="createSubscriberIcf">
+      <wsdl:input wsaw:Action="urn:createSubscriberIcf" message="ns:createSubscriberIcfRequest" />
+      <wsdl:output wsaw:Action="urn:createSubscriberIcfResponse" message="ns:createSubscriberIcfResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="resumeSubscriberAccount">
+      <wsdl:input wsaw:Action="urn:resumeSubscriberAccount" message="ns:resumeSubscriberAccountRequest" />
+      <wsdl:output wsaw:Action="urn:resumeSubscriberAccountResponse" message="ns:resumeSubscriberAccountResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="checkRemainMinute">
+      <wsdl:input wsaw:Action="urn:checkRemainMinute" message="ns:checkRemainMinuteRequest" />
+      <wsdl:output wsaw:Action="urn:checkRemainMinuteResponse" message="ns:checkRemainMinuteResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="createSubscriberDid">
+      <wsdl:input wsaw:Action="urn:createSubscriberDid" message="ns:createSubscriberDidRequest" />
+      <wsdl:output wsaw:Action="urn:createSubscriberDidResponse" message="ns:createSubscriberDidResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="checkSubscriberCdr">
+      <wsdl:input wsaw:Action="urn:checkSubscriberCdr" message="ns:checkSubscriberCdrRequest" />
+      <wsdl:output wsaw:Action="urn:checkSubscriberCdrResponse" message="ns:checkSubscriberCdrResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="recharge">
+      <wsdl:input wsaw:Action="urn:recharge" message="ns:rechargeRequest" />
+      <wsdl:output wsaw:Action="urn:rechargeResponse" message="ns:rechargeResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="checkCdr">
+      <wsdl:input wsaw:Action="urn:checkCdr" message="ns:checkCdrRequest" />
+      <wsdl:output wsaw:Action="urn:checkCdrResponse" message="ns:checkCdrResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="rechargeSubscriberAccount">
+      <wsdl:input wsaw:Action="urn:rechargeSubscriberAccount" message="ns:rechargeSubscriberAccountRequest" />
+      <wsdl:output wsaw:Action="urn:rechargeSubscriberAccountResponse" message="ns:rechargeSubscriberAccountResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="updateAccountByPin">
+      <wsdl:input wsaw:Action="urn:updateAccountByPin" message="ns:updateAccountByPinRequest" />
+      <wsdl:output wsaw:Action="urn:updateAccountByPinResponse" message="ns:updateAccountByPinResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="checkSubscriberBasicAccInfo">
+      <wsdl:input wsaw:Action="urn:checkSubscriberBasicAccInfo" message="ns:checkSubscriberBasicAccInfoRequest" />
+      <wsdl:output wsaw:Action="urn:checkSubscriberBasicAccInfoResponse" message="ns:checkSubscriberBasicAccInfoResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteCalling">
+      <wsdl:input wsaw:Action="urn:deleteCalling" message="ns:deleteCallingRequest" />
+      <wsdl:output wsaw:Action="urn:deleteCallingResponse" message="ns:deleteCallingResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="updateAccount">
+      <wsdl:input wsaw:Action="urn:updateAccount" message="ns:updateAccountRequest" />
+      <wsdl:output wsaw:Action="urn:updateAccountResponse" message="ns:updateAccountResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="updateSubscriberAutoRechargeStatus">
+      <wsdl:input wsaw:Action="urn:updateSubscriberAutoRechargeStatus" message="ns:updateSubscriberAutoRechargeStatusRequest" />
+      <wsdl:output wsaw:Action="urn:updateSubscriberAutoRechargeStatusResponse" message="ns:updateSubscriberAutoRechargeStatusResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="activateSubscriberAccount">
+      <wsdl:input wsaw:Action="urn:activateSubscriberAccount" message="ns:activateSubscriberAccountRequest" />
+      <wsdl:output wsaw:Action="urn:activateSubscriberAccountResponse" message="ns:activateSubscriberAccountResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="createAccountByLot2">
+      <wsdl:input wsaw:Action="urn:createAccountByLot2" message="ns:createAccountByLot2Request" />
+      <wsdl:output wsaw:Action="urn:createAccountByLot2Response" message="ns:createAccountByLot2Response" />
+    </wsdl:operation>
+    <wsdl:operation name="createSubscriberAccountByLot">
+      <wsdl:input wsaw:Action="urn:createSubscriberAccountByLot" message="ns:createSubscriberAccountByLotRequest" />
+      <wsdl:output wsaw:Action="urn:createSubscriberAccountByLotResponse" message="ns:createSubscriberAccountByLotResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="removeIcf">
+      <wsdl:input wsaw:Action="urn:removeIcf" message="ns:removeIcfRequest" />
+      <wsdl:output wsaw:Action="urn:removeIcfResponse" message="ns:removeIcfResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="createAccountByPin">
+      <wsdl:input wsaw:Action="urn:createAccountByPin" message="ns:createAccountByPinRequest" />
+      <wsdl:output wsaw:Action="urn:createAccountByPinResponse" message="ns:createAccountByPinResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="callback2">
+      <wsdl:input wsaw:Action="urn:callback2" message="ns:callback2Request" />
+      <wsdl:output wsaw:Action="urn:callback2Response" message="ns:callback2Response" />
+    </wsdl:operation>
+    <wsdl:operation name="checkSubscriberRemainMinute">
+      <wsdl:input wsaw:Action="urn:checkSubscriberRemainMinute" message="ns:checkSubscriberRemainMinuteRequest" />
+      <wsdl:output wsaw:Action="urn:checkSubscriberRemainMinuteResponse" message="ns:checkSubscriberRemainMinuteResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteSubscriberAccount">
+      <wsdl:input wsaw:Action="urn:deleteSubscriberAccount" message="ns:deleteSubscriberAccountRequest" />
+      <wsdl:output wsaw:Action="urn:deleteSubscriberAccountResponse" message="ns:deleteSubscriberAccountResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="updateAutoRechargeStatus">
+      <wsdl:input wsaw:Action="urn:updateAutoRechargeStatus" message="ns:updateAutoRechargeStatusRequest" />
+      <wsdl:output wsaw:Action="urn:updateAutoRechargeStatusResponse" message="ns:updateAutoRechargeStatusResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="activateAccount">
+      <wsdl:input wsaw:Action="urn:activateAccount" message="ns:activateAccountRequest" />
+      <wsdl:output wsaw:Action="urn:activateAccountResponse" message="ns:activateAccountResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="createSip2Subscriber">
+      <wsdl:input wsaw:Action="urn:createSip2Subscriber" message="ns:createSip2SubscriberRequest" />
+      <wsdl:output wsaw:Action="urn:createSip2SubscriberResponse" message="ns:createSip2SubscriberResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="changeSubscriberPassword">
+      <wsdl:input wsaw:Action="urn:changeSubscriberPassword" message="ns:changeSubscriberPasswordRequest" />
+      <wsdl:output wsaw:Action="urn:changeSubscriberPasswordResponse" message="ns:changeSubscriberPasswordResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteDept">
+      <wsdl:input wsaw:Action="urn:deleteDept" message="ns:deleteDeptRequest" />
+      <wsdl:output wsaw:Action="urn:deleteDeptResponse" message="ns:deleteDeptResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="removeDid">
+      <wsdl:input wsaw:Action="urn:removeDid" message="ns:removeDidRequest" />
+      <wsdl:output wsaw:Action="urn:removeDidResponse" message="ns:removeDidResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="createCallingMap2Ivr">
+      <wsdl:input wsaw:Action="urn:createCallingMap2Ivr" message="ns:createCallingMap2IvrRequest" />
+      <wsdl:output wsaw:Action="urn:createCallingMap2IvrResponse" message="ns:createCallingMap2IvrResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="callback">
+      <wsdl:input wsaw:Action="urn:callback" message="ns:callbackRequest" />
+      <wsdl:output wsaw:Action="urn:callbackResponse" message="ns:callbackResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="updateDid">
+      <wsdl:input wsaw:Action="urn:updateDid" message="ns:updateDidRequest" />
+      <wsdl:output wsaw:Action="urn:updateDidResponse" message="ns:updateDidResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="checkSubscriberRemainBalance">
+      <wsdl:input wsaw:Action="urn:checkSubscriberRemainBalance" message="ns:checkSubscriberRemainBalanceRequest" />
+      <wsdl:output wsaw:Action="urn:checkSubscriberRemainBalanceResponse" message="ns:checkSubscriberRemainBalanceResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="checkCallingExists">
+      <wsdl:input wsaw:Action="urn:checkCallingExists" message="ns:checkCallingExistsRequest" />
+      <wsdl:output wsaw:Action="urn:checkCallingExistsResponse" message="ns:checkCallingExistsResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteAccount">
+      <wsdl:input wsaw:Action="urn:deleteAccount" message="ns:deleteAccountRequest" />
+      <wsdl:output wsaw:Action="urn:deleteAccountResponse" message="ns:deleteAccountResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="createCalling">
+      <wsdl:input wsaw:Action="urn:createCalling" message="ns:createCallingRequest" />
+      <wsdl:output wsaw:Action="urn:createCallingResponse" message="ns:createCallingResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="createSubscriberDept">
+      <wsdl:input wsaw:Action="urn:createSubscriberDept" message="ns:createSubscriberDeptRequest" />
+      <wsdl:output wsaw:Action="urn:createSubscriberDeptResponse" message="ns:createSubscriberDeptResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="SoapProvisioningSoap11Binding" type="ns:SoapProvisioningPortType">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="isExistingSubscriberUser">
+      <soap:operation soapAction="urn:isExistingSubscriberUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault use="literal" name="Exception" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="suspendAccount">
+      <soap:operation soapAction="urn:suspendAccount" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSubscriberAutoRechargeStatus">
+      <soap:operation soapAction="urn:getSubscriberAutoRechargeStatus" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="subscriberPayment">
+      <soap:operation soapAction="urn:subscriberPayment" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="createDept">
+      <soap:operation soapAction="urn:createDept" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getAutoRechargeStatus">
+      <soap:operation soapAction="urn:getAutoRechargeStatus" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="createSubscriberAccount">
+      <soap:operation soapAction="urn:createSubscriberAccount" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="createCallingByPin">
+      <soap:operation soapAction="urn:createCallingByPin" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="userValidation">
+      <soap:operation soapAction="urn:userValidation" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="suspendSubscriberAccount">
+      <soap:operation soapAction="urn:suspendSubscriberAccount" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="rechargeAccount">
+      <soap:operation soapAction="urn:rechargeAccount" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="createDid">
+      <soap:operation soapAction="urn:createDid" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="main">
+      <soap:operation soapAction="urn:main" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+    </wsdl:operation>
+    <wsdl:operation name="getPinFromSubscriber">
+      <soap:operation soapAction="urn:getPinFromSubscriber" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="changePassword">
+      <soap:operation soapAction="urn:changePassword" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteAccountByPin">
+      <soap:operation soapAction="urn:deleteAccountByPin" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteSubscriberDept">
+      <soap:operation soapAction="urn:deleteSubscriberDept" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="createIcf">
+      <soap:operation soapAction="urn:createIcf" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="checkRemainBalance">
+      <soap:operation soapAction="urn:checkRemainBalance" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="payment">
+      <soap:operation soapAction="urn:payment" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="passwordRetrival">
+      <soap:operation soapAction="urn:passwordRetrival" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updateSubscriberAccount">
+      <soap:operation soapAction="urn:updateSubscriberAccount" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="createAccountByLot">
+      <soap:operation soapAction="urn:createAccountByLot" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="checkBasicAccInfo">
+      <soap:operation soapAction="urn:checkBasicAccInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="createAccount">
+      <soap:operation soapAction="urn:createAccount" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="resumeAccount">
+      <soap:operation soapAction="urn:resumeAccount" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="subscriberRecharge">
+      <soap:operation soapAction="urn:subscriberRecharge" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="createSubscriberIcf">
+      <soap:operation soapAction="urn:createSubscriberIcf" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="resumeSubscriberAccount">
+      <soap:operation soapAction="urn:resumeSubscriberAccount" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="createSubscriberDid">
+      <soap:operation soapAction="urn:createSubscriberDid" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="checkRemainMinute">
+      <soap:operation soapAction="urn:checkRemainMinute" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="checkSubscriberCdr">
+      <soap:operation soapAction="urn:checkSubscriberCdr" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="recharge">
+      <soap:operation soapAction="urn:recharge" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="checkCdr">
+      <soap:operation soapAction="urn:checkCdr" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updateAccountByPin">
+      <soap:operation soapAction="urn:updateAccountByPin" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="rechargeSubscriberAccount">
+      <soap:operation soapAction="urn:rechargeSubscriberAccount" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="checkSubscriberBasicAccInfo">
+      <soap:operation soapAction="urn:checkSubscriberBasicAccInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteCalling">
+      <soap:operation soapAction="urn:deleteCalling" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updateAccount">
+      <soap:operation soapAction="urn:updateAccount" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updateSubscriberAutoRechargeStatus">
+      <soap:operation soapAction="urn:updateSubscriberAutoRechargeStatus" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="createAccountByLot2">
+      <soap:operation soapAction="urn:createAccountByLot2" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="activateSubscriberAccount">
+      <soap:operation soapAction="urn:activateSubscriberAccount" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="removeIcf">
+      <soap:operation soapAction="urn:removeIcf" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="createSubscriberAccountByLot">
+      <soap:operation soapAction="urn:createSubscriberAccountByLot" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="createAccountByPin">
+      <soap:operation soapAction="urn:createAccountByPin" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteSubscriberAccount">
+      <soap:operation soapAction="urn:deleteSubscriberAccount" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="checkSubscriberRemainMinute">
+      <soap:operation soapAction="urn:checkSubscriberRemainMinute" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="callback2">
+      <soap:operation soapAction="urn:callback2" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updateAutoRechargeStatus">
+      <soap:operation soapAction="urn:updateAutoRechargeStatus" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="activateAccount">
+      <soap:operation soapAction="urn:activateAccount" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="createSip2Subscriber">
+      <soap:operation soapAction="urn:createSip2Subscriber" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="removeDid">
+      <soap:operation soapAction="urn:removeDid" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="changeSubscriberPassword">
+      <soap:operation soapAction="urn:changeSubscriberPassword" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteDept">
+      <soap:operation soapAction="urn:deleteDept" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="createCallingMap2Ivr">
+      <soap:operation soapAction="urn:createCallingMap2Ivr" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updateDid">
+      <soap:operation soapAction="urn:updateDid" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="callback">
+      <soap:operation soapAction="urn:callback" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="checkSubscriberRemainBalance">
+      <soap:operation soapAction="urn:checkSubscriberRemainBalance" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteAccount">
+      <soap:operation soapAction="urn:deleteAccount" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="checkCallingExists">
+      <soap:operation soapAction="urn:checkCallingExists" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="createSubscriberDept">
+      <soap:operation soapAction="urn:createSubscriberDept" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="createCalling">
+      <soap:operation soapAction="urn:createCalling" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="SoapProvisioningSoap12Binding" type="ns:SoapProvisioningPortType">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="isExistingSubscriberUser">
+      <soap12:operation soapAction="urn:isExistingSubscriberUser" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap12:fault use="literal" name="Exception" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="suspendAccount">
+      <soap12:operation soapAction="urn:suspendAccount" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSubscriberAutoRechargeStatus">
+      <soap12:operation soapAction="urn:getSubscriberAutoRechargeStatus" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="subscriberPayment">
+      <soap12:operation soapAction="urn:subscriberPayment" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="createDept">
+      <soap12:operation soapAction="urn:createDept" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getAutoRechargeStatus">
+      <soap12:operation soapAction="urn:getAutoRechargeStatus" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="createSubscriberAccount">
+      <soap12:operation soapAction="urn:createSubscriberAccount" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="createCallingByPin">
+      <soap12:operation soapAction="urn:createCallingByPin" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="userValidation">
+      <soap12:operation soapAction="urn:userValidation" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="suspendSubscriberAccount">
+      <soap12:operation soapAction="urn:suspendSubscriberAccount" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="rechargeAccount">
+      <soap12:operation soapAction="urn:rechargeAccount" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="createDid">
+      <soap12:operation soapAction="urn:createDid" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="main">
+      <soap12:operation soapAction="urn:main" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+    </wsdl:operation>
+    <wsdl:operation name="getPinFromSubscriber">
+      <soap12:operation soapAction="urn:getPinFromSubscriber" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="changePassword">
+      <soap12:operation soapAction="urn:changePassword" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteAccountByPin">
+      <soap12:operation soapAction="urn:deleteAccountByPin" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteSubscriberDept">
+      <soap12:operation soapAction="urn:deleteSubscriberDept" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="createIcf">
+      <soap12:operation soapAction="urn:createIcf" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="checkRemainBalance">
+      <soap12:operation soapAction="urn:checkRemainBalance" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="payment">
+      <soap12:operation soapAction="urn:payment" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="passwordRetrival">
+      <soap12:operation soapAction="urn:passwordRetrival" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updateSubscriberAccount">
+      <soap12:operation soapAction="urn:updateSubscriberAccount" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="createAccountByLot">
+      <soap12:operation soapAction="urn:createAccountByLot" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="checkBasicAccInfo">
+      <soap12:operation soapAction="urn:checkBasicAccInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="createAccount">
+      <soap12:operation soapAction="urn:createAccount" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="resumeAccount">
+      <soap12:operation soapAction="urn:resumeAccount" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="subscriberRecharge">
+      <soap12:operation soapAction="urn:subscriberRecharge" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="createSubscriberIcf">
+      <soap12:operation soapAction="urn:createSubscriberIcf" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="resumeSubscriberAccount">
+      <soap12:operation soapAction="urn:resumeSubscriberAccount" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="createSubscriberDid">
+      <soap12:operation soapAction="urn:createSubscriberDid" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="checkRemainMinute">
+      <soap12:operation soapAction="urn:checkRemainMinute" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="checkSubscriberCdr">
+      <soap12:operation soapAction="urn:checkSubscriberCdr" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="recharge">
+      <soap12:operation soapAction="urn:recharge" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="checkCdr">
+      <soap12:operation soapAction="urn:checkCdr" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updateAccountByPin">
+      <soap12:operation soapAction="urn:updateAccountByPin" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="rechargeSubscriberAccount">
+      <soap12:operation soapAction="urn:rechargeSubscriberAccount" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="checkSubscriberBasicAccInfo">
+      <soap12:operation soapAction="urn:checkSubscriberBasicAccInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteCalling">
+      <soap12:operation soapAction="urn:deleteCalling" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updateAccount">
+      <soap12:operation soapAction="urn:updateAccount" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updateSubscriberAutoRechargeStatus">
+      <soap12:operation soapAction="urn:updateSubscriberAutoRechargeStatus" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="createAccountByLot2">
+      <soap12:operation soapAction="urn:createAccountByLot2" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="activateSubscriberAccount">
+      <soap12:operation soapAction="urn:activateSubscriberAccount" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="removeIcf">
+      <soap12:operation soapAction="urn:removeIcf" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="createSubscriberAccountByLot">
+      <soap12:operation soapAction="urn:createSubscriberAccountByLot" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="createAccountByPin">
+      <soap12:operation soapAction="urn:createAccountByPin" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteSubscriberAccount">
+      <soap12:operation soapAction="urn:deleteSubscriberAccount" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="checkSubscriberRemainMinute">
+      <soap12:operation soapAction="urn:checkSubscriberRemainMinute" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="callback2">
+      <soap12:operation soapAction="urn:callback2" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updateAutoRechargeStatus">
+      <soap12:operation soapAction="urn:updateAutoRechargeStatus" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="activateAccount">
+      <soap12:operation soapAction="urn:activateAccount" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="createSip2Subscriber">
+      <soap12:operation soapAction="urn:createSip2Subscriber" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="removeDid">
+      <soap12:operation soapAction="urn:removeDid" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="changeSubscriberPassword">
+      <soap12:operation soapAction="urn:changeSubscriberPassword" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteDept">
+      <soap12:operation soapAction="urn:deleteDept" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="createCallingMap2Ivr">
+      <soap12:operation soapAction="urn:createCallingMap2Ivr" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updateDid">
+      <soap12:operation soapAction="urn:updateDid" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="callback">
+      <soap12:operation soapAction="urn:callback" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="checkSubscriberRemainBalance">
+      <soap12:operation soapAction="urn:checkSubscriberRemainBalance" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteAccount">
+      <soap12:operation soapAction="urn:deleteAccount" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="checkCallingExists">
+      <soap12:operation soapAction="urn:checkCallingExists" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="createSubscriberDept">
+      <soap12:operation soapAction="urn:createSubscriberDept" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="createCalling">
+      <soap12:operation soapAction="urn:createCalling" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="SoapProvisioningHttpBinding" type="ns:SoapProvisioningPortType">
+    <http:binding verb="POST" />
+    <wsdl:operation name="isExistingSubscriberUser">
+      <http:operation location="SoapProvisioning/isExistingSubscriberUser" />
+      <wsdl:input>
+        <mime:content part="isExistingSubscriberUser" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="isExistingSubscriberUser" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="suspendAccount">
+      <http:operation location="SoapProvisioning/suspendAccount" />
+      <wsdl:input>
+        <mime:content part="suspendAccount" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="suspendAccount" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSubscriberAutoRechargeStatus">
+      <http:operation location="SoapProvisioning/getSubscriberAutoRechargeStatus" />
+      <wsdl:input>
+        <mime:content part="getSubscriberAutoRechargeStatus" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="getSubscriberAutoRechargeStatus" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="subscriberPayment">
+      <http:operation location="SoapProvisioning/subscriberPayment" />
+      <wsdl:input>
+        <mime:content part="subscriberPayment" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="subscriberPayment" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="createDept">
+      <http:operation location="SoapProvisioning/createDept" />
+      <wsdl:input>
+        <mime:content part="createDept" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="createDept" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getAutoRechargeStatus">
+      <http:operation location="SoapProvisioning/getAutoRechargeStatus" />
+      <wsdl:input>
+        <mime:content part="getAutoRechargeStatus" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="getAutoRechargeStatus" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="createSubscriberAccount">
+      <http:operation location="SoapProvisioning/createSubscriberAccount" />
+      <wsdl:input>
+        <mime:content part="createSubscriberAccount" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="createSubscriberAccount" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="createCallingByPin">
+      <http:operation location="SoapProvisioning/createCallingByPin" />
+      <wsdl:input>
+        <mime:content part="createCallingByPin" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="createCallingByPin" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="userValidation">
+      <http:operation location="SoapProvisioning/userValidation" />
+      <wsdl:input>
+        <mime:content part="userValidation" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="userValidation" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="suspendSubscriberAccount">
+      <http:operation location="SoapProvisioning/suspendSubscriberAccount" />
+      <wsdl:input>
+        <mime:content part="suspendSubscriberAccount" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="suspendSubscriberAccount" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="rechargeAccount">
+      <http:operation location="SoapProvisioning/rechargeAccount" />
+      <wsdl:input>
+        <mime:content part="rechargeAccount" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="rechargeAccount" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="createDid">
+      <http:operation location="SoapProvisioning/createDid" />
+      <wsdl:input>
+        <mime:content part="createDid" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="createDid" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="main">
+      <http:operation location="SoapProvisioning/main" />
+      <wsdl:input>
+        <mime:content part="main" type="text/xml" />
+      </wsdl:input>
+    </wsdl:operation>
+    <wsdl:operation name="getPinFromSubscriber">
+      <http:operation location="SoapProvisioning/getPinFromSubscriber" />
+      <wsdl:input>
+        <mime:content part="getPinFromSubscriber" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="getPinFromSubscriber" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="changePassword">
+      <http:operation location="SoapProvisioning/changePassword" />
+      <wsdl:input>
+        <mime:content part="changePassword" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="changePassword" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteAccountByPin">
+      <http:operation location="SoapProvisioning/deleteAccountByPin" />
+      <wsdl:input>
+        <mime:content part="deleteAccountByPin" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="deleteAccountByPin" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteSubscriberDept">
+      <http:operation location="SoapProvisioning/deleteSubscriberDept" />
+      <wsdl:input>
+        <mime:content part="deleteSubscriberDept" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="deleteSubscriberDept" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="createIcf">
+      <http:operation location="SoapProvisioning/createIcf" />
+      <wsdl:input>
+        <mime:content part="createIcf" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="createIcf" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="checkRemainBalance">
+      <http:operation location="SoapProvisioning/checkRemainBalance" />
+      <wsdl:input>
+        <mime:content part="checkRemainBalance" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="checkRemainBalance" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="payment">
+      <http:operation location="SoapProvisioning/payment" />
+      <wsdl:input>
+        <mime:content part="payment" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="payment" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="passwordRetrival">
+      <http:operation location="SoapProvisioning/passwordRetrival" />
+      <wsdl:input>
+        <mime:content part="passwordRetrival" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="passwordRetrival" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updateSubscriberAccount">
+      <http:operation location="SoapProvisioning/updateSubscriberAccount" />
+      <wsdl:input>
+        <mime:content part="updateSubscriberAccount" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="updateSubscriberAccount" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="createAccountByLot">
+      <http:operation location="SoapProvisioning/createAccountByLot" />
+      <wsdl:input>
+        <mime:content part="createAccountByLot" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="createAccountByLot" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="checkBasicAccInfo">
+      <http:operation location="SoapProvisioning/checkBasicAccInfo" />
+      <wsdl:input>
+        <mime:content part="checkBasicAccInfo" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="checkBasicAccInfo" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="createAccount">
+      <http:operation location="SoapProvisioning/createAccount" />
+      <wsdl:input>
+        <mime:content part="createAccount" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="createAccount" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="resumeAccount">
+      <http:operation location="SoapProvisioning/resumeAccount" />
+      <wsdl:input>
+        <mime:content part="resumeAccount" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="resumeAccount" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="subscriberRecharge">
+      <http:operation location="SoapProvisioning/subscriberRecharge" />
+      <wsdl:input>
+        <mime:content part="subscriberRecharge" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="subscriberRecharge" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="createSubscriberIcf">
+      <http:operation location="SoapProvisioning/createSubscriberIcf" />
+      <wsdl:input>
+        <mime:content part="createSubscriberIcf" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="createSubscriberIcf" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="resumeSubscriberAccount">
+      <http:operation location="SoapProvisioning/resumeSubscriberAccount" />
+      <wsdl:input>
+        <mime:content part="resumeSubscriberAccount" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="resumeSubscriberAccount" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="createSubscriberDid">
+      <http:operation location="SoapProvisioning/createSubscriberDid" />
+      <wsdl:input>
+        <mime:content part="createSubscriberDid" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="createSubscriberDid" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="checkRemainMinute">
+      <http:operation location="SoapProvisioning/checkRemainMinute" />
+      <wsdl:input>
+        <mime:content part="checkRemainMinute" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="checkRemainMinute" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="checkSubscriberCdr">
+      <http:operation location="SoapProvisioning/checkSubscriberCdr" />
+      <wsdl:input>
+        <mime:content part="checkSubscriberCdr" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="checkSubscriberCdr" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="recharge">
+      <http:operation location="SoapProvisioning/recharge" />
+      <wsdl:input>
+        <mime:content part="recharge" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="recharge" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="checkCdr">
+      <http:operation location="SoapProvisioning/checkCdr" />
+      <wsdl:input>
+        <mime:content part="checkCdr" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="checkCdr" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updateAccountByPin">
+      <http:operation location="SoapProvisioning/updateAccountByPin" />
+      <wsdl:input>
+        <mime:content part="updateAccountByPin" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="updateAccountByPin" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="rechargeSubscriberAccount">
+      <http:operation location="SoapProvisioning/rechargeSubscriberAccount" />
+      <wsdl:input>
+        <mime:content part="rechargeSubscriberAccount" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="rechargeSubscriberAccount" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="checkSubscriberBasicAccInfo">
+      <http:operation location="SoapProvisioning/checkSubscriberBasicAccInfo" />
+      <wsdl:input>
+        <mime:content part="checkSubscriberBasicAccInfo" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="checkSubscriberBasicAccInfo" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteCalling">
+      <http:operation location="SoapProvisioning/deleteCalling" />
+      <wsdl:input>
+        <mime:content part="deleteCalling" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="deleteCalling" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updateAccount">
+      <http:operation location="SoapProvisioning/updateAccount" />
+      <wsdl:input>
+        <mime:content part="updateAccount" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="updateAccount" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updateSubscriberAutoRechargeStatus">
+      <http:operation location="SoapProvisioning/updateSubscriberAutoRechargeStatus" />
+      <wsdl:input>
+        <mime:content part="updateSubscriberAutoRechargeStatus" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="updateSubscriberAutoRechargeStatus" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="createAccountByLot2">
+      <http:operation location="SoapProvisioning/createAccountByLot2" />
+      <wsdl:input>
+        <mime:content part="createAccountByLot2" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="createAccountByLot2" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="activateSubscriberAccount">
+      <http:operation location="SoapProvisioning/activateSubscriberAccount" />
+      <wsdl:input>
+        <mime:content part="activateSubscriberAccount" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="activateSubscriberAccount" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="removeIcf">
+      <http:operation location="SoapProvisioning/removeIcf" />
+      <wsdl:input>
+        <mime:content part="removeIcf" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="removeIcf" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="createSubscriberAccountByLot">
+      <http:operation location="SoapProvisioning/createSubscriberAccountByLot" />
+      <wsdl:input>
+        <mime:content part="createSubscriberAccountByLot" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="createSubscriberAccountByLot" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="createAccountByPin">
+      <http:operation location="SoapProvisioning/createAccountByPin" />
+      <wsdl:input>
+        <mime:content part="createAccountByPin" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="createAccountByPin" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteSubscriberAccount">
+      <http:operation location="SoapProvisioning/deleteSubscriberAccount" />
+      <wsdl:input>
+        <mime:content part="deleteSubscriberAccount" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="deleteSubscriberAccount" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="checkSubscriberRemainMinute">
+      <http:operation location="SoapProvisioning/checkSubscriberRemainMinute" />
+      <wsdl:input>
+        <mime:content part="checkSubscriberRemainMinute" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="checkSubscriberRemainMinute" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="callback2">
+      <http:operation location="SoapProvisioning/callback2" />
+      <wsdl:input>
+        <mime:content part="callback2" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="callback2" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updateAutoRechargeStatus">
+      <http:operation location="SoapProvisioning/updateAutoRechargeStatus" />
+      <wsdl:input>
+        <mime:content part="updateAutoRechargeStatus" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="updateAutoRechargeStatus" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="activateAccount">
+      <http:operation location="SoapProvisioning/activateAccount" />
+      <wsdl:input>
+        <mime:content part="activateAccount" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="activateAccount" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="createSip2Subscriber">
+      <http:operation location="SoapProvisioning/createSip2Subscriber" />
+      <wsdl:input>
+        <mime:content part="createSip2Subscriber" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="createSip2Subscriber" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="removeDid">
+      <http:operation location="SoapProvisioning/removeDid" />
+      <wsdl:input>
+        <mime:content part="removeDid" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="removeDid" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="changeSubscriberPassword">
+      <http:operation location="SoapProvisioning/changeSubscriberPassword" />
+      <wsdl:input>
+        <mime:content part="changeSubscriberPassword" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="changeSubscriberPassword" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteDept">
+      <http:operation location="SoapProvisioning/deleteDept" />
+      <wsdl:input>
+        <mime:content part="deleteDept" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="deleteDept" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="createCallingMap2Ivr">
+      <http:operation location="SoapProvisioning/createCallingMap2Ivr" />
+      <wsdl:input>
+        <mime:content part="createCallingMap2Ivr" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="createCallingMap2Ivr" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updateDid">
+      <http:operation location="SoapProvisioning/updateDid" />
+      <wsdl:input>
+        <mime:content part="updateDid" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="updateDid" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="callback">
+      <http:operation location="SoapProvisioning/callback" />
+      <wsdl:input>
+        <mime:content part="callback" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="callback" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="checkSubscriberRemainBalance">
+      <http:operation location="SoapProvisioning/checkSubscriberRemainBalance" />
+      <wsdl:input>
+        <mime:content part="checkSubscriberRemainBalance" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="checkSubscriberRemainBalance" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteAccount">
+      <http:operation location="SoapProvisioning/deleteAccount" />
+      <wsdl:input>
+        <mime:content part="deleteAccount" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="deleteAccount" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="checkCallingExists">
+      <http:operation location="SoapProvisioning/checkCallingExists" />
+      <wsdl:input>
+        <mime:content part="checkCallingExists" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="checkCallingExists" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="createSubscriberDept">
+      <http:operation location="SoapProvisioning/createSubscriberDept" />
+      <wsdl:input>
+        <mime:content part="createSubscriberDept" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="createSubscriberDept" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="createCalling">
+      <http:operation location="SoapProvisioning/createCalling" />
+      <wsdl:input>
+        <mime:content part="createCalling" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="createCalling" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="SoapProvisioning">
+    <wsdl:port name="SoapProvisioningHttpSoap11Endpoint" binding="ns:SoapProvisioningSoap11Binding">
+      <soap:address location="http://223.27.112.66:8080/vms45soap/services/SoapProvisioning.SoapProvisioningHttpSoap11Endpoint/" />
+    </wsdl:port>
+    <wsdl:port name="SoapProvisioningHttpSoap12Endpoint" binding="ns:SoapProvisioningSoap12Binding">
+      <soap12:address location="http://223.27.112.66:8080/vms45soap/services/SoapProvisioning.SoapProvisioningHttpSoap12Endpoint/" />
+    </wsdl:port>
+    <wsdl:port name="SoapProvisioningHttpEndpoint" binding="ns:SoapProvisioningHttpBinding">
+      <http:address location="http://223.27.112.66:8080/vms45soap/services/SoapProvisioning.SoapProvisioningHttpEndpoint/" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
