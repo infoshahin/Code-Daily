@@ -1,0 +1,19 @@
+Create Account:
+
+http://223.27.112.66:8080/vms45soap/services/SoapProvisioning/createAccount?userName=test20111027a&cos=1&balance=0&password=1234&remark=
+
+Check Remain Balance:
+
+http://223.27.112.66:8080/vms45soap/services/SoapProvisioning/checkRemainBalance?userName=test20111027a&remark=
+
+Recharge:
+
+http://223.27.112.66:8080/vms45soap/services/SoapProvisioning/recharge?userName=test20111027a&rechargePin=012345678&rechargePassword=1234&remark=
+
+Payment:
+
+http://223.27.112.66:8080/vms45soap/services/SoapProvisioning/payment?userName=test20111027a&amount=50&method=P&remark=
+
+Create Calling:
+
+http://223.27.112.66:8080/vms45soap/services/SoapProvisioning/createCalling?userName=test2011a&calling=12345678&tagNo=55&remark=
