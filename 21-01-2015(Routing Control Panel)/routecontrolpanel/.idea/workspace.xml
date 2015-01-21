@@ -26,9 +26,9 @@
       <file leaf-file-name="aktel_details.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/aktel_details/aktel_details.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="47" selection-start="1188" selection-end="1188" vertical-scroll-proportion="-16.346153" vertical-offset="102" max-vertical-offset="816">
+            <state line="29" column="42" selection-start="1071" selection-end="1080" vertical-scroll-proportion="-13.076923" vertical-offset="153" max-vertical-offset="816">
               <folding>
-                <marker date="1421815088212" expanded="true" signature="166:256" placeholder="SELECT * FRO..tbl_routing_table..." />
+                <marker date="1421840735683" expanded="true" signature="166:256" placeholder="SELECT * FRO..tbl_routing_table..." />
               </folding>
             </state>
           </provider>
@@ -37,9 +37,9 @@
       <file leaf-file-name="aktel_list.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/aktel_details/aktel_list.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="112" selection-start="1474" selection-end="1586" vertical-scroll-proportion="-16.576923" vertical-offset="164" max-vertical-offset="748">
+            <state line="21" column="46" selection-start="720" selection-end="938" vertical-scroll-proportion="-13.307693" vertical-offset="11" max-vertical-offset="748">
               <folding>
-                <marker date="1421815731621" expanded="true" signature="815:888" placeholder="SELECT STAKE..stakeholder_ctrl..." />
+                <marker date="1421831524449" expanded="true" signature="815:888" placeholder="SELECT STAKE..stakeholder_ctrl..." />
               </folding>
             </state>
           </provider>
@@ -48,17 +48,15 @@
       <file leaf-file-name="aktel_edit.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/aktel_details/aktel_edit.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="69" column="46" selection-start="2586" selection-end="2586" vertical-scroll-proportion="0.55341506" vertical-offset="857" max-vertical-offset="1479">
+            <state line="64" column="47" selection-start="2415" selection-end="2415" vertical-scroll-proportion="0.67979455" vertical-offset="691" max-vertical-offset="1683">
               <folding>
-                <element signature="e#438#462#0" expanded="true" />
-                <marker date="1421830555399" expanded="true" signature="58:113" placeholder="update addd ..." />
-                <marker date="1421830555399" expanded="true" signature="313:346" placeholder="select * fro..addd..." />
-                <marker date="1421830555399" expanded="true" signature="740:878" placeholder="update tbl_r..." />
-                <marker date="1421830555399" expanded="true" signature="1037:1083" placeholder="select * fro..tbl_routing_table..." />
-                <marker date="1421830555399" expanded="true" signature="1077:1083" placeholder="select * fro..addd..." />
-                <marker date="1421830555399" expanded="true" signature="1752:1838" placeholder="update tbl_r..." />
-                <marker date="1421830555399" expanded="true" signature="1975:1998" placeholder="SELECT * FRO..out_telco..." />
-                <marker date="1421830555399" expanded="true" signature="2353:2375" placeholder="SELECT * FRO..map_user..." />
+                <element signature="e#430#454#0" expanded="true" />
+                <marker date="1421841225383" expanded="true" signature="646:732" placeholder="update tbl_r..." />
+                <marker date="1421841225383" expanded="true" signature="891:914" placeholder="select * fro..out_telco..." />
+                <marker date="1421841225383" expanded="true" signature="1012:1034" placeholder="SELECT * FRO..map_user..." />
+                <marker date="1421841225383" expanded="true" signature="1694:1717" placeholder="SELECT * FRO..out_telco..." />
+                <marker date="1421841225383" expanded="true" signature="2099:2121" placeholder="SELECT * FRO..map_user..." />
+                <marker date="1421841225383" expanded="true" signature="2643:2729" placeholder="update tbl_r..." />
               </folding>
             </state>
           </provider>
@@ -88,13 +86,13 @@
         <option value="$PROJECT_DIR$/gp_details/gp_details.php" />
         <option value="$PROJECT_DIR$/tt_details/tt_details.php" />
         <option value="$PROJECT_DIR$/warid_details/warid_details.php" />
-        <option value="$PROJECT_DIR$/aktel_details/aktel_details.php" />
         <option value="$PROJECT_DIR$/aktel_details/aktel_list.php" />
         <option value="$PROJECT_DIR$/bl_details/bl_list.php" />
         <option value="$PROJECT_DIR$/citycell_details/citycell_list.php" />
         <option value="$PROJECT_DIR$/gp_details/gp_list.php" />
         <option value="$PROJECT_DIR$/tt_details/tt_list.php" />
         <option value="$PROJECT_DIR$/warid_details/warid_list.php" />
+        <option value="$PROJECT_DIR$/aktel_details/aktel_details.php" />
         <option value="$PROJECT_DIR$/aktel_details/aktel_edit.php" />
       </list>
     </option>
@@ -241,7 +239,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../example" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../gateway_monitor" />
     <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
@@ -558,82 +556,80 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bl_details/bl_list.php">
+    <entry file="file://$PROJECT_DIR$/warid_details/warid_list.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="58" selection-start="1115" selection-end="1115" vertical-scroll-proportion="-15.269231" vertical-offset="28" max-vertical-offset="748">
+        <state line="23" column="54" selection-start="1045" selection-end="1045" vertical-scroll-proportion="0.66952056" vertical-offset="0" max-vertical-offset="748">
           <folding>
-            <marker date="1421815746267" expanded="true" signature="-1:-1" placeholder="SELECT STAKE..stakeholder_ctrl..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/citycell_details/citycell_list.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="58" selection-start="1143" selection-end="1143" vertical-scroll-proportion="-11.692307" vertical-offset="121" max-vertical-offset="748">
-          <folding>
-            <marker date="1421815752587" expanded="true" signature="-1:-1" placeholder="SELECT STAKE..stakeholder_ctrl..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gp_details/gp_list.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="58" selection-start="1117" selection-end="1117" vertical-scroll-proportion="-12.346154" vertical-offset="104" max-vertical-offset="748">
-          <folding>
-            <marker date="1421815756688" expanded="true" signature="-1:-1" placeholder="SELECT STAKE..stakeholder_ctrl..." />
+            <marker date="1421831576410" expanded="true" signature="-1:-1" placeholder="SELECT STAKE..stakeholder_ctrl..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tt_details/tt_list.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="58" selection-start="1113" selection-end="1113" vertical-scroll-proportion="-12.346154" vertical-offset="104" max-vertical-offset="748">
+        <state line="23" column="54" selection-start="1032" selection-end="1032" vertical-scroll-proportion="0.49143836" vertical-offset="104" max-vertical-offset="748">
           <folding>
-            <marker date="1421815760555" expanded="true" signature="-1:-1" placeholder="SELECT STAKE..stakeholder_ctrl..." />
+            <marker date="1421831569996" expanded="true" signature="-1:-1" placeholder="SELECT STAKE..stakeholder_ctrl..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/warid_details/warid_list.php">
+    <entry file="file://$PROJECT_DIR$/gp_details/gp_list.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="58" selection-start="1126" selection-end="1126" vertical-scroll-proportion="0.5205479" vertical-offset="121" max-vertical-offset="748">
+        <state line="23" column="54" selection-start="1036" selection-end="1036" vertical-scroll-proportion="0.49143836" vertical-offset="104" max-vertical-offset="748">
           <folding>
-            <marker date="1421815765506" expanded="true" signature="-1:-1" placeholder="SELECT STAKE..stakeholder_ctrl..." />
+            <marker date="1421831561905" expanded="true" signature="-1:-1" placeholder="SELECT STAKE..stakeholder_ctrl..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aktel_details/aktel_details.php">
+    <entry file="file://$PROJECT_DIR$/citycell_details/citycell_list.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="47" selection-start="1188" selection-end="1188" vertical-scroll-proportion="-16.346153" vertical-offset="102" max-vertical-offset="816">
+        <state line="23" column="54" selection-start="1062" selection-end="1062" vertical-scroll-proportion="0.46232876" vertical-offset="121" max-vertical-offset="748">
           <folding>
-            <marker date="1421815088212" expanded="true" signature="166:256" placeholder="SELECT * FRO..tbl_routing_table..." />
+            <marker date="1421831554022" expanded="true" signature="-1:-1" placeholder="SELECT STAKE..stakeholder_ctrl..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bl_details/bl_list.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="54" selection-start="1034" selection-end="1034" vertical-scroll-proportion="0.62157536" vertical-offset="28" max-vertical-offset="748">
+          <folding>
+            <marker date="1421831543151" expanded="true" signature="-1:-1" placeholder="SELECT STAKE..stakeholder_ctrl..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/aktel_details/aktel_list.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="112" selection-start="1474" selection-end="1586" vertical-scroll-proportion="-16.576923" vertical-offset="164" max-vertical-offset="748">
+        <state line="21" column="46" selection-start="720" selection-end="938" vertical-scroll-proportion="-13.307693" vertical-offset="11" max-vertical-offset="748">
           <folding>
-            <marker date="1421815731621" expanded="true" signature="815:888" placeholder="SELECT STAKE..stakeholder_ctrl..." />
+            <marker date="1421831524449" expanded="true" signature="815:888" placeholder="SELECT STAKE..stakeholder_ctrl..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aktel_details/aktel_details.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="42" selection-start="1071" selection-end="1080" vertical-scroll-proportion="-13.076923" vertical-offset="153" max-vertical-offset="816">
+          <folding>
+            <marker date="1421840735683" expanded="true" signature="166:256" placeholder="SELECT * FRO..tbl_routing_table..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/aktel_details/aktel_edit.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="46" selection-start="2586" selection-end="2586" vertical-scroll-proportion="0.55341506" vertical-offset="857" max-vertical-offset="1479">
+        <state line="64" column="47" selection-start="2415" selection-end="2415" vertical-scroll-proportion="0.67979455" vertical-offset="691" max-vertical-offset="1683">
           <folding>
-            <element signature="e#438#462#0" expanded="true" />
-            <marker date="1421830555399" expanded="true" signature="58:113" placeholder="update addd ..." />
-            <marker date="1421830555399" expanded="true" signature="313:346" placeholder="select * fro..addd..." />
-            <marker date="1421830555399" expanded="true" signature="740:878" placeholder="update tbl_r..." />
-            <marker date="1421830555399" expanded="true" signature="1037:1083" placeholder="select * fro..tbl_routing_table..." />
-            <marker date="1421830555399" expanded="true" signature="1077:1083" placeholder="select * fro..addd..." />
-            <marker date="1421830555399" expanded="true" signature="1752:1838" placeholder="update tbl_r..." />
-            <marker date="1421830555399" expanded="true" signature="1975:1998" placeholder="SELECT * FRO..out_telco..." />
-            <marker date="1421830555399" expanded="true" signature="2353:2375" placeholder="SELECT * FRO..map_user..." />
+            <element signature="e#430#454#0" expanded="true" />
+            <marker date="1421841225383" expanded="true" signature="646:732" placeholder="update tbl_r..." />
+            <marker date="1421841225383" expanded="true" signature="891:914" placeholder="select * fro..out_telco..." />
+            <marker date="1421841225383" expanded="true" signature="1012:1034" placeholder="SELECT * FRO..map_user..." />
+            <marker date="1421841225383" expanded="true" signature="1694:1717" placeholder="SELECT * FRO..out_telco..." />
+            <marker date="1421841225383" expanded="true" signature="2099:2121" placeholder="SELECT * FRO..map_user..." />
+            <marker date="1421841225383" expanded="true" signature="2643:2729" placeholder="update tbl_r..." />
           </folding>
         </state>
       </provider>

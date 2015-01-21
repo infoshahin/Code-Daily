@@ -9,39 +9,62 @@ include_once("../header.php");
     <b id="logout"><a href="../logout.php">Log Out</a></b>
     <!--<b><input name="logout" type="button" value="Log Out"></b>-->
 </div>
-<!---->
 <?php
 //if(isset($_GET['ID']))
 //{
 //    $id=$_GET['ID'];
 //    if(isset($_POST['submit']))
 //    {
-//        $request_from=$_POST['REQUEST_FROM'];
-//        $in_telco=$_POST['IN_TELCO'];
-//        $map_user=$_POST['MAPUSR'];
-//        $out_telco=$_POST['OUT_TELCO'];
-//        $query_to_update=mysql_query("update tbl_routing_table set REQUEST_FROM='$request_from', IN_TELCO='$in_telco', OUT_TELCO='$out_telco', MAPUSR='$map_user' where ID='$id'");
+//        $map_user=$_POST['map_user'];
+//        $out_telco=$_POST['out_telco'];
+//        $query_to_update=mysql_query("update tbl_routing_table set OUT_TELCO='$out_telco', MAPUSR='$map_user' where ID='$id'");
 //        if($query_to_update)
 //        {
 //            header('location:aktel_details.php');
 //        }
 //    }
-//    $query_to_fetch_data=mysql_query("select * from tbl_routing_table where ID='$id'");
-//    $row_fetch=mysql_fetch_array($query_to_fetch_data);
+//    $query_for_out_telco=mysql_query("select * from out_telco");
+//    $row_for_out_telco=mysql_fetch_array($query_to_fetch_data);
+//    $query_for_mapuser = "SELECT * FROM map_user";
+//    $row_for_map_user = mysql_query($query_for_mapuser);
 //    ?>
-<!--    <form method="post" action="">-->
-<!--        Name:<input type="text" name="name" value="--><?php //echo $query2['name']; ?><!--" /><br />-->
-<!--        Age:<input type="text" name="age" value="--><?php //echo $query2['age']; ?><!--" /><br /><br />-->
+<!--    <form method="post" action="aktel_details.php">-->
+<!--        Out Telco:<input type="text" name="out_telco" value="--><?php //echo $row_for_out_telco['telco_name']; ?><!--" /><br />-->
+<!--        Map User:<input type="text" name="map_user" value="--><?php //echo $row_for_map_user['map_user']; ?><!--" /><br /><br />-->
 <!--        <br />-->
 <!--        <input type="submit" name="submit" value="Update" />-->
 <!--    </form>-->
 <?php
 //}
 //?>
+<div id="details">
+    <form method="POST" action="">
 <?php
-if(isset($_GET["ID"]))
+if(isset($_GET["id"]))
 {
-    $id= $_GET["ID"];
+    $id= $_GET["id"];
+    $query_for_out_telco = "SELECT * FROM out_telco";
+    $result_for_out_telco = mysql_query($query_for_out_telco);
+    echo "Out Telco:";
+    echo'<select name="out_telco">';
+    echo '<option>Please Select</option>';
+    while($row = mysql_fetch_array( $result_for_out_telco ))
+    {
+        echo '<option value="'.$row['telco_name'].'">' . $row['telco_name'] . '</option>';
+    }
+    echo '</select>';
+
+    $query_for_mapuser = "SELECT * FROM map_user";
+    $result_for_map_user = mysql_query($query_for_mapuser);
+    echo "<br>";
+    echo "Map User:";
+    echo'<select name="map_user">';
+    echo '<option>Please Select</option>';
+    while($row = mysql_fetch_array( $result_for_map_user ))
+    {
+        echo '<option value="'.$row['map_user'].'">' . $row['map_user'] . '</option>';
+    }
+    echo '</select>';
     if(isset($_POST["submit"]))
     {
         $out_telco = $_POST["out_telco"];
@@ -49,34 +72,23 @@ if(isset($_GET["ID"]))
         $query_to_update = mysql_query("update tbl_routing_table set OUT_TELCO='$out_telco', MAPUSR='$map_user' where ID='$id'");
         if($query_to_update)
         {
-            header('location:aktel_details.php');
+            echo "<br> Successfully Updated";
+        }
+        else
+        {
+            echo "<br> No Update Done";
         }
     }
-    $query_for_out_telco = "SELECT * FROM out_telco";
-    $result_for_out_telco = mysql_query($query_for_out_telco);
-    echo'<select name="out_telco">';
-    while($row = mysql_fetch_array( $result_for_out_telco ))
-    {
-        echo '<option>Please Select</option>';
-        echo '<option value="'.$row['id'].'">' . $row['telco_name'] . '</option>';
-    }
-    echo '</select>';
-
-    $query_for_mapuser = "SELECT * FROM map_user";
-    $result_for_map_user = mysql_query($query_for_mapuser);
-    echo'<select name="map_user">';
-    while($row = mysql_fetch_array( $result_for_map_user ))
-    {
-        echo '<option>Please Select</option>';
-        echo '<option value="'.$row['int'].'">' . $row['map_user'] . '</option>';
-    }
-    echo '</select>';
     ?>
-<?php
-}
-?>
-    <input type="submit" name="submit" value="Update" />
+    <?php
+    }
+    ?>
+        <br>
+        <input type="submit" name="submit" value="Update" />
+    </form>
+
     <a href="../profile.php"><input name="back_to_profile_page" type="button" value=" Go Back To Profile "/></a>
+</div>
 <?php
 include_once("../footer.php");
 ?>

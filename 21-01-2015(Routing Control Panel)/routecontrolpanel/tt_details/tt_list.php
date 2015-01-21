@@ -21,9 +21,9 @@ include_once("../header.php");
                 $query = "SELECT STAKEHOLDER_UID FROM stakeholder_ctrl WHERE BRAND_NAME= '$masking';";
                 $result = mysql_query($query);
                 echo'<select name="tt_list">';
+                echo '<option>Please Select</option>';
                 while($row = mysql_fetch_array( $result ))
                 {
-                    echo '<option>Please Select</option>';
                     echo '<option value="'.$row['STAKEHOLDER_UID'].'">' . $row['STAKEHOLDER_UID'] . '</option>';
                 }
                 echo '</select>';
