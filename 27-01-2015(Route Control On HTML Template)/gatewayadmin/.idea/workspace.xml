@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b2126025-2d6c-4acf-82bb-ba0da6adf590" name="Default" comment="" />
+    <ignored path="gatewayadmin.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="gatewayadmin" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="profile.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/profile.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="35" column="25" selection-start="1410" selection-end="1444" vertical-scroll-proportion="-7.1923075" vertical-offset="408" max-vertical-offset="1054">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="report.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/report.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="88" column="61" selection-start="3392" selection-end="3392" vertical-scroll-proportion="-57.53846" vertical-offset="0" max-vertical-offset="3196">
+              <folding>
+                <marker date="1422339347676" expanded="true" signature="2295:2363" placeholder="SELECT * FRO..tbl_routing_table..." />
+                <marker date="1422339347676" expanded="true" signature="2837:2868" placeholder="SELECT * FRO..tbl_routing_table..." />
+                <marker date="1422339347676" expanded="true" signature="4008:4038" placeholder="SELECT * FRO..stakeholder_ctrl..." />
+                <marker date="1422339347676" expanded="true" signature="4628:4650" placeholder="SELECT * FRO..in_telco..." />
+                <marker date="1422339347676" expanded="true" signature="5211:5234" placeholder="SELECT * FRO..out_telco..." />
+                <marker date="1422339347676" expanded="true" signature="5799:5821" placeholder="SELECT * FRO..map_user..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="search_report.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/search_report.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="118" column="10" selection-start="4786" selection-end="4786" vertical-scroll-proportion="0.85113835" vertical-offset="1520" max-vertical-offset="2278">
+              <folding>
+                <marker date="1422339406789" expanded="true" signature="2456:2497" placeholder="SELECT * FRO..tbl_routing_table..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/default.css" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/aktel.php" />
+        <option value="$PROJECT_DIR$/gp.php" />
+        <option value="$PROJECT_DIR$/bl.php" />
+        <option value="$PROJECT_DIR$/cc.php" />
+        <option value="$PROJECT_DIR$/tt.php" />
+        <option value="$PROJECT_DIR$/warid.php" />
+        <option value="$PROJECT_DIR$/warid_details/warid_list.php" />
+        <option value="$PROJECT_DIR$/warid_details/warid_details.php" />
+        <option value="$PROJECT_DIR$/warid_details/warid_edit.php" />
+        <option value="$PROJECT_DIR$/tt_details/tt_list.php" />
+        <option value="$PROJECT_DIR$/tt_details/tt_details.php" />
+        <option value="$PROJECT_DIR$/tt_details/tt_edit.php" />
+        <option value="$PROJECT_DIR$/gp_details/gp_edit.php" />
+        <option value="$PROJECT_DIR$/gp_details/gp_details.php" />
+        <option value="$PROJECT_DIR$/gp_details/gp_list.php" />
+        <option value="$PROJECT_DIR$/citycell_details/citycell_edit.php" />
+        <option value="$PROJECT_DIR$/citycell_details/citycell_details.php" />
+        <option value="$PROJECT_DIR$/citycell_details/citycell_list.php" />
+        <option value="$PROJECT_DIR$/bl_details/bl_list.php" />
+        <option value="$PROJECT_DIR$/bl_details/bl_details.php" />
+        <option value="$PROJECT_DIR$/bl_details/bl_edit.php" />
+        <option value="$PROJECT_DIR$/aktel_details/aktel_list.php" />
+        <option value="$PROJECT_DIR$/aktel_details/aktel_details.php" />
+        <option value="$PROJECT_DIR$/aktel_details/aktel_edit.php" />
+        <option value="$PROJECT_DIR$/profile.php" />
+        <option value="$PROJECT_DIR$/report.php" />
+        <option value="$PROJECT_DIR$/search_report.php" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gatewayadmin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gatewayadmin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gatewayadmin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp\www\gatewayadmin" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b2126025-2d6c-4acf-82bb-ba0da6adf590" name="Default" comment="" />
+      <created>1422330080101</created>
+      <updated>1422330080101</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="610">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/connection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="610">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/img02.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/img01.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/default.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="59" selection-start="759" selection-end="812" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6596">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-6.2737703" vertical-offset="3827" max-vertical-offset="4437">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="20" selection-start="1477" selection-end="1477" vertical-scroll-proportion="-24.192308" vertical-offset="102" max-vertical-offset="1122">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/session.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="610">
+          <folding>
+            <marker date="1421902996655" expanded="true" signature="-1:-1" placeholder="select * fro..user_info..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aktel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="57" selection-start="1899" selection-end="1899" vertical-scroll-proportion="0.56567425" vertical-offset="459" max-vertical-offset="1139">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="22" selection-start="1853" selection-end="1899" vertical-scroll-proportion="-8.230769" vertical-offset="568" max-vertical-offset="1139">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="22" selection-start="1864" selection-end="1910" vertical-scroll-proportion="-15.115385" vertical-offset="389" max-vertical-offset="1139">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="22" selection-start="1853" selection-end="1905" vertical-scroll-proportion="-14.115385" vertical-offset="415" max-vertical-offset="1139">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/warid.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="22" selection-start="1864" selection-end="1913" vertical-scroll-proportion="-17.384615" vertical-offset="330" max-vertical-offset="1139">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/warid_details/warid_list.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="87" selection-start="1725" selection-end="1725" vertical-scroll-proportion="0.43432575" vertical-offset="381" max-vertical-offset="1700">
+          <folding>
+            <marker date="1422337356530" expanded="true" signature="-1:-1" placeholder="SELECT STAKE..stakeholder_ctrl..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/warid_details/warid_details.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="87" selection-start="1725" selection-end="1725" vertical-scroll-proportion="0.34500876" vertical-offset="432" max-vertical-offset="1751">
+          <folding>
+            <marker date="1422337370001" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..tbl_routing_table..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/warid_details/warid_edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="87" selection-start="1725" selection-end="1725" vertical-scroll-proportion="0.4045534" vertical-offset="398" max-vertical-offset="2533">
+          <folding>
+            <marker date="1422337380176" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..out_telco..." />
+            <marker date="1422337380176" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..map_user..." />
+            <marker date="1422337380176" expanded="true" signature="-1:-1" placeholder="select * fro..tbl_routing_table..." />
+            <marker date="1422337380176" expanded="true" signature="-1:-1" placeholder="update tbl_r..." />
+            <marker date="1422337380176" expanded="true" signature="-1:-1" placeholder="update tbl_r..." />
+            <marker date="1422337380176" expanded="true" signature="-1:-1" placeholder="update tbl_r..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tt.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="22" selection-start="1864" selection-end="1910" vertical-scroll-proportion="0.7915937" vertical-offset="330" max-vertical-offset="1139">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tt_details/tt_list.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="87" selection-start="1725" selection-end="1725" vertical-scroll-proportion="0.43432575" vertical-offset="381" max-vertical-offset="1700">
+          <folding>
+            <marker date="1422337404372" expanded="true" signature="-1:-1" placeholder="SELECT STAKE..stakeholder_ctrl..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tt_details/tt_details.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="87" selection-start="1725" selection-end="1725" vertical-scroll-proportion="0.34500876" vertical-offset="432" max-vertical-offset="1751">
+          <folding>
+            <marker date="1422337409909" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..tbl_routing_table..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tt_details/tt_edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="87" selection-start="1725" selection-end="1725" vertical-scroll-proportion="0.31523642" vertical-offset="449" max-vertical-offset="2533">
+          <folding>
+            <marker date="1422337416483" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..out_telco..." />
+            <marker date="1422337416483" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..map_user..." />
+            <marker date="1422337416483" expanded="true" signature="-1:-1" placeholder="select * fro..tbl_routing_table..." />
+            <marker date="1422337416483" expanded="true" signature="-1:-1" placeholder="update tbl_r..." />
+            <marker date="1422337416483" expanded="true" signature="-1:-1" placeholder="update tbl_r..." />
+            <marker date="1422337416483" expanded="true" signature="-1:-1" placeholder="update tbl_r..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gp_details/gp_edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="87" selection-start="1725" selection-end="1725" vertical-scroll-proportion="0.4045534" vertical-offset="398" max-vertical-offset="2533">
+          <folding>
+            <marker date="1422337538544" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..out_telco..." />
+            <marker date="1422337538544" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..map_user..." />
+            <marker date="1422337538544" expanded="true" signature="-1:-1" placeholder="select * fro..tbl_routing_table..." />
+            <marker date="1422337538544" expanded="true" signature="-1:-1" placeholder="update tbl_r..." />
+            <marker date="1422337538544" expanded="true" signature="-1:-1" placeholder="update tbl_r..." />
+            <marker date="1422337538544" expanded="true" signature="-1:-1" placeholder="update tbl_r..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gp_details/gp_details.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="87" selection-start="1725" selection-end="1725" vertical-scroll-proportion="0.7915937" vertical-offset="177" max-vertical-offset="1751">
+          <folding>
+            <marker date="1422337545368" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..tbl_routing_table..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gp_details/gp_list.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="87" selection-start="1725" selection-end="1725" vertical-scroll-proportion="0.55341506" vertical-offset="313" max-vertical-offset="1700">
+          <folding>
+            <marker date="1422337552774" expanded="true" signature="-1:-1" placeholder="SELECT STAKE..stakeholder_ctrl..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/citycell_details/citycell_edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="87" selection-start="1725" selection-end="1725" vertical-scroll-proportion="0.9229422" vertical-offset="102" max-vertical-offset="2533">
+          <folding>
+            <marker date="1422337585989" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..out_telco..." />
+            <marker date="1422337585989" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..map_user..." />
+            <marker date="1422337585989" expanded="true" signature="-1:-1" placeholder="select * fro..tbl_routing_table..." />
+            <marker date="1422337585989" expanded="true" signature="-1:-1" placeholder="update tbl_r..." />
+            <marker date="1422337585989" expanded="true" signature="-1:-1" placeholder="update tbl_r..." />
+            <marker date="1422337585989" expanded="true" signature="-1:-1" placeholder="update tbl_r..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/citycell_details/citycell_details.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="87" selection-start="1725" selection-end="1725" vertical-scroll-proportion="0.43432575" vertical-offset="381" max-vertical-offset="1751">
+          <folding>
+            <marker date="1422337593926" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..tbl_routing_table..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/citycell_details/citycell_list.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="87" selection-start="1725" selection-end="1725" vertical-scroll-proportion="0.43432575" vertical-offset="381" max-vertical-offset="1700">
+          <folding>
+            <marker date="1422337598871" expanded="true" signature="-1:-1" placeholder="SELECT STAKE..stakeholder_ctrl..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bl_details/bl_list.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="87" selection-start="1725" selection-end="1725" vertical-scroll-proportion="-7.576923" vertical-offset="432" max-vertical-offset="1700">
+          <folding>
+            <marker date="1422337682223" expanded="true" signature="-1:-1" placeholder="SELECT STAKE..stakeholder_ctrl..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bl_details/bl_details.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="87" selection-start="1725" selection-end="1725" vertical-scroll-proportion="-12.730769" vertical-offset="298" max-vertical-offset="1802">
+          <folding>
+            <marker date="1422337687280" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..tbl_routing_table..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bl_details/bl_edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="87" selection-start="1725" selection-end="1725" vertical-scroll-proportion="0.4938704" vertical-offset="347" max-vertical-offset="2533">
+          <folding>
+            <marker date="1422337694808" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..out_telco..." />
+            <marker date="1422337694808" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..map_user..." />
+            <marker date="1422337694808" expanded="true" signature="-1:-1" placeholder="select * fro..tbl_routing_table..." />
+            <marker date="1422337694808" expanded="true" signature="-1:-1" placeholder="update tbl_r..." />
+            <marker date="1422337694808" expanded="true" signature="-1:-1" placeholder="update tbl_r..." />
+            <marker date="1422337694808" expanded="true" signature="-1:-1" placeholder="update tbl_r..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aktel_details/aktel_list.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="87" selection-start="1725" selection-end="1725" vertical-scroll-proportion="-11.5" vertical-offset="330" max-vertical-offset="1700">
+          <folding>
+            <marker date="1422337723049" expanded="true" signature="-1:-1" placeholder="SELECT STAKE..stakeholder_ctrl..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aktel_details/aktel_details.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="87" selection-start="1725" selection-end="1725" vertical-scroll-proportion="-6.6153846" vertical-offset="457" max-vertical-offset="1768">
+          <folding>
+            <marker date="1422337731239" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..tbl_routing_table..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aktel_details/aktel_edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="87" selection-start="1725" selection-end="1725" vertical-scroll-proportion="0.43432575" vertical-offset="381" max-vertical-offset="2533">
+          <folding>
+            <marker date="1422337738047" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..out_telco..." />
+            <marker date="1422337738047" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..map_user..." />
+            <marker date="1422337738047" expanded="true" signature="-1:-1" placeholder="select * fro..tbl_routing_table..." />
+            <marker date="1422337738047" expanded="true" signature="-1:-1" placeholder="update tbl_r..." />
+            <marker date="1422337738047" expanded="true" signature="-1:-1" placeholder="update tbl_r..." />
+            <marker date="1422337738047" expanded="true" signature="-1:-1" placeholder="update tbl_r..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="88" column="61" selection-start="3392" selection-end="3392" vertical-scroll-proportion="-57.53846" vertical-offset="0" max-vertical-offset="3196">
+          <folding>
+            <marker date="1422339347676" expanded="true" signature="2295:2363" placeholder="SELECT * FRO..tbl_routing_table..." />
+            <marker date="1422339347676" expanded="true" signature="2837:2868" placeholder="SELECT * FRO..tbl_routing_table..." />
+            <marker date="1422339347676" expanded="true" signature="4008:4038" placeholder="SELECT * FRO..stakeholder_ctrl..." />
+            <marker date="1422339347676" expanded="true" signature="4628:4650" placeholder="SELECT * FRO..in_telco..." />
+            <marker date="1422339347676" expanded="true" signature="5211:5234" placeholder="SELECT * FRO..out_telco..." />
+            <marker date="1422339347676" expanded="true" signature="5799:5821" placeholder="SELECT * FRO..map_user..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="25" selection-start="1410" selection-end="1444" vertical-scroll-proportion="-7.1923075" vertical-offset="408" max-vertical-offset="1054">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search_report.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="118" column="10" selection-start="4786" selection-end="4786" vertical-scroll-proportion="0.85113835" vertical-offset="1520" max-vertical-offset="2278">
+          <folding>
+            <marker date="1422339406789" expanded="true" signature="2456:2497" placeholder="SELECT * FRO..tbl_routing_table..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+
