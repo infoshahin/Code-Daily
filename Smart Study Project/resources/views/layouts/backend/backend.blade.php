@@ -105,7 +105,7 @@ header('Content-Type: text/html');?>
                                     <a href="#">Notice & Events</a>
                                     <ul>
                                         <li><a href="{{URL::to('notice')}}">Notice</a></li>
-                                        <li><a href="{{URL::to('events')}}">Events</a></li>
+                                        <li><a href="{{URL::to('event')}}">Events</a></li>
                                     </ul>
                                 </li>
                                 <li>
