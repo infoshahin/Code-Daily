@@ -1,1 +1,3 @@
 11: 08 AM - Files committed to Code-Daily git in "Smart Study Project" folder
+
+11:53 AM- Image, Slider and Notice Controller, View updated in "Smart Study Project" folder
