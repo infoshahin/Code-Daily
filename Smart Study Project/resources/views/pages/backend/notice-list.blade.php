@@ -24,7 +24,7 @@
                     <thead>
                     <tr>
                         <th>Image</th>
-                        <th>Caption</th>
+                        <th>Name</th>
                         <th>Description</th>
                         <th>From</th>
                         <th>To</th>
