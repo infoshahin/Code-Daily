@@ -56,7 +56,7 @@
                             <div class="col-md-6">
                                 <div class="form-group form-group-custom">
                                     <label>From</label>
-                                    <input type="text" id="datepicker" name="notice_from" class="form-control datepicker" data-date-format="YYYY/MM/DD"/>
+                                    <input type="text" name="notice_from" class="form-control datepicker" data-date-format="YYYY/MM/DD"/>
                                 </div>
                             </div>
 

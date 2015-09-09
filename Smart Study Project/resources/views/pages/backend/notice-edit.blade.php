@@ -50,18 +50,17 @@
 
                     <div class="form-group">
                         <label for="description_bn">Notice Description Bangla</label>
-<!--                        {!! Form::text('notice_description_bn',null,['class'=>'form-control']) !!}-->
                         {!! Form::textarea('notice_description_bn',null,['class'=>'form-control', 'rows'=>'5', 'cols'=>'15']) !!}
                     </div>
 
                     <div class="form-group">
-                        <label for="caption_en">From</label>
-                        {!! Form::text('notice_from',null,['class'=>'form-control']) !!}
+                        <label for="notice_from">From</label>
+                        {!! Form::text('notice_from',null,['class'=>'form-control datepicker', 'data-date-format'=>'YYYY/MM/DD']) !!}
                     </div>
 
                     <div class="form-group">
-                        <label for="caption_en">To</label>
-                        {!! Form::text('notice_to',null,['class'=>'form-control']) !!}
+                        <label for="notice_to">To</label>
+                        {!! Form::text('notice_to',null,['class'=>'form-control datepicker', 'data-date-format'=>'YYYY/MM/DD']) !!}
                     </div>
 
                     <button type="submit" class="btn btn-primary">Save</button>
