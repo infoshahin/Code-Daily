@@ -13,7 +13,21 @@
                 <div class="col-md-9">
                     {!! Form::model($editdata,['url' => '/notice/'.$editdata->id, 'method' => 'PUT', 'files'=>true]) !!}
                     <div class="form-group">
-                        {!! HTML::image('notice_uploads/'.$editdata->file, 'a picture', array('width' => '200px','height' => '200px')) !!}
+                        <?php
+                        if($editdata->file == "no_image.jpg")
+                        {
+                        ?>
+                        {!! HTML::image('images/'.$editdata->file, 'a picture', array('width' => '200px','height' => '200px')) !!}
+                        <?php
+                        }
+                        else
+                        {
+                            ?>
+                            {!! HTML::image('notice_uploads/'.$editdata->file, 'a picture', array('width' => '200px','height' => '200px')) !!}
+                        <?php
+                        }
+                        ?>
+<!--                        {!! HTML::image('notice_uploads/'.$editdata->file, 'a picture', array('width' => '200px','height' => '200px')) !!}-->
                         <label for="userfile">Image File</label>
                         {!! Form::file('userfile',null,['class'=>'form-control']) !!}
                     </div>
@@ -30,12 +44,14 @@
 
                     <div class="form-group">
                         <label for="description_en">Notice Description English</label>
-                        {!! Form::text('notice_description_en',null,['class'=>'form-control']) !!}
+<!--                        {!! Form::text('notice_description_en',null,['class'=>'form-control']) !!}-->
+                        {!! Form::textarea('notice_description_en',null,['class'=>'form-control', 'rows'=>'5', 'cols'=>'15']) !!}
                     </div>
 
                     <div class="form-group">
                         <label for="description_bn">Notice Description Bangla</label>
-                        {!! Form::text('notice_description_bn',null,['class'=>'form-control']) !!}
+<!--                        {!! Form::text('notice_description_bn',null,['class'=>'form-control']) !!}-->
+                        {!! Form::textarea('notice_description_bn',null,['class'=>'form-control', 'rows'=>'5', 'cols'=>'15']) !!}
                     </div>
 
                     <div class="form-group">

@@ -37,7 +37,7 @@
                                 <div class="form-group form-group-custom">
                                     <label>Notice Description English</label>
 <!--                                    <input type="text" name="notice_description_en" class="form-control"/>-->
-                                    <textarea  name="description_en" class="form-control" rows="5"></textarea>
+                                    <textarea  name="notice_description_en" class="form-control" rows="5"></textarea>
                                 </div>
                             </div>
 
@@ -47,7 +47,7 @@
                                 <div class="form-group form-group-custom">
                                     <label>Notice Description Bangla</label>
 <!--                                    <input type="text" name="notice_description_bn" class="form-control"/>-->
-                                    <textarea  name="description_bn" class="form-control" rows="5"></textarea>
+                                    <textarea  name="notice_description_bn" class="form-control" rows="5"></textarea>
                                 </div>
                             </div>
 
