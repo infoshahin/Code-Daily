@@ -3,3 +3,7 @@
 11:53 AM - Image, Slider and Notice Controller, View updated in "Smart Study Project" folder
 
 02:00 PM - Notice List view updated
+
+05:20 PM - Notice Create, Edit updated with datepicker issue solved
+
+05:24 PM - Datepicker issue solved in layout.backend.blade.php
