@@ -25,6 +25,11 @@ header('Content-Type: text/html');?>
         <link rel="stylesheet" type="text/css" href="css/dev-other/dev-ie-fix.css">
         <![endif]-->
 
+        <!-- javascripts -->
+
+<!--         {!! HTML::script('js/plugins/modernizr/modernizr.js') !!}-->
+
+        <!-- ./javascripts -->
         <style>
             .dev-page{visibility: hidden;}            
         </style>
@@ -100,7 +105,7 @@ header('Content-Type: text/html');?>
                                     <a href="#">Notice & Events</a>
                                     <ul>
                                         <li><a href="{{URL::to('notice')}}">Notice</a></li>
-                                        <li><a href="{{URL::to('event')}}">Events</a></li>
+                                        <li><a href="{{URL::to('events')}}">Events</a></li>
                                     </ul>
                                 </li>
                                 <li>
@@ -485,33 +490,39 @@ header('Content-Type: text/html');?>
 
         <!-- javascript -->
 
-         {!! HTML::script('js/plugins/jquery/jquery.min.js') !!}
-         {!! HTML::script('js/plugins/bootstrap/bootstrap.min.js') !!}
-         {!! HTML::script('js/plugins/mcustomscrollbar/jquery.mCustomScrollbar.min.js') !!} 
-         {!! HTML::script('js/plugins/moment/moment.js') !!}
-         {!! HTML::script('js/bootstrap-datetimepicker.js') !!}
-         {!! HTML::script('js/plugins/knob/jquery.knob.min.js') !!} 
-         {!! HTML::script('js/plugins/sparkline/jquery.sparkline.min.js') !!} 
-         {!! HTML::script('js/plugins/bootstrap-select/bootstrap-select.js') !!} 
-         {!! HTML::script('js/plugins/nvd3/d3.min.js') !!} 
-         {!! HTML::script('js/plugins/nvd3/nv.d3.min.js') !!} 
-         {!! HTML::script('js/plugins/nvd3/lib/stream_layers.js') !!} 
-         {!! HTML::script('js/plugins/waypoint/waypoints.min.js') !!} 
-         {!! HTML::script('js/plugins/counter/jquery.counterup.min.js') !!} 
-         {!! HTML::script('js/dev-settings.js') !!} 
-         {!! HTML::script('js/dev-loaders.js') !!} 
-         {!! HTML::script('js/dev-layout-default.js') !!} 
-         {!! HTML::script('js/demo.js') !!} 
-         {!! HTML::script('js/dev-app.js') !!} 
-         {!! HTML::script('js/demo-dashboard.js') !!} 
-         {!! HTML::script('js/plugins/mcustomscrollbar/jquery.mCustomScrollbar.min.js') !!}
-         {!! HTML::script('js/plugins/datatables/jquery.dataTables.min.js') !!}
-         {!! HTML::script('js/plugins/sortable/sortable.min.js') !!}
+        {!! HTML::script('js/plugins/jquery/jquery.min.js') !!}
+        {!! HTML::script('js/plugins/bootstrap/bootstrap.min.js') !!}
+        {!! HTML::script('js/plugins/mcustomscrollbar/jquery.mCustomScrollbar.min.js') !!}
+        {!! HTML::script('js/plugins/moment/moment.js') !!}
+        {!! HTML::script('js/bootstrap-datetimepicker.js') !!}
+        {!! HTML::script('js/plugins/knob/jquery.knob.min.js') !!}
+        {!! HTML::script('js/plugins/sparkline/jquery.sparkline.min.js') !!}
+        {!! HTML::script('js/plugins/bootstrap-select/bootstrap-select.js') !!}
+        {!! HTML::script('js/plugins/nvd3/d3.min.js') !!}
+        {!! HTML::script('js/plugins/nvd3/nv.d3.min.js') !!}
+        {!! HTML::script('js/plugins/nvd3/lib/stream_layers.js') !!}
+        {!! HTML::script('js/plugins/waypoint/waypoints.min.js') !!}
+        {!! HTML::script('js/plugins/counter/jquery.counterup.min.js') !!}
+        {!! HTML::script('js/dev-settings.js') !!}
+        {!! HTML::script('js/dev-loaders.js') !!}
+        {!! HTML::script('js/dev-layout-default.js') !!}
+        {!! HTML::script('js/demo.js') !!}
+        {!! HTML::script('js/dev-app.js') !!}
+        {!! HTML::script('js/demo-dashboard.js') !!}
+        {!! HTML::script('js/plugins/mcustomscrollbar/jquery.mCustomScrollbar.min.js') !!}
+        {!! HTML::script('js/plugins/datatables/jquery.dataTables.min.js') !!}
+        {!! HTML::script('js/plugins/sortable/sortable.min.js') !!}
         <!-- javascripts -->
 
-         {!! HTML::script('js/plugins/modernizr/modernizr.js') !!}
-
-
+        {!! HTML::script('js/plugins/modernizr/modernizr.js') !!}
+        <!-- ./javascripts -->
+         <script src="//cdn.ckeditor.com/4.5.2/standard/ckeditor.js"></script>
+        //     <script>
+        //     CKEDITOR.replace( 'sd' );
+        // </script>
+        //  <script>
+        //     CKEDITOR.replace( 'sdf' );
+        // </script>
         <!-- ./javascript -->
     </body>
 
