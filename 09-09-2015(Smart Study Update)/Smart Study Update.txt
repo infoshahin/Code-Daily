@@ -7,3 +7,5 @@
 05:20 PM - Notice Create, Edit updated with datepicker issue solved
 
 05:24 PM - Datepicker issue solved in layout.backend.blade.php
+
+05:47 PM - Backend layout updated
