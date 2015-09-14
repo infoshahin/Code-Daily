@@ -72,7 +72,7 @@
 
                         <div class="col-md-3">
                             <div class="form-group">
-                                <label>Select <span>Image</span></label>
+                                <label>Select <span>File</span></label>
                                 <br/>
                                 <input type="file" class="file btn-primary" name="userfile"/>
                             </div>

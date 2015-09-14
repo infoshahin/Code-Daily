@@ -20,6 +20,12 @@
                         {!! HTML::image('images/'.$editdata->file, 'a picture', array('width' => '200px','height' => '200px')) !!}
                         <?php
                         }
+                        elseif(pathinfo($editdata->file, PATHINFO_EXTENSION) == "pdf")
+                        {
+                            ?>
+                            {!! HTML::image('images/pdf.jpg', 'a picture', array('width' => '100px','height' => '50px')) !!}
+                        <?php
+                        }
                         else
                         {
                             ?>
@@ -28,7 +34,7 @@
                         }
                         ?>
 <!--                        {!! HTML::image('notice_uploads/'.$editdata->file, 'a picture', array('width' => '200px','height' => '200px')) !!}-->
-                        <label for="userfile">Image File</label>
+                        <label for="userfile">Select File</label>
                         {!! Form::file('userfile',null,['class'=>'form-control']) !!}
                     </div>
 

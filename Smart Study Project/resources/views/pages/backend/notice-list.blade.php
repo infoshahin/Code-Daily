@@ -42,6 +42,12 @@
                                 {!! HTML::image('images/'.$value->file, 'a picture', array('width' => '100px','height' => '50px')) !!}
                             <?php
                             }
+                            elseif(pathinfo($value->file, PATHINFO_EXTENSION) == "pdf")
+                            {
+                                ?>
+                                {!! HTML::image('images/pdf.jpg', 'a picture', array('width' => '100px','height' => '50px')) !!}
+                            <?php
+                            }
                             else
                             {
                                 ?>
