@@ -67,6 +67,9 @@ Route::any('sliderimage/create', 'SliderImageController@create');
 Route::resource('notice', 'NoticeController');
 Route::get('notice', 'NoticeController@adminIndex');
 Route::any('notice/create', 'NoticeController@create');
+Route::resource('event', 'EventController');
+Route::get('event', 'EventController@adminIndex');
+Route::any('event/create', 'EventController@create');
 
 });
 
