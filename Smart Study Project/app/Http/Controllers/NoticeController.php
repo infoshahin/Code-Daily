@@ -61,7 +61,7 @@ class NoticeController extends Controller
             'notice_description_bn' => 'required',
             'notice_from' => 'required',
             'notice_to',
-            'userfile'     => 'image|mimes:jpeg,png,gif|min:1|max:1000'
+            'userfile'     => 'mimes:jpeg,png,gif,pdf|min:1|max:2048'
         ]);
 
         // Check if it fails //
@@ -145,7 +145,7 @@ class NoticeController extends Controller
             'notice_description_bn' => 'required',
             'notice_from' => 'required',
             'notice_to',
-            'userfile'     => 'image|mimes:jpeg,png,gif|min:1|max:1000'
+            'userfile'     => 'mimes:jpeg,png,gif,pdf|min:1|max:1000'
         ]);
 
         // Check if it fails //
