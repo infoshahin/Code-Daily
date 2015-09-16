@@ -70,6 +70,9 @@ Route::any('notice/create', 'NoticeController@create');
 Route::resource('event', 'EventController');
 Route::get('event', 'EventController@adminIndex');
 Route::any('event/create', 'EventController@create');
+Route::resource('weblink', 'WeblinkController');
+Route::get('weblink', 'WeblinkController@adminIndex');
+Route::any('weblink/create', 'WeblinkController@create');
 
 });
 
