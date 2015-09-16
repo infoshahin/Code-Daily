@@ -99,6 +99,7 @@ header('Content-Type: text/html');?>
                                         <li><a href="{{URL::to('admin-executive-body')}}">Executive Body</a></li>
                                         <li><a href="{{URL::to('image')}}">Image Gallery</a></li>
                                         <li><a href="{{URL::to('sliderimage')}}">Slider Image Gallery</a></li>
+                                        <li><a href="{{URL::to('weblink')}}">Web Link</a></li>
                                     </ul>
                                 </li>
                                 <li>
