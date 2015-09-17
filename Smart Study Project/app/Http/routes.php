@@ -76,9 +76,9 @@ Route::any('weblink/create', 'WeblinkController@create');
 Route::resource('principal-speech', 'PrincipalSpeechController');
 Route::get('principal-speech', 'PrincipalSpeechController@adminIndex');
 Route::any('principal-speech/create', 'PrincipalSpeechController@create');
-//Route::resource('career', 'CareerController');
-//Route::get('career', 'CareerController@adminIndex');
-//Route::any('career/create', 'CareerController@create');
+Route::resource('career', 'CareerController');
+Route::get('career', 'CareerController@adminIndex');
+Route::any('career/create', 'CareerController@create');
 
 });
 
