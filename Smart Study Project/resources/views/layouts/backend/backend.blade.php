@@ -110,7 +110,7 @@ header('Content-Type: text/html');?>
                                         <li><a href="{{URL::to('event')}}">Events</a></li>
                                     </ul>
                                 </li>
-<!--                                <li><a href="{{URL::to('career')}}">Career Details</a></li>-->
+                                <li><a href="{{URL::to('career')}}">Career Details</a></li>
                                 <li>
                                     <a href="#">Login Forms</a>
                                     <ul>
