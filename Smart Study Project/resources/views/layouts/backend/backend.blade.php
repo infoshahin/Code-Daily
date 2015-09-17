@@ -97,6 +97,7 @@ header('Content-Type: text/html');?>
                                     <ul>
                                         <li><a href="{{URL::to('admin-history')}}">History</a></li>
                                         <li><a href="{{URL::to('admin-executive-body')}}">Executive Body</a></li>
+                                        <li><a href="{{URL::to('principal-speech')}}">Principal's Speech</a></li>
                                         <li><a href="{{URL::to('image')}}">Image Gallery</a></li>
                                         <li><a href="{{URL::to('sliderimage')}}">Slider Image Gallery</a></li>
                                         <li><a href="{{URL::to('weblink')}}">Web Link</a></li>
@@ -109,6 +110,7 @@ header('Content-Type: text/html');?>
                                         <li><a href="{{URL::to('event')}}">Events</a></li>
                                     </ul>
                                 </li>
+<!--                                <li><a href="{{URL::to('career')}}">Career Details</a></li>-->
                                 <li>
                                     <a href="#">Login Forms</a>
                                     <ul>
