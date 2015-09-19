@@ -29,7 +29,10 @@
                         ?>
                         <!--                        {!! HTML::image('notice_uploads/'.$editdata->file, 'a picture', array('width' => '200px','height' => '200px')) !!}-->
                         <label for="userfile">Image File</label>
+                        <div class="col-md-12">
                         {!! Form::file('userfile',null,['class'=>'form-control']) !!}
+                            (must be in .jpg/.jpeg/.png/.gif format only)
+                        </div>
                     </div>
 
                     <div class="form-group">
@@ -44,13 +47,11 @@
 
                     <div class="form-group">
                         <label for="description_en">Event Description English</label>
-                        <!--                        {!! Form::text('notice_description_en',null,['class'=>'form-control']) !!}-->
                         {!! Form::textarea('event_description_en',null,['class'=>'form-control', 'rows'=>'5', 'cols'=>'15']) !!}
                     </div>
 
                     <div class="form-group">
                         <label for="description_bn">Event Description Bangla</label>
-                        <!--                        {!! Form::text('notice_description_bn',null,['class'=>'form-control']) !!}-->
                         {!! Form::textarea('event_description_bn',null,['class'=>'form-control', 'rows'=>'5', 'cols'=>'15']) !!}
                     </div>
 

@@ -13,7 +13,7 @@
                 <div class="col-md-9">
 
 
-
+                    <label>All fields are required</label>
 
                     {!! Form::open(['url' => '/sliderimage',  'role' => 'form', 'files'=> 'true']) !!}
                     <div class="form-group-one-unit margin-bottom-40">
@@ -40,7 +40,6 @@
                                 <div class="form-group form-group-custom">
                                     <label>Description English</label>
                                     <textarea  name="description_en" class="form-control" rows="5"></textarea>
-<!--                                    <input type="text" name="description_en" class="form-control"/>-->
                                 </div>
                             </div>
 
@@ -50,16 +49,16 @@
                                 <div class="form-group form-group-custom">
                                     <label>Description Bangla</label>
                                     <textarea  name="description_bn" class="form-control" rows="5"></textarea>
-<!--                                    <input type="text" name="description_bn" class="form-control"/>-->
                                 </div>
                             </div>
 
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-12">
                             <div class="form-group">
                                 <label>Select <span>Image</span></label>
                                 <br/>
                                 <input type="file" class="file btn-primary" name="userfile"/>
+                                (must be in .jpg/.jpeg./.png/.gif format only)
                             </div>
                         </div>
 

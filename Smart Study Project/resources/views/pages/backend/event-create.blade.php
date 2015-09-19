@@ -11,7 +11,7 @@
             <div class="row row-wider">
 
                 <div class="col-md-9">
-
+                    <label>All fields except file is required</label>
                     {!! Form::open(['url' => '/event',  'role' => 'form', 'files'=> 'true']) !!}
                     <div class="form-group-one-unit margin-bottom-40">
                         <div class="row">
@@ -68,11 +68,12 @@
                             </div>
                         </div>
 
-                        <div class="col-md-3">
+                        <div class="col-md-12">
                             <div class="form-group">
                                 <label>Select <span>Image</span></label>
                                 <br/>
                                 <input type="file" class="file btn-primary" name="userfile"/>
+                                (must be in .jpg/.jpeg/.png/.gif format only)
                             </div>
                         </div>
 

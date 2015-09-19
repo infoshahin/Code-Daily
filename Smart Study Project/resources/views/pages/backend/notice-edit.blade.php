@@ -33,9 +33,11 @@
                         <?php
                         }
                         ?>
-<!--                        {!! HTML::image('notice_uploads/'.$editdata->file, 'a picture', array('width' => '200px','height' => '200px')) !!}-->
                         <label for="userfile">Select File</label>
+                        <div class="col-md-12">
                         {!! Form::file('userfile',null,['class'=>'form-control']) !!}
+                            (must be in .jpg/.jpeg./.png/.gif/.pdf format only)
+                        </div>
                     </div>
 
                     <div class="form-group">

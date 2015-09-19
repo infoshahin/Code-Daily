@@ -12,7 +12,7 @@
 
                 <div class="col-md-9">
 
-
+                    <label>All fields are required</label>
 
 
                     {!! Form::open(['url' => '/career',  'role' => 'form', 'files'=> 'true']) !!}
@@ -53,11 +53,12 @@
                             </div>
 
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-12">
                             <div class="form-group">
                                 <label>Select <span>File</span></label>
                                 <br/>
                                 <input type="file" class="file btn-primary" name="userfile"/>
+                                (must be in .doc/.xls/.pdf/.jpeg/.png format)
                             </div>
                         </div>
 

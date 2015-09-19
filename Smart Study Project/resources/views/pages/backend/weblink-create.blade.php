@@ -13,7 +13,7 @@
                 <div class="col-md-9">
 
 
-
+                    <label>All fields are required</label>
 
                     {!! Form::open(['url' => '/weblink',  'role' => 'form', 'files'=> 'true']) !!}
                     <div class="form-group-one-unit margin-bottom-40">

@@ -40,7 +40,10 @@
                         }
                         ?>
                         <label for="userfile">File</label>
+                        <div class="col-md-12">
                         {!! Form::file('userfile',null,['class'=>'form-control']) !!}
+                        (must be in .doc/.xls/.pdf/.jpeg/.png format)
+                    </div>
                     </div>
 
                     <div class="form-group">

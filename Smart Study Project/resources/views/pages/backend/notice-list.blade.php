@@ -16,7 +16,7 @@
         <!-- datatables plugin -->
         <div class="wrapper wrapper-white">
             <div class="page-subtitle">
-                <h3>DataTables</h3>
+                <h3>Notice Details</h3>
             </div>
 
             <div class="table-responsive">

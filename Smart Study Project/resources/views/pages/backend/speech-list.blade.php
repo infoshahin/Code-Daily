@@ -9,7 +9,7 @@
 
         <!-- page title -->
         <div class="page-title">
-            <a href="{{URL::to('principal-speech/create')}}"><button class="btn btn-primary btn-clean">Add New</button></a>
+            <a href="{{URL::to('principal-speech/create')}}"><button class="btn btn-primary btn-clean">Add Principal's Speech</button></a>
         </div>
         <!-- ./page title -->
 

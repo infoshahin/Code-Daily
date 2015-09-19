@@ -11,7 +11,7 @@
             <div class="row row-wider">
 
                 <div class="col-md-9">
-
+                    <label>All fields except file are required</label>
                     {!! Form::open(['url' => '/notice',  'role' => 'form', 'files'=> 'true']) !!}
                     <div class="form-group-one-unit margin-bottom-40">
                         <div class="row">
@@ -36,7 +36,6 @@
                             <div class="col-md-6">
                                 <div class="form-group form-group-custom">
                                     <label>Notice Description English</label>
-<!--                                    <input type="text" name="notice_description_en" class="form-control"/>-->
                                     <textarea  name="notice_description_en" class="form-control" rows="5"></textarea>
                                 </div>
                             </div>
@@ -46,7 +45,6 @@
                             <div class="col-md-6">
                                 <div class="form-group form-group-custom">
                                     <label>Notice Description Bangla</label>
-<!--                                    <input type="text" name="notice_description_bn" class="form-control"/>-->
                                     <textarea  name="notice_description_bn" class="form-control" rows="5"></textarea>
                                 </div>
                             </div>
@@ -70,11 +68,12 @@
                             </div>
                         </div>
 
-                        <div class="col-md-3">
+                        <div class="col-md-12">
                             <div class="form-group">
                                 <label>Select <span>File</span></label>
                                 <br/>
                                 <input type="file" class="file btn-primary" name="userfile"/>
+                                (must be in .jpg/.jpeg./.png/.gif/.pdf format only)
                             </div>
                         </div>
 

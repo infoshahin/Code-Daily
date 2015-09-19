@@ -15,7 +15,10 @@
                     <div class="form-group">
                         {!! HTML::image('slider_uploads/'.$image->file, 'a picture', array('width' => '200px','height' => '200px')) !!}
                         <label for="userfile">Image File</label>
+                        <div class="col-md-12">
                         {!! Form::file('userfile',null,['class'=>'form-control']) !!}
+                            (must be in .jpg/.jpeg./.png/.gif format only)
+                        </div>
                     </div>
 
                     <div class="form-group">

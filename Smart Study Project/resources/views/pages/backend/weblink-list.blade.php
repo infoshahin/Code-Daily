@@ -16,7 +16,7 @@
         <!-- datatables plugin -->
         <div class="wrapper wrapper-white">
             <div class="page-subtitle">
-                <h3>DataTables</h3>
+                <h3>Web Links</h3>
             </div>
 
             <div class="table-responsive">
@@ -36,7 +36,7 @@
                             {{$value->weblink_title_en}}
                         </td>
                         <td>{{$value->weblink_title_bn}}</td>
-                        <td>{{$value->weblink_url}}</td>
+                        <td><a target="_blank" href="{{$value->weblink_url}}">{{$value->weblink_url}}</a></td>
                         <td>
                             <!--                            <a href="{{URL::to('/image/edit/'. json_encode($value->id))}}" class="btn btn-info btn-xs form-control"> Edit </a> {!! Form::open(['route' => ['image.destroy', $value->id], 'method' => 'delete']) !!}  {!! Form::submit('Delete', ['class' => 'btn btn-info btn-xs']) !!} {!! Form::close() !!}-->
                             <a href="{{ url('/weblink/'.$value->id.'/edit') }}" class="btn btn-warning pull-left">Edit</a>

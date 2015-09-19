@@ -15,7 +15,10 @@
                     <div class="form-group">
                         {!! HTML::image('principal_uploads/'.$principalspeech->file, 'a picture', array('width' => '200px','height' => '200px')) !!}
                         <label for="userfile">Image File</label>
+                        <div class="col-md-12">
                         {!! Form::file('userfile',null,['class'=>'form-control']) !!}
+                        (must be .jpg/.jpeg/.png format only)
+                        </div>
                     </div>
 
                     <div class="form-group">

@@ -13,7 +13,7 @@
                 <div class="col-md-9">
 
 
-
+                    <label>All fields are required</label>
 
                     {!! Form::open(['url' => '/principal-speech',  'role' => 'form', 'files'=> 'true']) !!}
                     <div class="form-group-one-unit margin-bottom-40">
@@ -53,11 +53,12 @@
                             </div>
 
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-12">
                             <div class="form-group">
                                 <label>Select <span>Image</span></label>
                                 <br/>
                                 <input type="file" class="file btn-primary" name="userfile"/>
+                                (must be .jpg/.jpeg/.png format only)
                             </div>
                         </div>
 
