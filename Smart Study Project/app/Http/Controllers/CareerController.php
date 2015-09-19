@@ -56,9 +56,10 @@ class CareerController extends Controller
         // Validation //
         $validation = Validator::make($request->all(), [
             'job_title_en'     => 'required|regex:/^[A-Za-z ]+$/',
-            'job_title_bn'     => 'required|regex:/^[A-Za-z ]+$/',
+            'job_title_bn'     => 'required',
             'posting_date' => 'required',
             'end_date' => 'required',
+            'userfile'     => 'required'
         ]);
 
         // Check if it fails //
@@ -127,9 +128,9 @@ class CareerController extends Controller
         // Validation //
         $validation = Validator::make($request->all(), [
             'job_title_en'     => 'required|regex:/^[A-Za-z ]+$/',
-            'job_title_bn'     => 'required|regex:/^[A-Za-z ]+$/',
+            'job_title_bn'     => 'required',
             'posting_date' => 'required',
-            'end_date' => 'required',
+            'end_date' => 'required'
         ]);
 
         // Check if it fails //

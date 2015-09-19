@@ -56,12 +56,12 @@ class EventController extends Controller
         // Validation //
         $validation = Validator::make($request->all(), [
             'event_name_en'     => 'required|regex:/^[A-Za-z ]+$/',
-            'event_name_bn'     => 'required|regex:/^[A-Za-z ]+$/',
+            'event_name_bn'     => 'required',
             'event_description_en' => 'required',
             'event_description_bn' => 'required',
             'event_from' => 'required',
             'event_to' => 'required',
-            'userfile'     => 'image|mimes:jpeg,png,gif|min:1|max:1000'
+            'userfile'     => 'image|mimes:jpg,jpeg,png,gif|min:1|max:1000'
         ]);
 
         // Check if it fails //
@@ -140,12 +140,12 @@ class EventController extends Controller
         // Validation //
         $validation = Validator::make($request->all(), [
             'event_name_en'     => 'required|regex:/^[A-Za-z ]+$/',
-            'event_name_bn'     => 'required|regex:/^[A-Za-z ]+$/',
+            'event_name_bn'     => 'required',
             'event_description_en' => 'required',
             'event_description_bn' => 'required',
             'event_from' => 'required',
             'event_to' => 'required',
-            'userfile'     => 'image|mimes:jpeg,png,gif|min:1|max:1000'
+            'userfile'     => 'image|mimes:jpg,jpeg,png,gif|min:1|max:1000'
         ]);
 
         // Check if it fails //

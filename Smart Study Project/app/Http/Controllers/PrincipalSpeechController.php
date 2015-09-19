@@ -56,10 +56,9 @@ class PrincipalSpeechController extends Controller
         // Validation //
         $validation = Validator::make($request->all(), [
             'speech_title_en'     => 'required|regex:/^[A-Za-z ]+$/',
-            'speech_title_bn'     => 'required|regex:/^[A-Za-z ]+$/',
+            'speech_title_bn'     => 'required',
             'speech_en' => 'required',
-            'speech_bn' => 'required',
-            'userfile'     => 'required|image|mimes:jpeg,png,gif|min:1|max:1000'
+            'speech_bn' => 'required'
         ]);
 
         // Check if it fails //
@@ -128,10 +127,9 @@ class PrincipalSpeechController extends Controller
         // Validation //
         $validation = Validator::make($request->all(), [
             'speech_title_en'     => 'required|regex:/^[A-Za-z ]+$/',
-            'speech_title_bn'     => 'required|regex:/^[A-Za-z ]+$/',
+            'speech_title_bn'     => 'required',
             'speech_en' => 'required',
             'speech_bn' => 'required',
-            'userfile'     => 'required|image|mimes:jpeg,png,gif|min:1|max:1000'
         ]);
 
         // Check if it fails //

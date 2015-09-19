@@ -56,10 +56,10 @@ class SliderImageController extends Controller
         // Validation //
         $validation = Validator::make($request->all(), [
             'caption_en'     => 'required|regex:/^[A-Za-z ]+$/',
-            'caption_bn'     => 'required|regex:/^[A-Za-z ]+$/',
+            'caption_bn'     => 'required',
             'description_en' => 'required',
             'description_bn' => 'required',
-            'userfile'     => 'required|image|mimes:jpeg,png|min:1|max:1000'
+            'userfile'     => 'required|image|mimes:jpg,jpeg,png,gif|min:1|max:1000'
         ]);
 
         // Check if it fails //
@@ -128,10 +128,10 @@ class SliderImageController extends Controller
         // Validation //
         $validation = Validator::make($request->all(), [
             'caption_en'     => 'required|regex:/^[A-Za-z ]+$/',
-            'caption_bn'     => 'required|regex:/^[A-Za-z ]+$/',
+            'caption_bn'     => 'required',
             'description_en' => 'required',
             'description_bn' => 'required',
-            'userfile'     => 'image|mimes:jpeg,png|min:1|max:1000'
+            'userfile'     => 'image|mimes:jpg,jpeg,png,gif|min:1|max:1000'
         ]);
 
         // Check if it fails //

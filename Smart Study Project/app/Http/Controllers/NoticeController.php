@@ -56,12 +56,12 @@ class NoticeController extends Controller
         // Validation //
         $validation = Validator::make($request->all(), [
             'notice_name_en'     => 'required|regex:/^[A-Za-z ]+$/',
-            'notice_name_bn'     => 'required|regex:/^[A-Za-z ]+$/',
+            'notice_name_bn'     => 'required',
             'notice_description_en' => 'required',
             'notice_description_bn' => 'required',
             'notice_from' => 'required',
             'notice_to',
-            'userfile'     => 'mimes:jpeg,png,gif,pdf|min:1|max:2048'
+            'userfile'     => 'mimes:jpg,jpeg,png,gif,pdf|min:1|max:2048'
         ]);
 
         // Check if it fails //
@@ -140,12 +140,12 @@ class NoticeController extends Controller
         // Validation //
         $validation = Validator::make($request->all(), [
             'notice_name_en'     => 'required|regex:/^[A-Za-z ]+$/',
-            'notice_name_bn'     => 'required|regex:/^[A-Za-z ]+$/',
+            'notice_name_bn'     => 'required',
             'notice_description_en' => 'required',
             'notice_description_bn' => 'required',
             'notice_from' => 'required',
             'notice_to',
-            'userfile'     => 'mimes:jpeg,png,gif,pdf|min:1|max:1000'
+            'userfile'     => 'mimes:jpg,jpeg,png,gif,pdf|min:1|max:1000'
         ]);
 
         // Check if it fails //

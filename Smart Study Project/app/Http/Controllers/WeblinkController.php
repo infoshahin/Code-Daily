@@ -67,11 +67,17 @@ class WeblinkController extends Controller
         }
 
         $weblink = new Weblink;
-
         // save data into database //
         $weblink->weblink_title_en = $request->input('weblink_title_en');
         $weblink->weblink_title_bn = $request->input('weblink_title_bn');
-        $weblink->weblink_url = $request->input('weblink_url');
+        if(strpos($request->input('weblink_url'), 'https://') !==false || strpos($request->input('weblink_url'), 'http://') !==false)
+        {
+            $weblink->weblink_url = $request->input('weblink_url');
+        }
+        else
+        {
+            $weblink->weblink_url = 'https://'.$request->input('weblink_url');
+        }
         $weblink->save();
         return redirect('weblink');
     }
@@ -115,7 +121,7 @@ class WeblinkController extends Controller
         // Validation //
         $validation = Validator::make($request->all(), [
             'weblink_title_en'     => 'required|regex:/^[A-Za-z ]+$/',
-            'weblink_title_bn'     => 'required|regex:/^[A-Za-z ]+$/',
+            'weblink_title_bn'     => 'required',
             'weblink_url' => 'required'
         ]);
 
@@ -128,7 +134,14 @@ class WeblinkController extends Controller
         $editdata = Weblink::findOrFail($id);
         $editdata->weblink_title_en = $request->get('weblink_title_en');
         $editdata->weblink_title_bn = $request->get('weblink_title_bn');
-        $editdata->weblink_url = $request->get('weblink_url');
+        if(strpos($request->input('weblink_url'), 'https://') !==false || strpos($request->input('weblink_url'), 'http://') !==false)
+        {
+            $editdata->weblink_url = $request->input('weblink_url');
+        }
+        else
+        {
+            $editdata->weblink_url = 'https://'.$request->input('weblink_url');
+        }
         $editdata->save();
         return $this->adminIndex();
     }

@@ -59,7 +59,7 @@ class ImageController extends Controller
             'caption_bn'     => 'required|regex:/^[A-Za-z ]+$/',
             'description_en' => 'required',
             'description_bn' => 'required',
-            'userfile'     => 'required|image|mimes:jpeg,png|min:1|max:1000'
+            'userfile'     => 'required|image|mimes:jpg,jpeg,png,gif|min:1|max:2048'
         ]);
 
         // Check if it fails //
@@ -131,7 +131,7 @@ class ImageController extends Controller
             'caption_bn'     => 'required|regex:/^[A-Za-z ]+$/',
             'description_en' => 'required',
             'description_bn' => 'required',
-            'userfile'     => 'image|mimes:jpeg,png|min:1|max:1000'
+            'userfile'     => 'image|mimes:jpg,jpeg,png,gif|min:1|max:2048'
         ]);
 
         // Check if it fails //
