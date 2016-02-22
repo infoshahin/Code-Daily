@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <title>Notificamos</title>
+    <!-- Include meta tag to ensure proper rendering and touch zooming -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Include jQuery Mobile stylesheets -->
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css">
+    <!-- Include the jQuery library -->
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <!-- Include the jQuery Mobile library -->
+    <script src="js/jquery.mobile-1.4.5.min.js"></script>
+    <!--Custom CSS File Included-->
+    <link rel="stylesheet" href="css/custom.css">
+
+    <link rel="stylesheet" type="text/css" href="css/default.css" />
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
+    <script src="js/modernizr.custom.js"></script>
+</head>
+
+<body style="background-color: black">
+
+<div data-role="page" id="homepage">
+    <div data-role="header">
+        <!-- Header with Account and Search Panel and Logo  -->
+        <a href="#overlayPanel" style="background-color: blueviolet" class="ui-btn-left ui-btn ui-btn-inline ui-mini ui-corner-all ui-btn-icon-left ui-icon-home ui-btn-icon-notext">Account</a>
+        <h1>Notificamos</h1>
+        <a href="#searchPanel" style="background-color: blueviolet" class="jqm-search-link ui-btn ui-corner-all ui-icon-search ui-nodisc-icon ui-btn-right ui-btn-icon-notext">Search</a>
+    </div>
+    <!--Account Panel-->
+    <div data-role="panel" data-position="left" id="overlayPanel" data-display="overlay">
+        <h2>Account Information</h2>
+        <p>Username: </p>
+
+        <a href="#pageone" data-rel="close" class="ui-btn ui-btn-inline ui-shadow ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-left">Close panel</a>
+    </div><!--/Account Panel-->
+    <!--Search Panel-->
+    <div data-role="panel" class="jqm-search-panel" data-position="right" data-display="overlay" id="searchPanel">
+        <input data-clear-btn="true" name="search" id="search" value="" type="text" placeholder="Search...">
+        <button class="ui-btn" style="background-color: blueviolet; border: 1px; color: #ffffff" title="Search">Search</button>
+    </div>
+    <!-- /Search Panel -->
+    <!-- /Header with Account and Search Panel and Logo  -->
+    <!-- Flip switch for subscribed notifications -->
+    <div data-role="main" class="ui-content">
+            <label for="slider-flip-m"><b>Show Subscribed Only</b></label>
+            <select name="slider-flip-m" id="slider-flip-m" data-role="slider" data-mini="true" class="slider_flip">
+                <option value="off">No</option>
+                <option value="on" selected="">Yes</option>
+            </select>
+        <!-- /Flip switch for subscribed notifications -->
+        <!-- Tabs for New Arrival, Discount, Hot offer-->
+            <div data-role="tabs" id="tabs">
+                <div data-role="navbar">
+                    <ul>
+                        <li class="tab-nav-cus"><a href="#one" class="ui-btn-active"><img src="images/icon/catagories_white.png"></a></li>
+                        <li class="tab-nav-cus"><a href="#two"><img src="images/icon/new_arrival_white.png"><span>3</span></a></li>
+                        <li class="tab-nav-cus"><a href="#three"><img src="images/icon/discount_white.png"><span>3</span></a></li>
+                        <li class="tab-nav-cus"><a href="#four"><img src="images/icon/hot_offer_white.png"><span>3</span></a></li>
+                    </ul>
+                </div><!-- /navbar -->
+                <!-- /Tabs for New Arrival, Discount, Hot offer-->
+                <!-- Categories Content -->
+                <div id="one" class="ui-body-d ui-content">
+                    <h3>Select From Categories:</h3>
+                    <form>
+                        <fieldset data-role="controlgroup">
+                            <input name="gadget" id="gadget" type="checkbox">
+                            <label for="gadget">Gadget</label>
+                            <input name="clothing" id="clothing" type="checkbox">
+                            <label for="clothing">Clothing</label>
+                            <input name="food" id="food" type="checkbox">
+                            <label for="food">Food</label>
+                            <input name="tourism" id="tourism" type="checkbox">
+                            <label for="tourism">Tourism</label>
+                            <input name="hotel" id="hotel" type="checkbox">
+                            <label for="hotel">Hotel</label>
+                            <input name="others" id="others" type="checkbox">
+                            <label for="others">Others</label>
+                        </fieldset>
+                        <button class="ui-btn" style="background-color: blueviolet; border: 1px; color: #ffffff" title="Search">Search</button>
+                    </form>
+                </div>
+                <!-- /Categories Content -->
+                <!-- New Arrival Content -->
+                <div id="two" class="ui-body-d ui-content">
+                    <!--<h1>Second tab contents</h1>-->
+                    <ul data-role="listview" data-split-icon="gear" data-split-theme="a" data-inset="true">
+                        <li><a href="product.html" rel="external">
+                            <img src="images/thumbnail/album-bb.jpg">
+                            <h2>Broken Bells</h2>
+                            <p>Broken Bells</p></a>
+                            <a href="#subscribe_new_arrival" data-rel="popup" data-position-to="window" data-transition="pop"></a>
+                        </li>
+                        <li><a href="product.html" rel="external">
+                            <img src="images/thumbnail/album-hc.jpg">
+                            <h2>Warning</h2>
+                            <p>Hot Chip</p></a>
+                            <a href="#subscribe_new_arrival" data-rel="popup" data-position-to="window" data-transition="pop"></a>
+                        </li>
+                        <li><a href="product.html" rel="external">
+                            <img src="images/thumbnail/album-p.jpg">
+                            <h2>Wolfgang Amadeus Phoenix</h2>
+                            <p>Phoenix</p></a>
+                            <a href="#subscribe_new_arrival" data-rel="popup" data-position-to="window" data-transition="pop"></a>
+                        </li>
+                    </ul>
+                    <div data-role="popup" id="subscribe_new_arrival" data-theme="a" data-overlay-theme="b" class="ui-content" style="max-width:340px; padding-bottom:2em;">
+                        <h3>Want to subscribe?</h3>
+                        <p>Your subscription will automatically start when you click Yes.</p>
+                        <a href="index.html" data-rel="back" class="ui-shadow ui-btn ui-corner-all ui-btn-b ui-icon-check ui-btn-icon-left ui-btn-inline ui-mini">Yes</a>
+                        <a href="index.html" data-rel="back" class="ui-shadow ui-btn ui-corner-all ui-btn-inline ui-mini">Cancel</a>
+                    </div>
+                </div>
+                <!-- /New Arrival Content -->
+                <!-- Discount Content -->
+                <div id="three" class="ui-body-d ui-content">
+                    <!--<h1>Third tab contents</h1>-->
+                    <ul data-role="listview" data-split-icon="gear" data-split-theme="a" data-inset="true">
+                        <li><a href="#">
+                            <img src="images/thumbnail/album-bb.jpg">
+                            <h2>Broken Bells</h2>
+                            <p>Broken Bells</p></a>
+                            <a href="#subscribe_discount" data-rel="popup" data-position-to="window" data-transition="pop"></a>
+                        </li>
+                        <li><a href="#">
+                            <img src="images/thumbnail/album-hc.jpg">
+                            <h2>Warning</h2>
+                            <p>Hot Chip</p></a>
+                            <a href="#subscribe_discount" data-rel="popup" data-position-to="window" data-transition="pop"></a>
+                        </li>
+                        <li><a href="#">
+                            <img src="images/thumbnail/album-p.jpg">
+                            <h2>Wolfgang Amadeus Phoenix</h2>
+                            <p>Phoenix</p></a>
+                            <a href="#subscribe_discount" data-rel="popup" data-position-to="window" data-transition="pop"></a>
+                        </li>
+                    </ul>
+                    <div data-role="popup" id="subscribe_discount" data-theme="a" data-overlay-theme="b" class="ui-content" style="max-width:340px; padding-bottom:2em;">
+                        <h3>Want to subscribe?</h3>
+                        <p>Your subscription will automatically start when you click Yes.</p>
+                        <a href="index.html" data-rel="back" class="ui-shadow ui-btn ui-corner-all ui-btn-b ui-icon-check ui-btn-icon-left ui-btn-inline ui-mini">Yes</a>
+                        <a href="index.html" data-rel="back" class="ui-shadow ui-btn ui-corner-all ui-btn-inline ui-mini">Cancel</a>
+                    </div>
+                </div>
+                <!-- /Discount Content -->
+                <!-- Hot Offer Content -->
+                <div id="four" class="ui-body-d ui-content">
+                    <!--<h1>Fourth tab contents</h1>-->
+                    <ul data-role="listview" data-split-icon="gear" data-split-theme="a" data-inset="true">
+                    <li><a href="#">
+                        <img src="images/thumbnail/album-bb.jpg">
+                        <h2>Broken Bells</h2>
+                        <p>Broken Bells</p></a>
+                        <a href="#subscribe_hot_offer" data-rel="popup" data-position-to="window" data-transition="pop"></a>
+                    </li>
+                    <li><a href="#">
+                        <img src="images/thumbnail/album-hc.jpg">
+                        <h2>Warning</h2>
+                        <p>Hot Chip</p></a>
+                        <a href="#subscribe_hot_offer" data-rel="popup" data-position-to="window" data-transition="pop"></a>
+                    </li>
+                    <li><a href="#">
+                        <img src="images/thumbnail/album-p.jpg">
+                        <h2>Wolfgang Amadeus Phoenix</h2>
+                        <p>Phoenix</p></a>
+                        <a href="#subscribe_hot_offer" data-rel="popup" data-position-to="window" data-transition="pop"></a>
+                    </li>
+                </ul>
+                    <div data-role="popup" id="subscribe_hot_offer" data-theme="a" data-overlay-theme="b" class="ui-content" style="max-width:340px; padding-bottom:2em;">
+                        <h3>Want to subscribe?</h3>
+                        <p>Your subscription will automatically start when you click Yes.</p>
+                        <a href="index.html" data-rel="back" class="ui-shadow ui-btn ui-corner-all ui-btn-b ui-icon-check ui-btn-icon-left ui-btn-inline ui-mini">Yes</a>
+                        <a href="index.html" data-rel="back" class="ui-shadow ui-btn ui-corner-all ui-btn-inline ui-mini">Cancel</a>
+                    </div>
+                </div>
+                <!-- /Hot Offer Content -->
+            </div>
+    </div>
+
+    <div data-role="footer" class="ui-footer-home">
+        <!--Footer Text-->
+        <center>Powered by&nbsp;<a target="_blank" href="http://belogin.com">Belogin</a></center>
+    </div>
+</div>
+<script src="js/classie.js"></script>
+<script src="js/uisearch.js"></script>
+<script>
+    new UISearch( document.getElementById( 'sb-search' ) );
+</script>
+</body>
+</html>

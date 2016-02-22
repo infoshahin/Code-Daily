@@ -1,0 +1,207 @@
+.ui-footer
+{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.ui-footer-loginsocial
+{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.ui-footer-login
+{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.ui-footer-signup
+{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.ui-footer-main
+{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.ui-footer-home
+{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.mail-text
+{
+    width: 100%;
+}
+.password-text
+{
+    width: 100%;
+}
+.username-text
+{
+    width: 100%;
+}
+table
+{
+    width: 100%;
+}
+
+body
+{
+    background-color: #ffffff;
+}
+
+.login-or
+{
+    left: 50%;
+    margin-left: -50px;
+}
+
+.product-image
+{
+    width: 100%;
+}
+
+.product-description
+{
+    font-size: 20px;
+}
+
+.product-price
+{
+    font-size: 30px;
+}
+
+.product-discount
+{
+    font-size: 30px;
+}
+
+.product-comment
+{
+    font-size: small
+}
+
+.tab-nav-cus span
+{
+    background-color: red;
+    padding: 5px;
+    text-align: center;
+    min-height: 20px;
+    min-width: 20px;
+    font-size: 9px;
+    color: #ffffff;
+    text-decoration: none;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    bottom: 35px;
+    position: absolute;
+    z-index: 1;
+    text-shadow: none;
+}
+
+.ui-btn
+{
+    overflow: visible;
+}
+
+.ui-page-theme-a .ui-slider-track .ui-btn-active
+{
+    background-color: blueviolet;
+    border-color: blueviolet ;
+}
+
+.ui-page-theme-a .ui-btn.ui-btn-active{
+    background-color: #ad57fe;
+    border-color: #ad57fe ;
+}
+
+.ui-page-theme-a .ui-tabs-anchor{
+    background-color: blueviolet;
+    border-color: blueviolet ;
+}
+
+.ui-page-theme-a .ui-focus,
+html .ui-bar-a .ui-focus,
+html .ui-body-a .ui-focus,
+html body .ui-group-theme-a .ui-focus,
+html head + body .ui-btn-a.ui-focus,
+html head + body .ui-body-a.ui-focus {
+    -webkit-box-shadow: 0 0 12px 	#000000 /*{b-active-background-color}*/;
+    -moz-box-shadow: 0 0 12px 		#000000 /*{b-active-background-color}*/;
+    box-shadow: 0 0 12px 			#000000 /*{b-active-background-color}*/;
+}
+
+.ui-page-theme-b .ui-btn:focus,
+html .ui-bar-b .ui-btn:focus,
+html .ui-body-b .ui-btn:focus,
+html body .ui-group-theme-b .ui-btn:focus,
+html head + body .ui-btn.ui-btn-b:focus,
+    /* Focus buttons and text inputs with div wrap */
+.ui-page-theme-b .ui-focus,
+html .ui-bar-b .ui-focus,
+html .ui-body-b .ui-focus,
+html body .ui-group-theme-b .ui-focus,
+html head + body .ui-btn-b.ui-focus,
+html head + body .ui-body-b.ui-focus {
+    -webkit-box-shadow: 0 0 12px 	#000000 /*{b-active-background-color}*/;
+    -moz-box-shadow: 0 0 12px 		#000000 /*{b-active-background-color}*/;
+    box-shadow: 0 0 12px 			#000000 /*{b-active-background-color}*/;
+}
+
+.ui-btn-social-share
+{
+    overflow: visible;
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media only screen and (max-width:320px)
+{
+    .login-or
+    {
+        left: 0%;
+        margin-left: -230px;
+    }
+}
+
+@media only screen and (max-width:480px)
+{
+    .login-or
+    {
+        left: 0%;
+        margin-left: -230px;
+    }
+}
+
+@media only screen and (max-width:640px)
+{
+    .login-or
+    {
+        left: 0%;
+        margin-left: -220px;
+    }
+}
+
+@media only screen and (max-width:768px)
+{
+    .login-or
+    {
+        left: 0%;
+        margin-left: -225px;
+    }
+}
