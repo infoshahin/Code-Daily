@@ -1,0 +1,53 @@
+@media only screen and (max-width: 970px) {
+
+
+}
+@media (min-width: 300px) and (max-width:340px) {
+
+    .band ul {
+        padding-left: 80px;
+    }
+  
+
+    .nav li{
+        margin-top: 10px;
+        margin-right: 6px;
+        float: left;
+    }
+    .nav li a{
+        font-size: 10px;
+    }
+    .icon-box-tabs .nav-pills > li + li {
+        margin-left:  1px;
+    }
+}
+@media (min-width: 342px) and (max-width:360px) {
+
+    .nav li{
+        margin-top: 10px;
+        margin-right: 20px;
+        float: left;
+    }
+    .nav li a{
+        font-size: 12px;
+    }
+    .icon-box-tabs .nav-pills > li + li {
+        margin-left:  1px;
+    }
+}
+@media (min-width: 362px) and (max-width:720px) {
+    .search-text-btn {
+        width: 50px;
+    }
+    .nav li{
+        margin-top: 10px;
+        margin-right: 15px;
+        float: left;
+    }
+    .nav li a{
+        font-size: 11px;
+    }
+    .icon-box-tabs .nav-pills > li + li {
+        margin-left:  1px;
+    }
+}

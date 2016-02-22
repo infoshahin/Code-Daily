@@ -1,0 +1,122 @@
+
+
+
+
+
+
+#reg-bg{
+    background-color: #9C27B0;
+}
+.title-section h1{
+    letter-spacing: 2px;
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+}
+.form-section{
+    margin-top: 30px;
+}
+.re-form-text{
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: #666;   
+}
+input[placeholder] {
+    font-weight: 400;
+    color:black;
+    letter-spacing: 1px;
+
+}
+.re-check-box{
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+.re-list-checkbox{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.re-checkbox  {
+    padding-left: -10px;
+}
+.ret-checkbox-text {
+    /*padding-left: 30px;*/
+}
+.checkbox-inline, .radio-inline{
+    padding-left: 50px;
+    margin-bottom: 10px;
+}
+.checkbox-text span{
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+.re-btn-text{
+    margin-bottom: 30px;
+    padding: 2% 8%;
+    background: #9C27B0 !important;
+    border: none;
+
+}
+.re-btn-text:hover{
+    margin-bottom: 30px;
+    padding: 2% 8%;
+    background-color: #6639B6 !important;   
+}
+.re-btn-text:hover,
+.re-btn-text:active,
+.re-btn-text:focus{
+    border: none;
+}
+
+
+/*product form*/ 
+.custom-upload {
+    background-color: #4C4C4D;
+    /*border: 1px solid #006400;*/
+    border-radius: 50px;
+    cursor: pointer;
+    color: #fff;
+    padding: 4px 10px;
+    line-height: 35px;
+    width: 100%;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.custom-upload:hover{
+    background-color: #7D2FE5;
+}
+.custom-upload input {
+    left: -9999px; 
+    position: absolute;
+}
+
+
+
+
+
+
+
+#footer{
+/*    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;*/
+}
+
+@media only screen and (max-device-width:320px){
+    .re-check-box{
+        margin-left: 0px;
+    }
+    .re-list-checkbox{
+        margin-left: -30px;
+        font-size: 12px;
+
+    }
+}
+@media only screen and (max-device-width:360px){
+    .re-list-checkbox{
+        margin-left: -30px;
+        font-size:8px;
+
+    }
+}
+
