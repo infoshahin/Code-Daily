@@ -1,0 +1,2 @@
+1) should be add_coloum_show_home migrate category
+2) Category Edit added show home
