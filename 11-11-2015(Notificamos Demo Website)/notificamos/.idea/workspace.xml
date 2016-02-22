@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5c2c455f-ddf3-4c28-b6a8-020df15c3b15" name="Default" comment="" />
+    <ignored path="site.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="site" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="227" column="18" selection-start="12062" selection-end="12062" vertical-scroll-proportion="0.61295974" vertical-offset="3509" max-vertical-offset="4386">
+              <folding>
+                <element signature="n#style#0;n#b#0;n#p#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#b#1;n#p#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#b#2;n#p#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#em#0;n#p#3;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#em#1;n#p#3;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="styles.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/styles.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="241" column="53" selection-start="16154" selection-end="16154" vertical-scroll-proportion="0.0" vertical-offset="3177" max-vertical-offset="5712">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/css/styles.css" />
+        <option value="$PROJECT_DIR$/hello.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="notificamos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="notificamos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../govtschool" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\wamp\www\notificamos\img" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5c2c455f-ddf3-4c28-b6a8-020df15c3b15" name="Default" comment="" />
+      <created>1446872771594</created>
+      <updated>1446872771594</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="1" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32861635" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="165" column="46" selection-start="8958" selection-end="9024" vertical-scroll-proportion="0.0" vertical-offset="2601" max-vertical-offset="4369">
+          <folding>
+            <element signature="n#style#0;n#b#0;n#p#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#b#1;n#p#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#b#2;n#p#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#em#0;n#p#3;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#em#1;n#p#3;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="241" column="53" selection-start="16154" selection-end="16154" vertical-scroll-proportion="0.0" vertical-offset="3177" max-vertical-offset="5712">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="46" selection-start="317" selection-end="317" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4352">
+          <folding>
+            <element signature="n#style#0;n#b#0;n#p#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#b#1;n#p#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#b#2;n#p#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#em#0;n#p#3;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#em#1;n#p#3;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="241" column="53" selection-start="16154" selection-end="16154" vertical-scroll-proportion="0.0" vertical-offset="3177" max-vertical-offset="5712">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="146" column="36" selection-start="8195" selection-end="8195" vertical-scroll-proportion="0.0" vertical-offset="2149" max-vertical-offset="4352">
+          <folding>
+            <element signature="n#style#0;n#b#0;n#p#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#b#1;n#p#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#b#2;n#p#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#em#0;n#p#3;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#em#1;n#p#3;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="246" column="31" selection-start="16710" selection-end="16710" vertical-scroll-proportion="0.0" vertical-offset="3976" max-vertical-offset="5712">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="236" column="192" selection-start="12193" selection-end="12193" vertical-scroll-proportion="0.0" vertical-offset="3628" max-vertical-offset="4352">
+          <folding>
+            <element signature="n#style#0;n#b#0;n#p#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#b#1;n#p#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#b#2;n#p#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#em#0;n#p#3;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#em#1;n#p#3;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="297" column="170" selection-start="21966" selection-end="21966" vertical-scroll-proportion="0.0" vertical-offset="5123" max-vertical-offset="5695">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="30" selection-start="2439" selection-end="2443" vertical-scroll-proportion="0.0" vertical-offset="164" max-vertical-offset="7225">
+          <folding>
+            <element signature="n#style#0;n#b#0;n#p#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#b#1;n#p#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#b#2;n#p#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#em#0;n#p#3;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#em#1;n#p#3;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="216" column="39" selection-start="12904" selection-end="12904" vertical-scroll-proportion="0.0" vertical-offset="3453" max-vertical-offset="5610">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="30" selection-start="2439" selection-end="2443" vertical-scroll-proportion="0.0" vertical-offset="164" max-vertical-offset="7225">
+          <folding>
+            <element signature="n#style#0;n#b#0;n#p#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#b#1;n#p#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#b#2;n#p#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#em#0;n#p#3;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#em#1;n#p#3;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="214" column="40" selection-start="12615" selection-end="12615" vertical-scroll-proportion="0.0" vertical-offset="3453" max-vertical-offset="5610">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="30" selection-start="2439" selection-end="2443" vertical-scroll-proportion="0.0" vertical-offset="164" max-vertical-offset="7225">
+          <folding>
+            <element signature="n#style#0;n#b#0;n#p#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#b#1;n#p#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#b#2;n#p#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#em#0;n#p#3;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#em#1;n#p#3;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="214" column="40" selection-start="12615" selection-end="12615" vertical-scroll-proportion="0.0" vertical-offset="3453" max-vertical-offset="5610">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="241" column="53" selection-start="16154" selection-end="16154" vertical-scroll-proportion="0.0" vertical-offset="3177" max-vertical-offset="5712">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="227" column="18" selection-start="12062" selection-end="12062" vertical-scroll-proportion="0.61295974" vertical-offset="3509" max-vertical-offset="4386">
+          <folding>
+            <element signature="n#style#0;n#b#0;n#p#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#b#1;n#p#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#b#2;n#p#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#em#0;n#p#3;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#em#1;n#p#3;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+
